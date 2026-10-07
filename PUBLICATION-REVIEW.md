@@ -1,8 +1,8 @@
 # Local publication review
 
-Prepared October 7, 2026. User requested local preparation only. No GitHub repository was created, no remote is configured, no visibility was changed and no complaint/issue was posted.
+Prepared October 7, 2026. The project maintainer authorized private GitHub staging under chiaki-ng/asobi-agpl-audit for review. Public visibility is not authorized by this staging step. No complaint or issue update has been posted.
 
-This repository starts from one fresh snapshot commit. It has no private audit ancestry, reflogs or copied .git directory. The local snapshot author uses a reserved example.invalid address so the preparation does not expose a private contact address. Review identity/signing settings before an eventual public push.
+This repository starts from a fresh snapshot, followed by review updates. It has no private audit ancestry, reflogs or copied .git directory. The local snapshot author uses a reserved example.invalid address so the preparation does not expose a private contact address. Review identity/signing settings before any public release.
 
 The evidence set was built by explicit selection, not by deleting a few files from the private repository. Raw app archives/executables, account material, private correspondence, screenshots and image metadata, full web captures/headers, bulk decompilations, device/network identifiers and machine paths were excluded. Full function hex blobs were removed from the selected Portal integration JSON; output hashes were regenerated. Native excerpts and upstream attribution are retained only where they support the described findings.
 

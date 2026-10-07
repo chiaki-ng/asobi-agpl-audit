@@ -1,6 +1,8 @@
 # Asobi provenance and AGPL compliance audit
 
-Public-review edition, October 7, 2026. This is a curated evidence package prepared locally for review. It has not been published or submitted. [Findings and limits](FINDINGS.md) distinguish measured code provenance from unresolved licensing scope.
+Public-review edition, October 7, 2026. This is a curated evidence package staged privately for review before any public release. No complaint or issue update has been submitted. [Findings and limits](FINDINGS.md) distinguish measured code provenance from unresolved licensing scope.
+
+> This audit is maintained by the chiaki-ng project. Any copyright complaint by Street Pea asserts rights only in Street Pea’s own contributions, unless another rights holder separately authorizes representation.
 
 - [Evidence index](EVIDENCE.md) — hashes, provenance, static integration and contrary findings.
 - [Method and reproduction](METHOD.md).

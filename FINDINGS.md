@@ -2,6 +2,8 @@
 
 Reviewed October 7, 2026. Technical evidence and license-compliance inquiry, not a final infringement determination. Claimant: Street Pea, concerning their own contributions. App: Asobi: Remote Play; publisher Inside Internet; Apple ID 6754204833; bundle `com.insideinternet.Asobi`.
 
+This audit is maintained by the chiaki-ng project. Any copyright complaint by Street Pea asserts rights only in Street Pea’s own contributions, unless another rights holder separately authorizes representation.
+
 ## Measured evidence
 
 The audit covers 29 examined historical iOS releases from 1.0 through 1.4.3, with gaps explicitly retained, plus separately measured iOS 1.5. The historical analysis packages passed the recorded identity, resource and selected-region comparisons against matching original Apple packages. This supports association but does not independently authenticate every instruction or verify Apple signatures.
