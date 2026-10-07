@@ -23,6 +23,8 @@ The 1.1.9 comparison locates corresponding operation families after exact citati
 
 ## Sony client comparison
 
+[Windows client check](evidence/sony-windows-client.json): Sony PS Remote Play for Windows 9.5.0.08040, the client the developer named as his main source, from Sony's public installer. It has Sony's NP signaling and stun.playstation.net, and none of the chiaki-ng choices below. A heuristic x64 key-position search found no match.
+
 [Three-way comparison](evidence/sony-three-way.json) of Sony PS Remote Play 9.5.0, chiaki-ng (pinned `4c2643f9`) and Asobi. Sony uses NP signaling, `stun.playstation.net` and a ring-buffer key position; Asobi uses none of these. Asobi carries chiaki-ng choices that Sony lacks: the always-online-stun list, the three-response port-increment cases, 75/8 port guesses, `size + size % 16` and the moonlight-first STUN list. Session messages common to all three are treated as protocol. The ACCEPT wait and Senkusha fallback were not comparable. URLs and constants are evidence of copying, not standalone protected expression.
 
 ## Dated publisher evidence

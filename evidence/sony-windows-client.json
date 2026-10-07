@@ -1,0 +1,58 @@
+{
+ "source": "https://remoteplay.dl.playstation.net/remoteplay/module/win/RemotePlayInstaller.exe -> Setup.ini Location https://remoteplay.dl.playstation.net/remoteplay/module/win/RemotePlayInstaller_9.5.0.08040_x64.msi",
+ "bootstrapper_sha256": "f10055d503c47a4e96fd2f578fbcba3e651c19ecbe7f30ed87c15bec798f5684",
+ "msi_sha256": "a67d36c6fb14e67ec78858b831153fe372a0af5f7c41649ef710e3e8fc30bc25",
+ "version": "9.5.0.08040",
+ "binaries": {
+  "remoteplay.exe": {
+   "sha256": "d4e355c18bab988bdc3dc69ef4746d5064983cc7cac699ccda8d46b834291616",
+   "bytes": 37795744
+  },
+  "remoteplayui.dll": {
+   "sha256": "83c3c5a682fcd286904ea9482c8c50df1fa194a2164fcb13cbe39331175c341f",
+   "bytes": 5811104
+  },
+  "runtime.dll": {
+   "sha256": "ae4ae997261fd9da4dddbba0edea6244bcefe2f24899221f793826b4da497e87",
+   "bytes": 62004632
+  },
+  "scenp.dll": {
+   "sha256": "4263605fa880f4a49af938b40550d728880d70f6ef203db4e84a38062a0d18f2",
+   "bytes": 4910488
+  },
+  "unifiedtelemetry.service.dll": {
+   "sha256": "ff3c0c5b5ec84e5a94c5588dca7e14b4ffa95ea37ae41d3ea811a71d6dfd39fc",
+   "bytes": 1765816
+  }
+ },
+ "counts": {
+  "chiaki_ng_specific": {
+   "always-online-stun": 0,
+   "valid_hosts.txt": 0,
+   "stun.moonlight-stream.org": 0,
+   "stun.l.google.com": 0,
+   "stun4.l.google.com": 0,
+   "port guesses": 0,
+   "allocation increment": 0,
+   "increment from indices": 0,
+   "holepunch": 0,
+   "chiaki": 0
+  },
+  "sony_specific": {
+   "stun.playstation.net": 1,
+   "sceNpNatTypeCheck": 1,
+   "sceNpRemotePlaySessionSignaling": 12
+  },
+  "protocol": {
+   "OFFER": 2,
+   "ACCEPT": 11,
+   "localPeerAddr": 1
+  }
+ },
+ "key_position_heuristic": {
+  "pattern": "mov r,x; and r,0xf; add/lea r+x (size + size % 16)",
+  "remoteplay_exe_instruction_lines": 12432949,
+  "matches": 0,
+  "note": "Heuristic over x64 code; weaker than the exact ARM64 search on the iOS client. Absence supports but does not alone prove a different design."
+ }
+}
