@@ -1,8 +1,8 @@
 # Asobi: findings and limits
 
-Reviewed October 7, 2026. Technical evidence and license-compliance inquiry, not a final infringement determination. Claimant: Street Pea, concerning their own contributions. App: Asobi: Remote Play; publisher Inside Internet; Apple ID 6754204833; bundle `com.insideinternet.Asobi`.
+Reviewed October 7, 2026. Technical evidence and license-compliance inquiry, not a final infringement determination. Claimant/authorized representative: Street Pea; see RIGHTS-HOLDERS.md for scope. App: Asobi: Remote Play; publisher Inside Internet; Apple ID 6754204833; bundle `com.insideinternet.Asobi`.
 
-This audit is maintained by the chiaki-ng project. Any copyright complaint by Street Pea asserts rights only in Street Pea’s own contributions, unless another rights holder separately authorizes representation.
+This audit is maintained by the chiaki-ng project. Street Pea is its maintainer and a copyright holder, pursuing their own rights. xlanor has also authorized representation, but no xlanor-authored code was identified in Asobi, so xlanor is not named in the Asobi drafts (see RIGHTS-HOLDERS.md). Forward Technologies has also authorized Street Pea to pursue its PSStream/Pylux rights in the Asobi case. Other contributors are not represented without their authorization.
 
 ## Measured evidence
 
@@ -16,7 +16,7 @@ The 2023 key-position adjustment and 2024 STUN-list choice associated with my co
 
 The developer publicly maintains that Asobi is independent and describes the earlier issue closure as validation. I accepted the earlier explanation in good faith; the new evidence warrants review but does not establish motive. The developer's March account says private code inspection was offered, which I acknowledge. A private inspection offer is not by itself a demonstrated recipient source-delivery mechanism.
 
-October 6 checks of the supplied 1.5 About/legal views and inspected publisher pages found no visible Chiaki/AGPL acknowledgement or corresponding-source access. The About screen shows 1.5 without a build number. These are bounded historical observations, not absence from every screen or channel. PSStream/Pylux remains separate provenance context in this Asobi case; its historical-binary and publication-timeline limits remain. This submission asserts my own rights only and makes no claim of another rights holder's participation or authority.
+October 6 checks of the supplied 1.5 About/legal views and inspected publisher pages found no visible Chiaki/AGPL acknowledgement or corresponding-source access. The About screen shows 1.5 without a build number. These are bounded historical observations, not absence from every screen or channel. PSStream/Pylux is a separately identified authorized rights-holder claim in this Asobi case; its historical-binary and publication-timeline limits remain. The authorized rights holders are identified below and in RIGHTS-HOLDERS.md; the technical limitations still apply to each claim.
 
 Full protected-expression comparison, complete combined-work scope, actual source delivery and separate permission remain unresolved. No app execution or source rebuild was performed. A source request, Apple complaint or GitHub update has not been sent by this preparation.
 
