@@ -1,0 +1,227 @@
+{
+  "versions": {
+    "1.0": {
+      "version": "1.0",
+      "build": "32",
+      "executable_sha256": "bbcf3f8f331e98ecea2712b02bdc782ebe031742fafb7d47f58ce012484bdf04",
+      "exact_citations": {
+        "holepunch.c:1507-1556": 0,
+        "ctrl.c:307-490": 0,
+        "session.c:561-582": 0,
+        "session.c:611-639": 0
+      },
+      "key_position_pattern_sites": [],
+      "stun_list_url": false,
+      "chiaki_ascii_string_count": 18,
+      "psstream_ascii_string_count": 0,
+      "text_resource_hashes": [
+        {
+          "member": "Payload/AsobiMobile.app/IMPLEMENTATION_SUMMARY.md",
+          "sha256": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/UI_INTEGRATION.md",
+          "sha256": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/TAKION_FIXES.md",
+          "sha256": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/ADD_TO_XCODE.md",
+          "sha256": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/README.md",
+          "sha256": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f"
+        }
+      ]
+    },
+    "1.0.3": {
+      "version": "1.0.3",
+      "build": "2",
+      "executable_sha256": "aca83e382f25d70a68e3cc4c376acba78b04424bb7a89832ef3776eccaa83572",
+      "exact_citations": {
+        "holepunch.c:1507-1556": 0,
+        "ctrl.c:307-490": 0,
+        "session.c:561-582": 0,
+        "session.c:611-639": 0
+      },
+      "key_position_pattern_sites": [],
+      "stun_list_url": false,
+      "chiaki_ascii_string_count": 19,
+      "psstream_ascii_string_count": 0,
+      "text_resource_hashes": [
+        {
+          "member": "Payload/AsobiMobile.app/IMPLEMENTATION_SUMMARY.md",
+          "sha256": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/UI_INTEGRATION.md",
+          "sha256": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/TAKION_FIXES.md",
+          "sha256": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/ADD_TO_XCODE.md",
+          "sha256": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/README.md",
+          "sha256": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f"
+        }
+      ]
+    },
+    "1.0.5": {
+      "version": "1.0.5",
+      "build": "4",
+      "executable_sha256": "c3151093e12116be171ef9eb673e3d5fd91df2f7fb393e71d7dbcb29a268d6e3",
+      "exact_citations": {
+        "holepunch.c:1507-1556": 0,
+        "ctrl.c:307-490": 0,
+        "session.c:561-582": 0,
+        "session.c:611-639": 0
+      },
+      "key_position_pattern_sites": [],
+      "stun_list_url": false,
+      "chiaki_ascii_string_count": 18,
+      "psstream_ascii_string_count": 0,
+      "text_resource_hashes": [
+        {
+          "member": "Payload/AsobiMobile.app/IMPLEMENTATION_SUMMARY.md",
+          "sha256": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/UI_INTEGRATION.md",
+          "sha256": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/TAKION_FIXES.md",
+          "sha256": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/ADD_TO_XCODE.md",
+          "sha256": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/README.md",
+          "sha256": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f"
+        }
+      ]
+    },
+    "1.0.6": {
+      "version": "1.0.6",
+      "build": "6",
+      "executable_sha256": "19567bdeadd7343a14f70b19730a0cfd82e0ce0e2fab449b965768efb2743583",
+      "exact_citations": {
+        "holepunch.c:1507-1556": 0,
+        "ctrl.c:307-490": 0,
+        "session.c:561-582": 0,
+        "session.c:611-639": 0
+      },
+      "key_position_pattern_sites": [],
+      "stun_list_url": false,
+      "chiaki_ascii_string_count": 18,
+      "psstream_ascii_string_count": 0,
+      "text_resource_hashes": [
+        {
+          "member": "Payload/AsobiMobile.app/IMPLEMENTATION_SUMMARY.md",
+          "sha256": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/UI_INTEGRATION.md",
+          "sha256": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/TAKION_FIXES.md",
+          "sha256": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/ADD_TO_XCODE.md",
+          "sha256": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/README.md",
+          "sha256": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f"
+        }
+      ]
+    },
+    "1.0.7": {
+      "version": "1.0.7",
+      "build": "10",
+      "executable_sha256": "beb2fbbd27a21efe2efca7f2acfe7bca7baa01d4fd6680f4fd4da3b5c9b09c6e",
+      "exact_citations": {
+        "holepunch.c:1507-1556": 0,
+        "ctrl.c:307-490": 0,
+        "session.c:561-582": 0,
+        "session.c:611-639": 0
+      },
+      "key_position_pattern_sites": [],
+      "stun_list_url": false,
+      "chiaki_ascii_string_count": 18,
+      "psstream_ascii_string_count": 0,
+      "text_resource_hashes": [
+        {
+          "member": "Payload/AsobiMobile.app/IMPLEMENTATION_SUMMARY.md",
+          "sha256": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/UI_INTEGRATION.md",
+          "sha256": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/TAKION_FIXES.md",
+          "sha256": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/ADD_TO_XCODE.md",
+          "sha256": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/README.md",
+          "sha256": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f"
+        }
+      ]
+    },
+    "1.0.8": {
+      "version": "1.0.8",
+      "build": "10",
+      "executable_sha256": "81e81fde782e82005b7c2403bb05e6c6d9c2cf8d2291f6b6d284bf98b1110d50",
+      "exact_citations": {
+        "holepunch.c:1507-1556": 0,
+        "ctrl.c:307-490": 0,
+        "session.c:561-582": 0,
+        "session.c:611-639": 0
+      },
+      "key_position_pattern_sites": [],
+      "stun_list_url": false,
+      "chiaki_ascii_string_count": 18,
+      "psstream_ascii_string_count": 0,
+      "text_resource_hashes": [
+        {
+          "member": "Payload/AsobiMobile.app/IMPLEMENTATION_SUMMARY.md",
+          "sha256": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/UI_INTEGRATION.md",
+          "sha256": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/TAKION_FIXES.md",
+          "sha256": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/ADD_TO_XCODE.md",
+          "sha256": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5"
+        },
+        {
+          "member": "Payload/AsobiMobile.app/README.md",
+          "sha256": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f"
+        }
+      ]
+    }
+  },
+  "limit": "Negative results are bounded to the scanners; no absence of all derived implementations is inferred."
+}

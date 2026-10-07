@@ -1,0 +1,6 @@
+{
+  "prepared_date": "2026-10-07",
+  "audit": "asobi",
+  "source_audit_commit_before_draft_revision": "3366d4ec3bd5a3bfe5261b959d07143de6bc20fa",
+  "scope": "Explicitly selected public evidence; fresh repository with no private Git history. Drafts revised during preparation. Public output manifests hash transformed outputs, not withheld originals."
+}

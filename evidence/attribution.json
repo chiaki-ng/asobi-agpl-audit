@@ -1,0 +1,2363 @@
+{
+  "reference_tag": "v1.9.9",
+  "reference_commit": "4c2643f9b9b5c10907dbe82669f4d428ea86147d",
+  "method": "git blame --line-porcelain for the exact cited ranges. Blame records history attribution; whitespace/boilerplate are included and counts are not quantities of protectable expression or proof of copying. A citation to these ranges does not prove all their instructions were translated.",
+  "ranges": [
+    {
+      "file": "lib/src/remote/holepunch.c",
+      "start": 1507,
+      "end": 1556,
+      "all_line_author_counts": {
+        "Street Pea": 42,
+        "Johannes Baiter": 8
+      },
+      "nonblank_line_author_counts": {
+        "Street Pea": 42,
+        "Johannes Baiter": 6
+      },
+      "lines": [
+        {
+          "commit": "143425f58c32be9772c37a463b24d3df98e5d36d",
+          "original_line": 1111,
+          "reference_line": 1507,
+          "author": "Street Pea",
+          "author_time": 1716139089,
+          "text": "    err = send_accept(session, session->local_req_id, &selected_candidate);"
+        },
+        {
+          "commit": "95d2cc1e6e589f31843897e5cd4a1497eceb0f74",
+          "original_line": 851,
+          "reference_line": 1508,
+          "author": "Johannes Baiter",
+          "author_time": 1706993609,
+          "text": "    if (err != CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "95d2cc1e6e589f31843897e5cd4a1497eceb0f74",
+          "original_line": 852,
+          "reference_line": 1509,
+          "author": "Johannes Baiter",
+          "author_time": 1706993609,
+          "text": "    {"
+        },
+        {
+          "commit": "95d2cc1e6e589f31843897e5cd4a1497eceb0f74",
+          "original_line": 853,
+          "reference_line": 1510,
+          "author": "Johannes Baiter",
+          "author_time": 1706993609,
+          "text": "        CHIAKI_LOGE(session->log, \"chiaki_holepunch_session_punch_holes: Failed to send ACCEPT message.\");"
+        },
+        {
+          "commit": "95d2cc1e6e589f31843897e5cd4a1497eceb0f74",
+          "original_line": 854,
+          "reference_line": 1511,
+          "author": "Johannes Baiter",
+          "author_time": 1706993609,
+          "text": "        goto cleanup;"
+        },
+        {
+          "commit": "95d2cc1e6e589f31843897e5cd4a1497eceb0f74",
+          "original_line": 855,
+          "reference_line": 1512,
+          "author": "Johannes Baiter",
+          "author_time": 1706993609,
+          "text": "    }"
+        },
+        {
+          "commit": "788bcf57cf61afe920027fb0a1db5ae0925d20e4",
+          "original_line": 1496,
+          "reference_line": 1513,
+          "author": "Street Pea",
+          "author_time": 1728388061,
+          "text": "    chiaki_mutex_lock(&session->stop_mutex);"
+        },
+        {
+          "commit": "66db07a87307a5661b7849c851ca0530dbe527a6",
+          "original_line": 1047,
+          "reference_line": 1514,
+          "author": "Street Pea",
+          "author_time": 1714088478,
+          "text": "    if(session->main_should_stop)"
+        },
+        {
+          "commit": "66db07a87307a5661b7849c851ca0530dbe527a6",
+          "original_line": 1048,
+          "reference_line": 1515,
+          "author": "Street Pea",
+          "author_time": 1714088478,
+          "text": "    {"
+        },
+        {
+          "commit": "2405f25b3df95d8d26f2ed45f3754ad37822ede5",
+          "original_line": 1058,
+          "reference_line": 1516,
+          "author": "Street Pea",
+          "author_time": 1714103495,
+          "text": "        session->main_should_stop = false;"
+        },
+        {
+          "commit": "788bcf57cf61afe920027fb0a1db5ae0925d20e4",
+          "original_line": 1500,
+          "reference_line": 1517,
+          "author": "Street Pea",
+          "author_time": 1728388061,
+          "text": "        chiaki_mutex_unlock(&session->stop_mutex);"
+        },
+        {
+          "commit": "66db07a87307a5661b7849c851ca0530dbe527a6",
+          "original_line": 1049,
+          "reference_line": 1518,
+          "author": "Street Pea",
+          "author_time": 1714088478,
+          "text": "        CHIAKI_LOGI(session->log, \"chiaki_holepunch_session_punch_holes: canceled\");"
+        },
+        {
+          "commit": "66db07a87307a5661b7849c851ca0530dbe527a6",
+          "original_line": 1050,
+          "reference_line": 1519,
+          "author": "Street Pea",
+          "author_time": 1714088478,
+          "text": "        err = CHIAKI_ERR_CANCELED;"
+        },
+        {
+          "commit": "66db07a87307a5661b7849c851ca0530dbe527a6",
+          "original_line": 1051,
+          "reference_line": 1520,
+          "author": "Street Pea",
+          "author_time": 1714088478,
+          "text": "        goto cleanup;"
+        },
+        {
+          "commit": "66db07a87307a5661b7849c851ca0530dbe527a6",
+          "original_line": 1052,
+          "reference_line": 1521,
+          "author": "Street Pea",
+          "author_time": 1714088478,
+          "text": "    }"
+        },
+        {
+          "commit": "788bcf57cf61afe920027fb0a1db5ae0925d20e4",
+          "original_line": 1505,
+          "reference_line": 1522,
+          "author": "Street Pea",
+          "author_time": 1728388061,
+          "text": "    chiaki_mutex_unlock(&session->stop_mutex);"
+        },
+        {
+          "commit": "8168d0c61ec1c80405dce8f7362e0f9bc8da5187",
+          "original_line": 915,
+          "reference_line": 1523,
+          "author": "Street Pea",
+          "author_time": 1712965925,
+          "text": "    session->local_req_id++;"
+        },
+        {
+          "commit": "95d2cc1e6e589f31843897e5cd4a1497eceb0f74",
+          "original_line": 856,
+          "reference_line": 1524,
+          "author": "Johannes Baiter",
+          "author_time": 1706993609,
+          "text": ""
+        },
+        {
+          "commit": "95d2cc1e6e589f31843897e5cd4a1497eceb0f74",
+          "original_line": 858,
+          "reference_line": 1525,
+          "author": "Johannes Baiter",
+          "author_time": 1706993609,
+          "text": "    SessionMessage *msg = NULL;"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1066,
+          "reference_line": 1526,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    err = wait_for_session_message(session, &msg, SESSION_MESSAGE_ACTION_ACCEPT, SESSION_START_TIMEOUT_SEC * 1000);"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1067,
+          "reference_line": 1527,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    if (err == CHIAKI_ERR_TIMEOUT)"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1068,
+          "reference_line": 1528,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    {"
+        },
+        {
+          "commit": "3e2985b1b0f30a4de6c246d3ff09456a7382a68a",
+          "original_line": 1102,
+          "reference_line": 1529,
+          "author": "Street Pea",
+          "author_time": 1715381739,
+          "text": "        CHIAKI_LOGE(session->log, \"chiaki_holepunch_session_punch_holes: Timed out waiting for ACCEPT holepunch session message.\");"
+        },
+        {
+          "commit": "02d673eb70d8b7bead272429c5d0f991334d6a81",
+          "original_line": 1414,
+          "reference_line": 1530,
+          "author": "Street Pea",
+          "author_time": 1727268742,
+          "text": "        goto cleanup_msg;"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1071,
+          "reference_line": 1531,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    }"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1072,
+          "reference_line": 1532,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    else if (err == CHIAKI_ERR_CANCELED)"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1073,
+          "reference_line": 1533,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    {"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1074,
+          "reference_line": 1534,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "        CHIAKI_LOGI(session->log, \"chiaki_holepunch_session_punch_holes: canceled\");"
+        },
+        {
+          "commit": "02d673eb70d8b7bead272429c5d0f991334d6a81",
+          "original_line": 1419,
+          "reference_line": 1535,
+          "author": "Street Pea",
+          "author_time": 1727268742,
+          "text": "        goto cleanup_msg;"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1076,
+          "reference_line": 1536,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    }"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1077,
+          "reference_line": 1537,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    else if (err != CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1078,
+          "reference_line": 1538,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    {"
+        },
+        {
+          "commit": "3e2985b1b0f30a4de6c246d3ff09456a7382a68a",
+          "original_line": 1112,
+          "reference_line": 1539,
+          "author": "Street Pea",
+          "author_time": 1715381739,
+          "text": "        CHIAKI_LOGE(session->log, \"chiaki_holepunch_session_punch_holes: Failed to wait for ACCEPT or OFFER holepunch session message.\");"
+        },
+        {
+          "commit": "02d673eb70d8b7bead272429c5d0f991334d6a81",
+          "original_line": 1424,
+          "reference_line": 1540,
+          "author": "Street Pea",
+          "author_time": 1727268742,
+          "text": "        goto cleanup_msg;"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1081,
+          "reference_line": 1541,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    }"
+        },
+        {
+          "commit": "95d2cc1e6e589f31843897e5cd4a1497eceb0f74",
+          "original_line": 870,
+          "reference_line": 1542,
+          "author": "Johannes Baiter",
+          "author_time": 1706993609,
+          "text": ""
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1083,
+          "reference_line": 1543,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    // ACK the accept message response"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1084,
+          "reference_line": 1544,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    SessionMessage accept_ack_msg = {"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1085,
+          "reference_line": 1545,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "        .action = SESSION_MESSAGE_ACTION_RESULT,"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1086,
+          "reference_line": 1546,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "        .req_id = msg->req_id,"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1087,
+          "reference_line": 1547,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "        .error = 0,"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1088,
+          "reference_line": 1548,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "        .conn_request = NULL,"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1089,
+          "reference_line": 1549,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "        .notification = NULL,"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1090,
+          "reference_line": 1550,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    };"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1091,
+          "reference_line": 1551,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    err = http_send_session_message(session, &accept_ack_msg, true);"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1092,
+          "reference_line": 1552,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    if(err != CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1093,
+          "reference_line": 1553,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    {"
+        },
+        {
+          "commit": "3e2985b1b0f30a4de6c246d3ff09456a7382a68a",
+          "original_line": 1127,
+          "reference_line": 1554,
+          "author": "Street Pea",
+          "author_time": 1715381739,
+          "text": "        CHIAKI_LOGE(session->log, \"chiaki_holepunch_session_punch_holes: Couldn't send holepunch session message\");"
+        },
+        {
+          "commit": "02d673eb70d8b7bead272429c5d0f991334d6a81",
+          "original_line": 1439,
+          "reference_line": 1555,
+          "author": "Street Pea",
+          "author_time": 1727268742,
+          "text": "        goto cleanup_msg;"
+        },
+        {
+          "commit": "5dabdc29b187ba1cc90dc2c425a03a97cf5c72f1",
+          "original_line": 1096,
+          "reference_line": 1556,
+          "author": "Street Pea",
+          "author_time": 1714185389,
+          "text": "    }"
+        }
+      ]
+    },
+    {
+      "file": "lib/src/session.c",
+      "start": 561,
+      "end": 582,
+      "all_line_author_counts": {
+        "Street Pea": 22
+      },
+      "nonblank_line_author_counts": {
+        "Street Pea": 22
+      },
+      "lines": [
+        {
+          "commit": "e4c98474a460e65c5f262874926c51cc303f466a",
+          "original_line": 518,
+          "reference_line": 561,
+          "author": "Street Pea",
+          "author_time": 1713655772,
+          "text": "\tchiaki_socket_t *data_sock = NULL;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 515,
+          "reference_line": 562,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\tif(session->rudp)"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 516,
+          "reference_line": 563,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t{"
+        },
+        {
+          "commit": "d5db9d6c125897dd8c5c11ac1abadd54464908ac",
+          "original_line": 551,
+          "reference_line": 564,
+          "author": "Street Pea",
+          "author_time": 1730138693,
+          "text": "\t\tChiakiErrorCode err = holepunch_session_create_offer(session->holepunch_session);"
+        },
+        {
+          "commit": "d5db9d6c125897dd8c5c11ac1abadd54464908ac",
+          "original_line": 552,
+          "reference_line": 565,
+          "author": "Street Pea",
+          "author_time": 1730138693,
+          "text": "\t\tif (err != CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "d5db9d6c125897dd8c5c11ac1abadd54464908ac",
+          "original_line": 553,
+          "reference_line": 566,
+          "author": "Street Pea",
+          "author_time": 1730138693,
+          "text": "\t\t{"
+        },
+        {
+          "commit": "d5db9d6c125897dd8c5c11ac1abadd54464908ac",
+          "original_line": 554,
+          "reference_line": 567,
+          "author": "Street Pea",
+          "author_time": 1730138693,
+          "text": "\t\t\tCHIAKI_LOGE(session->log, \"!! Failed to create offer msg for data connection\");"
+        },
+        {
+          "commit": "d5db9d6c125897dd8c5c11ac1abadd54464908ac",
+          "original_line": 555,
+          "reference_line": 568,
+          "author": "Street Pea",
+          "author_time": 1730138693,
+          "text": "\t\t\tCHECK_STOP(quit_ctrl);"
+        },
+        {
+          "commit": "d5db9d6c125897dd8c5c11ac1abadd54464908ac",
+          "original_line": 556,
+          "reference_line": 569,
+          "author": "Street Pea",
+          "author_time": 1730138693,
+          "text": "\t\t}"
+        },
+        {
+          "commit": "f8ba1b862dd791fd22eb605929bb94f6c1ab36bc",
+          "original_line": 549,
+          "reference_line": 570,
+          "author": "Street Pea",
+          "author_time": 1714783724,
+          "text": "\t\tCHIAKI_LOGI(session->log, \"Punching hole for data connection\");"
+        },
+        {
+          "commit": "35e83adc714fc9ef2ac413ee9da7cb2547ec034a",
+          "original_line": 537,
+          "reference_line": 571,
+          "author": "Street Pea",
+          "author_time": 1715042138,
+          "text": "\t\tChiakiEvent event_start = { 0 };"
+        },
+        {
+          "commit": "35e83adc714fc9ef2ac413ee9da7cb2547ec034a",
+          "original_line": 538,
+          "reference_line": 572,
+          "author": "Street Pea",
+          "author_time": 1715042138,
+          "text": "\t\tevent_start.type = CHIAKI_EVENT_HOLEPUNCH;"
+        },
+        {
+          "commit": "35e83adc714fc9ef2ac413ee9da7cb2547ec034a",
+          "original_line": 539,
+          "reference_line": 573,
+          "author": "Street Pea",
+          "author_time": 1715042138,
+          "text": "\t\tevent_start.data_holepunch.finished = false;"
+        },
+        {
+          "commit": "35e83adc714fc9ef2ac413ee9da7cb2547ec034a",
+          "original_line": 540,
+          "reference_line": 574,
+          "author": "Street Pea",
+          "author_time": 1715042138,
+          "text": "\t\tchiaki_session_send_event(session, &event_start);"
+        },
+        {
+          "commit": "d5db9d6c125897dd8c5c11ac1abadd54464908ac",
+          "original_line": 562,
+          "reference_line": 575,
+          "author": "Street Pea",
+          "author_time": 1730138693,
+          "text": "\t\terr = chiaki_holepunch_session_punch_hole(session->holepunch_session, CHIAKI_HOLEPUNCH_PORT_TYPE_DATA);"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 518,
+          "reference_line": 576,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\tif (err != CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 519,
+          "reference_line": 577,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t{"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 520,
+          "reference_line": 578,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\tCHIAKI_LOGE(session->log, \"!! Failed to punch hole for data connection.\");"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 521,
+          "reference_line": 579,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\tQUIT(quit_ctrl);"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 522,
+          "reference_line": 580,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t}"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 523,
+          "reference_line": 581,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\tCHIAKI_LOGI(session->log, \">> Punched hole for data connection!\");"
+        },
+        {
+          "commit": "e4c98474a460e65c5f262874926c51cc303f466a",
+          "original_line": 528,
+          "reference_line": 582,
+          "author": "Street Pea",
+          "author_time": 1713655772,
+          "text": "\t\tdata_sock = chiaki_get_holepunch_sock(session->holepunch_session, CHIAKI_HOLEPUNCH_PORT_TYPE_DATA);"
+        }
+      ]
+    },
+    {
+      "file": "lib/src/session.c",
+      "start": 611,
+      "end": 639,
+      "all_line_author_counts": {
+        "Florian M\u00e4rkl": 21,
+        "Street Pea": 8
+      },
+      "nonblank_line_author_counts": {
+        "Florian M\u00e4rkl": 18,
+        "Street Pea": 8
+      },
+      "lines": [
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 222,
+          "reference_line": 611,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": "#ifdef ENABLE_SENKUSHA"
+        },
+        {
+          "commit": "c4921ad682d2243e1aa330576afc697fec262ca2",
+          "original_line": 313,
+          "reference_line": 612,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565093541,
+          "text": "\tCHIAKI_LOGI(session->log, \"Starting Senkusha\");"
+        },
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 224,
+          "reference_line": 613,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": ""
+        },
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 225,
+          "reference_line": 614,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": "\tChiakiSenkusha senkusha;"
+        },
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 226,
+          "reference_line": 615,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": "\terr = chiaki_senkusha_init(&senkusha, session);"
+        },
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 227,
+          "reference_line": 616,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": "\tif(err != CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 228,
+          "reference_line": 617,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": "\t\tQUIT(quit_ctrl);"
+        },
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 229,
+          "reference_line": 618,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": ""
+        },
+        {
+          "commit": "e4c98474a460e65c5f262874926c51cc303f466a",
+          "original_line": 539,
+          "reference_line": 619,
+          "author": "Street Pea",
+          "author_time": 1713655772,
+          "text": "\terr = chiaki_senkusha_run(&senkusha, &session->mtu_in, &session->mtu_out, &session->rtt_us, data_sock);"
+        },
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 231,
+          "reference_line": 620,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": "\tchiaki_senkusha_fini(&senkusha);"
+        },
+        {
+          "commit": "856bda4e4789fc44886e495fd30baf8a05fd95df",
+          "original_line": 621,
+          "reference_line": 621,
+          "author": "Street Pea",
+          "author_time": 1743222762,
+          "text": "\tCHECK_STOP(quit_ctrl);"
+        },
+        {
+          "commit": "856bda4e4789fc44886e495fd30baf8a05fd95df",
+          "original_line": 622,
+          "reference_line": 622,
+          "author": "Street Pea",
+          "author_time": 1743222762,
+          "text": "\tif(session->ctrl_failed)"
+        },
+        {
+          "commit": "856bda4e4789fc44886e495fd30baf8a05fd95df",
+          "original_line": 623,
+          "reference_line": 623,
+          "author": "Street Pea",
+          "author_time": 1743222762,
+          "text": "\t{"
+        },
+        {
+          "commit": "856bda4e4789fc44886e495fd30baf8a05fd95df",
+          "original_line": 624,
+          "reference_line": 624,
+          "author": "Street Pea",
+          "author_time": 1743222762,
+          "text": "\t\tCHIAKI_LOGE(session->log, \"Ctrl has failed since session started, exiting\");"
+        },
+        {
+          "commit": "856bda4e4789fc44886e495fd30baf8a05fd95df",
+          "original_line": 625,
+          "reference_line": 625,
+          "author": "Street Pea",
+          "author_time": 1743222762,
+          "text": "\t\tQUIT(quit_ctrl);"
+        },
+        {
+          "commit": "856bda4e4789fc44886e495fd30baf8a05fd95df",
+          "original_line": 626,
+          "reference_line": 626,
+          "author": "Street Pea",
+          "author_time": 1743222762,
+          "text": "\t}"
+        },
+        {
+          "commit": "3800c2d4cd92bce82f31d0d00e9e2e2379a7bed4",
+          "original_line": 155,
+          "reference_line": 627,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542749742,
+          "text": ""
+        },
+        {
+          "commit": "7e235fc40559c406fc6bebf1043abc63faff62f3",
+          "original_line": 323,
+          "reference_line": 628,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565518821,
+          "text": "\tif(err == CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "7e235fc40559c406fc6bebf1043abc63faff62f3",
+          "original_line": 324,
+          "reference_line": 629,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565518821,
+          "text": "\t\tCHIAKI_LOGI(session->log, \"Senkusha completed successfully\");"
+        },
+        {
+          "commit": "7e235fc40559c406fc6bebf1043abc63faff62f3",
+          "original_line": 325,
+          "reference_line": 630,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565518821,
+          "text": "\telse if(err == CHIAKI_ERR_CANCELED)"
+        },
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 236,
+          "reference_line": 631,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": "\t\tQUIT(quit_ctrl);"
+        },
+        {
+          "commit": "7e235fc40559c406fc6bebf1043abc63faff62f3",
+          "original_line": 327,
+          "reference_line": 632,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565518821,
+          "text": "\telse"
+        },
+        {
+          "commit": "7e235fc40559c406fc6bebf1043abc63faff62f3",
+          "original_line": 328,
+          "reference_line": 633,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565518821,
+          "text": "\t{"
+        },
+        {
+          "commit": "7e235fc40559c406fc6bebf1043abc63faff62f3",
+          "original_line": 329,
+          "reference_line": 634,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565518821,
+          "text": "\t\tCHIAKI_LOGE(session->log, \"Senkusha failed, but we still try to connect with fallback values\");"
+        },
+        {
+          "commit": "7e235fc40559c406fc6bebf1043abc63faff62f3",
+          "original_line": 330,
+          "reference_line": 635,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565518821,
+          "text": "\t\tsession->mtu_in = 1454;"
+        },
+        {
+          "commit": "7e235fc40559c406fc6bebf1043abc63faff62f3",
+          "original_line": 331,
+          "reference_line": 636,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565518821,
+          "text": "\t\tsession->mtu_out = 1454;"
+        },
+        {
+          "commit": "7e235fc40559c406fc6bebf1043abc63faff62f3",
+          "original_line": 332,
+          "reference_line": 637,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565518821,
+          "text": "\t\tsession->rtt_us = 1000;"
+        },
+        {
+          "commit": "cf7716be91d4e6992647fdf7401ce1838c256e7f",
+          "original_line": 632,
+          "reference_line": 638,
+          "author": "Street Pea",
+          "author_time": 1742773358,
+          "text": "\t\tsession->dontfrag = false;"
+        },
+        {
+          "commit": "d316e7c8cf00e28c8b9dcf6b6b892b6827ae9f61",
+          "original_line": 237,
+          "reference_line": 639,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564754714,
+          "text": "\t}"
+        }
+      ]
+    },
+    {
+      "file": "lib/src/ctrl.c",
+      "start": 307,
+      "end": 490,
+      "all_line_author_counts": {
+        "Florian M\u00e4rkl": 92,
+        "Street Pea": 86,
+        "Sven Scharmentke": 6
+      },
+      "nonblank_line_author_counts": {
+        "Florian M\u00e4rkl": 79,
+        "Street Pea": 86,
+        "Sven Scharmentke": 4
+      },
+      "lines": [
+        {
+          "commit": "35c320d53d6f4a05345b00aaa34bd53e2303a76b",
+          "original_line": 45,
+          "reference_line": 307,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542449903,
+          "text": "static void *ctrl_thread_func(void *user)"
+        },
+        {
+          "commit": "35c320d53d6f4a05345b00aaa34bd53e2303a76b",
+          "original_line": 46,
+          "reference_line": 308,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542449903,
+          "text": "{"
+        },
+        {
+          "commit": "35c320d53d6f4a05345b00aaa34bd53e2303a76b",
+          "original_line": 47,
+          "reference_line": 309,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542449903,
+          "text": "\tChiakiCtrl *ctrl = user;"
+        },
+        {
+          "commit": "35c320d53d6f4a05345b00aaa34bd53e2303a76b",
+          "original_line": 48,
+          "reference_line": 310,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542449903,
+          "text": ""
+        },
+        {
+          "commit": "042e698749f2c796ce65c575384a8e028aebfe0b",
+          "original_line": 154,
+          "reference_line": 311,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1572288021,
+          "text": "\tChiakiErrorCode err = chiaki_mutex_lock(&ctrl->notif_mutex);"
+        },
+        {
+          "commit": "042e698749f2c796ce65c575384a8e028aebfe0b",
+          "original_line": 155,
+          "reference_line": 312,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1572288021,
+          "text": "\tassert(err == CHIAKI_ERR_SUCCESS);"
+        },
+        {
+          "commit": "042e698749f2c796ce65c575384a8e028aebfe0b",
+          "original_line": 156,
+          "reference_line": 313,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1572288021,
+          "text": ""
+        },
+        {
+          "commit": "042e698749f2c796ce65c575384a8e028aebfe0b",
+          "original_line": 157,
+          "reference_line": 314,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1572288021,
+          "text": "\terr = ctrl_connect(ctrl);"
+        },
+        {
+          "commit": "7333044a19d1b9415513496653c43cacd4b6ca0d",
+          "original_line": 54,
+          "reference_line": 315,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542481731,
+          "text": "\tif(err != CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "7333044a19d1b9415513496653c43cacd4b6ca0d",
+          "original_line": 55,
+          "reference_line": 316,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542481731,
+          "text": "\t{"
+        },
+        {
+          "commit": "8779d7612a54498d1e6d7f19fd8ef83e3f1b665f",
+          "original_line": 157,
+          "reference_line": 317,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1570271436,
+          "text": "\t\tctrl_failed(ctrl, CHIAKI_QUIT_REASON_CTRL_CONNECT_FAILED);"
+        },
+        {
+          "commit": "042e698749f2c796ce65c575384a8e028aebfe0b",
+          "original_line": 161,
+          "reference_line": 318,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1572288021,
+          "text": "\t\tchiaki_mutex_unlock(&ctrl->notif_mutex);"
+        },
+        {
+          "commit": "7333044a19d1b9415513496653c43cacd4b6ca0d",
+          "original_line": 57,
+          "reference_line": 319,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542481731,
+          "text": "\t\treturn NULL;"
+        },
+        {
+          "commit": "7333044a19d1b9415513496653c43cacd4b6ca0d",
+          "original_line": 58,
+          "reference_line": 320,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542481731,
+          "text": "\t}"
+        },
+        {
+          "commit": "35c320d53d6f4a05345b00aaa34bd53e2303a76b",
+          "original_line": 49,
+          "reference_line": 321,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542449903,
+          "text": ""
+        },
+        {
+          "commit": "c4921ad682d2243e1aa330576afc697fec262ca2",
+          "original_line": 97,
+          "reference_line": 322,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565093541,
+          "text": "\tCHIAKI_LOGI(ctrl->session->log, \"Ctrl connected\");"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 62,
+          "reference_line": 323,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": ""
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 63,
+          "reference_line": 324,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\twhile(true)"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 64,
+          "reference_line": 325,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t{"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 65,
+          "reference_line": 326,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\tbool overflow = false;"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 66,
+          "reference_line": 327,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\twhile(ctrl->recv_buf_size >= 8)"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 67,
+          "reference_line": 328,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t{"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 68,
+          "reference_line": 329,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\tuint32_t payload_size = *((uint32_t *)ctrl->recv_buf);"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 69,
+          "reference_line": 330,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\tpayload_size = ntohl(payload_size);"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 70,
+          "reference_line": 331,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": ""
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 71,
+          "reference_line": 332,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\tif(ctrl->recv_buf_size < 8 + payload_size)"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 72,
+          "reference_line": 333,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\t{"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 73,
+          "reference_line": 334,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\t\tif(8 + payload_size > sizeof(ctrl->recv_buf))"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 74,
+          "reference_line": 335,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\t\t{"
+        },
+        {
+          "commit": "c4921ad682d2243e1aa330576afc697fec262ca2",
+          "original_line": 111,
+          "reference_line": 336,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1565093541,
+          "text": "\t\t\t\t\tCHIAKI_LOGE(ctrl->session->log, \"Ctrl buffer overflow!\");"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 76,
+          "reference_line": 337,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\t\t\toverflow = true;"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 77,
+          "reference_line": 338,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\t\t}"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 78,
+          "reference_line": 339,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\t\tbreak;"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 79,
+          "reference_line": 340,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\t}"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 80,
+          "reference_line": 341,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": ""
+        },
+        {
+          "commit": "4065791f4f52a6f05b1a86a31253f2cf8605af50",
+          "original_line": 185,
+          "reference_line": 342,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1573070217,
+          "text": "\t\t\tuint16_t msg_type = *((chiaki_unaligned_uint16_t *)(ctrl->recv_buf + 4));"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 82,
+          "reference_line": 343,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\tmsg_type = ntohs(msg_type);"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 83,
+          "reference_line": 344,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": ""
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 84,
+          "reference_line": 345,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\tctrl_message_received(ctrl, msg_type, ctrl->recv_buf + 8, (size_t)payload_size);"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 85,
+          "reference_line": 346,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\tctrl->recv_buf_size -= 8 + payload_size;"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 86,
+          "reference_line": 347,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\tif(ctrl->recv_buf_size > 0)"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 87,
+          "reference_line": 348,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\t\tmemmove(ctrl->recv_buf, ctrl->recv_buf + 8 + payload_size, ctrl->recv_buf_size);"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 88,
+          "reference_line": 349,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t}"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 89,
+          "reference_line": 350,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": ""
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 90,
+          "reference_line": 351,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\tif(overflow)"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 91,
+          "reference_line": 352,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t{"
+        },
+        {
+          "commit": "99fb690ad754ca07289ea6476a8fb3b54fb3a891",
+          "original_line": 121,
+          "reference_line": 353,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564829970,
+          "text": "\t\t\tctrl_failed(ctrl, CHIAKI_QUIT_REASON_CTRL_UNKNOWN);"
+        },
+        {
+          "commit": "99fb690ad754ca07289ea6476a8fb3b54fb3a891",
+          "original_line": 122,
+          "reference_line": 354,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564829970,
+          "text": "\t\t\tbreak;"
+        },
+        {
+          "commit": "99fb690ad754ca07289ea6476a8fb3b54fb3a891",
+          "original_line": 123,
+          "reference_line": 355,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564829970,
+          "text": "\t\t}"
+        },
+        {
+          "commit": "99fb690ad754ca07289ea6476a8fb3b54fb3a891",
+          "original_line": 124,
+          "reference_line": 356,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564829970,
+          "text": ""
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 184,
+          "reference_line": 357,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\tchiaki_mutex_unlock(&ctrl->notif_mutex);"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 353,
+          "reference_line": 358,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\tif(ctrl->session->rudp)"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 354,
+          "reference_line": 359,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\terr = chiaki_rudp_stop_pipe_select_single(ctrl->session->rudp, &ctrl->notif_pipe, UINT64_MAX);"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 355,
+          "reference_line": 360,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\telse"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 354,
+          "reference_line": 361,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\terr = chiaki_stop_pipe_select_single(&ctrl->notif_pipe, ctrl->sock, false, UINT64_MAX);"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 186,
+          "reference_line": 362,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\tchiaki_mutex_lock(&ctrl->notif_mutex);"
+        },
+        {
+          "commit": "4ed2e4d6a9073432d816a609a743ef694b20f596",
+          "original_line": 326,
+          "reference_line": 363,
+          "author": "Sven Scharmentke",
+          "author_time": 1604744056,
+          "text": ""
+        },
+        {
+          "commit": "4ed2e4d6a9073432d816a609a743ef694b20f596",
+          "original_line": 327,
+          "reference_line": 364,
+          "author": "Sven Scharmentke",
+          "author_time": 1604744056,
+          "text": "\t\tbool msg_queue_updated = false;"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 187,
+          "reference_line": 365,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\tif(err == CHIAKI_ERR_CANCELED)"
+        },
+        {
+          "commit": "99fb690ad754ca07289ea6476a8fb3b54fb3a891",
+          "original_line": 127,
+          "reference_line": 366,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564829970,
+          "text": "\t\t{"
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 268,
+          "reference_line": 367,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": "\t\t\twhile(ctrl->msg_queue)"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 190,
+          "reference_line": 368,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t{"
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 270,
+          "reference_line": 369,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": "\t\t\t\tctrl_message_send(ctrl, ctrl->msg_queue->type, ctrl->msg_queue->payload, ctrl->msg_queue->payload_size);"
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 271,
+          "reference_line": 370,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": "\t\t\t\tChiakiCtrlMessageQueue *next = ctrl->msg_queue->next;"
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 272,
+          "reference_line": 371,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": "\t\t\t\tctrl_message_queue_free(ctrl->msg_queue);"
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 273,
+          "reference_line": 372,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": "\t\t\t\tctrl->msg_queue = next;"
+        },
+        {
+          "commit": "4ed2e4d6a9073432d816a609a743ef694b20f596",
+          "original_line": 336,
+          "reference_line": 373,
+          "author": "Sven Scharmentke",
+          "author_time": 1604744056,
+          "text": "\t\t\t\tmsg_queue_updated = true;"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 193,
+          "reference_line": 374,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t}"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 194,
+          "reference_line": 375,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": ""
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 195,
+          "reference_line": 376,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\tif(ctrl->login_pin_entered)"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 196,
+          "reference_line": 377,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t{"
+        },
+        {
+          "commit": "31fb11fd43a36a7ef3cdf36b0493cd34a1c31464",
+          "original_line": 204,
+          "reference_line": 378,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t\tCHIAKI_LOGI(ctrl->session->log, \"Ctrl received entered Login PIN, sending to console\");"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 197,
+          "reference_line": 379,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t\tctrl_message_send(ctrl, CTRL_MESSAGE_TYPE_LOGIN_PIN_REP, ctrl->login_pin, ctrl->login_pin_size);"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 198,
+          "reference_line": 380,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t\tctrl->login_pin_entered = false;"
+        },
+        {
+          "commit": "31fb11fd43a36a7ef3cdf36b0493cd34a1c31464",
+          "original_line": 207,
+          "reference_line": 381,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t\tfree(ctrl->login_pin);"
+        },
+        {
+          "commit": "31fb11fd43a36a7ef3cdf36b0493cd34a1c31464",
+          "original_line": 208,
+          "reference_line": 382,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t\tctrl->login_pin = NULL;"
+        },
+        {
+          "commit": "31fb11fd43a36a7ef3cdf36b0493cd34a1c31464",
+          "original_line": 209,
+          "reference_line": 383,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t\tctrl->login_pin_size = 0;"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 199,
+          "reference_line": 384,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t\tchiaki_stop_pipe_reset(&ctrl->notif_pipe);"
+        },
+        {
+          "commit": "babf275c5bf9dc504b016381f6096ba376ba25ed",
+          "original_line": 220,
+          "reference_line": 385,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1574262772,
+          "text": "\t\t\t\tcontinue;"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 200,
+          "reference_line": 386,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t}"
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 287,
+          "reference_line": 387,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": ""
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 288,
+          "reference_line": 388,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": "\t\t\tif(ctrl->should_stop)"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 202,
+          "reference_line": 389,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t{"
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 290,
+          "reference_line": 390,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": "\t\t\t\tCHIAKI_LOGI(ctrl->session->log, \"Ctrl requested to stop\");"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 204,
+          "reference_line": 391,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t\tbreak;"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 205,
+          "reference_line": 392,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\t}"
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 293,
+          "reference_line": 393,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": ""
+        },
+        {
+          "commit": "4ed2e4d6a9073432d816a609a743ef694b20f596",
+          "original_line": 357,
+          "reference_line": 394,
+          "author": "Sven Scharmentke",
+          "author_time": 1604744056,
+          "text": "\t\t\tif(msg_queue_updated)"
+        },
+        {
+          "commit": "4ed2e4d6a9073432d816a609a743ef694b20f596",
+          "original_line": 358,
+          "reference_line": 395,
+          "author": "Sven Scharmentke",
+          "author_time": 1604744056,
+          "text": "\t\t\t\tchiaki_stop_pipe_reset(&ctrl->notif_pipe);"
+        },
+        {
+          "commit": "4ed2e4d6a9073432d816a609a743ef694b20f596",
+          "original_line": 359,
+          "reference_line": 396,
+          "author": "Sven Scharmentke",
+          "author_time": 1604744056,
+          "text": ""
+        },
+        {
+          "commit": "6052d9d7d7ed6ea497271e57da182646ebec5d3c",
+          "original_line": 294,
+          "reference_line": 397,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1603363198,
+          "text": "\t\t\tcontinue;"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 206,
+          "reference_line": 398,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t}"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 207,
+          "reference_line": 399,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\telse if(err != CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 208,
+          "reference_line": 400,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t{"
+        },
+        {
+          "commit": "a93b8718efeb02137e5e9725d43d130ec3f0843e",
+          "original_line": 209,
+          "reference_line": 401,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1566743893,
+          "text": "\t\t\tCHIAKI_LOGE(ctrl->session->log, \"Ctrl select error: %s\", chiaki_error_string(err));"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 93,
+          "reference_line": 402,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t\tbreak;"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 94,
+          "reference_line": 403,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t}"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 95,
+          "reference_line": 404,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": ""
+        },
+        {
+          "commit": "e4bebe06430c0cfa213a1065d6c894adde794251",
+          "original_line": 405,
+          "reference_line": 405,
+          "author": "Street Pea",
+          "author_time": 1727536733,
+          "text": "\t\tCHIAKI_SSIZET_TYPE received = 0;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 399,
+          "reference_line": 406,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\tif(ctrl->session->rudp)"
+        },
+        {
+          "commit": "9d24232cbf2a3cd5aa573f5d0d008b203ce20945",
+          "original_line": 98,
+          "reference_line": 407,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1542483977,
+          "text": "\t\t{"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 401,
+          "reference_line": 408,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\tRudpMessage message;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 402,
+          "reference_line": 409,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\tuint16_t remote_counter = 0;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 403,
+          "reference_line": 410,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\tuint16_t ack_counter = 0;"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 406,
+          "reference_line": 411,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\terr = chiaki_rudp_recv_only(ctrl->session->rudp, sizeof(ctrl->rudp_recv_buf) - ctrl->recv_buf_size, &message);"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 407,
+          "reference_line": 412,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\tif(err != CHIAKI_ERR_SUCCESS)"
+        },
+        {
+          "commit": "8779d7612a54498d1e6d7f19fd8ef83e3f1b665f",
+          "original_line": 236,
+          "reference_line": 413,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1570271436,
+          "text": "\t\t\t{"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 407,
+          "reference_line": 414,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\tCHIAKI_LOGE(ctrl->session->log, \"Failed to receive Rudp ctrl packet\");"
+        },
+        {
+          "commit": "99fb690ad754ca07289ea6476a8fb3b54fb3a891",
+          "original_line": 137,
+          "reference_line": 415,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1564829970,
+          "text": "\t\t\t\tctrl_failed(ctrl, CHIAKI_QUIT_REASON_CTRL_UNKNOWN);"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 411,
+          "reference_line": 416,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\t\tbreak;"
+        },
+        {
+          "commit": "8779d7612a54498d1e6d7f19fd8ef83e3f1b665f",
+          "original_line": 239,
+          "reference_line": 417,
+          "author": "Florian M\u00e4rkl",
+          "author_time": 1570271436,
+          "text": "\t\t\t}"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 410,
+          "reference_line": 418,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\tif(message.data_size < 4)"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 411,
+          "reference_line": 419,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t{"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 412,
+          "reference_line": 420,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\tCHIAKI_LOGE(ctrl->session->log, \"Rudp ctrl message response too small\");"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 413,
+          "reference_line": 421,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\tchiaki_rudp_print_message(ctrl->session->rudp, &message);"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 414,
+          "reference_line": 422,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\tctrl_failed(ctrl, CHIAKI_QUIT_REASON_CTRL_UNKNOWN);"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 418,
+          "reference_line": 423,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\t\tbreak;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 415,
+          "reference_line": 424,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t}"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 416,
+          "reference_line": 425,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\tremote_counter = message.remote_counter;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 417,
+          "reference_line": 426,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\twhile(true)"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 418,
+          "reference_line": 427,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t{"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 419,
+          "reference_line": 428,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\tswitch(message.subtype) // wrong but works ..."
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 420,
+          "reference_line": 429,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t{"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 422,
+          "reference_line": 430,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\tcase 0x12:"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 424,
+          "reference_line": 431,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\tcase 0x26:"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 425,
+          "reference_line": 432,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\tcase 0x36:"
+        },
+        {
+          "commit": "67e469162e4716dd0cff430ed6d285a9cdb69a0d",
+          "original_line": 435,
+          "reference_line": 433,
+          "author": "Street Pea",
+          "author_time": 1714704334,
+          "text": "\t\t\t\t\t\tack_counter = ntohs(*((chiaki_unaligned_uint16_t *)(message.data + 2)));"
+        },
+        {
+          "commit": "67e469162e4716dd0cff430ed6d285a9cdb69a0d",
+          "original_line": 436,
+          "reference_line": 434,
+          "author": "Street Pea",
+          "author_time": 1714704334,
+          "text": "\t\t\t\t\t\tchiaki_rudp_ack_packet(ctrl->session->rudp, ack_counter);"
+        },
+        {
+          "commit": "cb139d4331f1da8bb68f97d00fd9b8b352042714",
+          "original_line": 435,
+          "reference_line": 435,
+          "author": "Street Pea",
+          "author_time": 1730878630,
+          "text": "\t\t\t\t\tcase 0x02:"
+        },
+        {
+          "commit": "86455cbe253953e8ac1bcb3f60ccda3a245e463d",
+          "original_line": 429,
+          "reference_line": 436,
+          "author": "Street Pea",
+          "author_time": 1714625835,
+          "text": "\t\t\t\t\t\tchiaki_rudp_send_ack_message(ctrl->session->rudp, remote_counter);"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 430,
+          "reference_line": 437,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\t\t\t\tint offset = rudp_packet_type_data_offset(message.subtype);"
+        },
+        {
+          "commit": "a0f4d3775efd09247fffd04fe0ffd7f41346f428",
+          "original_line": 439,
+          "reference_line": 438,
+          "author": "Street Pea",
+          "author_time": 1714770049,
+          "text": "\t\t\t\t\t\t// ctrl message header is 8 bytes"
+        },
+        {
+          "commit": "a0f4d3775efd09247fffd04fe0ffd7f41346f428",
+          "original_line": 440,
+          "reference_line": 439,
+          "author": "Street Pea",
+          "author_time": 1714770049,
+          "text": "\t\t\t\t\t\tif((message.data_size - offset) < 8)"
+        },
+        {
+          "commit": "a0f4d3775efd09247fffd04fe0ffd7f41346f428",
+          "original_line": 441,
+          "reference_line": 440,
+          "author": "Street Pea",
+          "author_time": 1714770049,
+          "text": "\t\t\t\t\t\t\tbreak;"
+        },
+        {
+          "commit": "b53135aba7c4c62f37c4fb0b1f9c529389de4e68",
+          "original_line": 439,
+          "reference_line": 441,
+          "author": "Street Pea",
+          "author_time": 1716664963,
+          "text": "\t\t\t\t\t\t// check if message is ctrl message by making sure the payload size (size of message - 8 byte header is correct)"
+        },
+        {
+          "commit": "b53135aba7c4c62f37c4fb0b1f9c529389de4e68",
+          "original_line": 440,
+          "reference_line": 442,
+          "author": "Street Pea",
+          "author_time": 1716664963,
+          "text": "\t\t\t\t\t\tuint32_t ctrl_payload_size = ntohl(*(uint32_t*)(message.data + offset));"
+        },
+        {
+          "commit": "b53135aba7c4c62f37c4fb0b1f9c529389de4e68",
+          "original_line": 441,
+          "reference_line": 443,
+          "author": "Street Pea",
+          "author_time": 1716664963,
+          "text": "\t\t\t\t\t\tif((message.data_size - offset - 8) == ctrl_payload_size)"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 431,
+          "reference_line": 444,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\t\t{"
+        },
+        {
+          "commit": "b53135aba7c4c62f37c4fb0b1f9c529389de4e68",
+          "original_line": 443,
+          "reference_line": 445,
+          "author": "Street Pea",
+          "author_time": 1716664963,
+          "text": "\t\t\t\t\t\t\tmemcpy(ctrl->recv_buf + ctrl->recv_buf_size, message.data + offset, message.data_size - offset);"
+        },
+        {
+          "commit": "b53135aba7c4c62f37c4fb0b1f9c529389de4e68",
+          "original_line": 444,
+          "reference_line": 446,
+          "author": "Street Pea",
+          "author_time": 1716664963,
+          "text": "\t\t\t\t\t\t\tctrl->recv_buf_size += message.data_size - offset;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 434,
+          "reference_line": 447,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\t\t}"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 438,
+          "reference_line": 448,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\t\t\t\tbreak;"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 439,
+          "reference_line": 449,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\t\t\tcase 0x24:"
+        },
+        {
+          "commit": "67e469162e4716dd0cff430ed6d285a9cdb69a0d",
+          "original_line": 448,
+          "reference_line": 450,
+          "author": "Street Pea",
+          "author_time": 1714704334,
+          "text": "\t\t\t\t\t\tack_counter = ntohs(*((chiaki_unaligned_uint16_t *)(message.data + 2)));"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 441,
+          "reference_line": 451,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\t\t\t\tchiaki_rudp_ack_packet(ctrl->session->rudp, ack_counter);"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 436,
+          "reference_line": 452,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\t\tbreak;"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 443,
+          "reference_line": 453,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\t\t\tcase 0xC0:"
+        },
+        {
+          "commit": "30320e6e702d65c57a78ed285e62743bd7c18f00",
+          "original_line": 438,
+          "reference_line": 454,
+          "author": "Street Pea",
+          "author_time": 1714267646,
+          "text": "\t\t\t\t\t\tCHIAKI_LOGI(ctrl->session->log, \"Received rudp finish message, stopping ctrl.\");"
+        },
+        {
+          "commit": "b8ba6330f0879dc63ab60ff78ba961b19c8cc09f",
+          "original_line": 456,
+          "reference_line": 455,
+          "author": "Street Pea",
+          "author_time": 1716351442,
+          "text": "\t\t\t\t\t\tctrl_failed(ctrl, CHIAKI_QUIT_REASON_CTRL_UNKNOWN);"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 439,
+          "reference_line": 456,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\t\tbreak;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 440,
+          "reference_line": 457,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\tdefault:"
+        },
+        {
+          "commit": "3c4293e0fb49ccd9a819700a0c97ee4ee160adf0",
+          "original_line": 449,
+          "reference_line": 458,
+          "author": "Street Pea",
+          "author_time": 1714533174,
+          "text": "\t\t\t\t\t\tCHIAKI_LOGI(ctrl->session->log, \"Received message of unknown type: 0x%04x\", message.type);"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 461,
+          "reference_line": 459,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\tchiaki_rudp_ack_packet(ctrl->session->rudp, ack_counter);"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 462,
+          "reference_line": 460,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\tchiaki_rudp_send_ack_message(ctrl->session->rudp, remote_counter);"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 463,
+          "reference_line": 461,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\t// we already checked before if data size was at least 4"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 464,
+          "reference_line": 462,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\tint offset2 = 4;"
+        },
+        {
+          "commit": "b53135aba7c4c62f37c4fb0b1f9c529389de4e68",
+          "original_line": 461,
+          "reference_line": 463,
+          "author": "Street Pea",
+          "author_time": 1716664963,
+          "text": "\t\t\t\t\t\t// ctrl message header is 8 bytes"
+        },
+        {
+          "commit": "b53135aba7c4c62f37c4fb0b1f9c529389de4e68",
+          "original_line": 462,
+          "reference_line": 464,
+          "author": "Street Pea",
+          "author_time": 1716664963,
+          "text": "\t\t\t\t\t\tif((message.data_size - offset2) < 8)"
+        },
+        {
+          "commit": "b53135aba7c4c62f37c4fb0b1f9c529389de4e68",
+          "original_line": 463,
+          "reference_line": 465,
+          "author": "Street Pea",
+          "author_time": 1716664963,
+          "text": "\t\t\t\t\t\t\tbreak;"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 465,
+          "reference_line": 466,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\tuint32_t ctrl_payload_size2 = ntohl(*(uint32_t*)(message.data + offset2));"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 466,
+          "reference_line": 467,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\tif((message.data_size - offset2 - 8) == ctrl_payload_size2)"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 467,
+          "reference_line": 468,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\t{"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 468,
+          "reference_line": 469,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\t\tmemcpy(ctrl->recv_buf + ctrl->recv_buf_size, message.data + offset2, message.data_size - offset2);"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 469,
+          "reference_line": 470,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\t\tctrl->recv_buf_size += message.data_size - offset2;"
+        },
+        {
+          "commit": "5b432553a6084e35c4393ed724758eae5c1ec11f",
+          "original_line": 470,
+          "reference_line": 471,
+          "author": "Street Pea",
+          "author_time": 1716351062,
+          "text": "\t\t\t\t\t\t}"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 446,
+          "reference_line": 472,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\t\tbreak;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 447,
+          "reference_line": 473,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t}"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 448,
+          "reference_line": 474,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\tif(message.subMessage)"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 449,
+          "reference_line": 475,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t{"
+        },
+        {
+          "commit": "3c4293e0fb49ccd9a819700a0c97ee4ee160adf0",
+          "original_line": 455,
+          "reference_line": 476,
+          "author": "Street Pea",
+          "author_time": 1714533174,
+          "text": "\t\t\t\t\tif(message.data)"
+        },
+        {
+          "commit": "3c4293e0fb49ccd9a819700a0c97ee4ee160adf0",
+          "original_line": 456,
+          "reference_line": 477,
+          "author": "Street Pea",
+          "author_time": 1714533174,
+          "text": "\t\t\t\t\t{"
+        },
+        {
+          "commit": "d35bdb7c3933d67352bfc60ee2fdfdb61067a61c",
+          "original_line": 456,
+          "reference_line": 478,
+          "author": "Street Pea",
+          "author_time": 1714465281,
+          "text": "\t\t\t\t\t\tfree(message.data);"
+        },
+        {
+          "commit": "3c4293e0fb49ccd9a819700a0c97ee4ee160adf0",
+          "original_line": 458,
+          "reference_line": 479,
+          "author": "Street Pea",
+          "author_time": 1714533174,
+          "text": "\t\t\t\t\t\tmessage.data = NULL;"
+        },
+        {
+          "commit": "3c4293e0fb49ccd9a819700a0c97ee4ee160adf0",
+          "original_line": 459,
+          "reference_line": 480,
+          "author": "Street Pea",
+          "author_time": 1714533174,
+          "text": "\t\t\t\t\t}"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 451,
+          "reference_line": 481,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\tRudpMessage *tmp = message.subMessage;"
+        },
+        {
+          "commit": "3c4293e0fb49ccd9a819700a0c97ee4ee160adf0",
+          "original_line": 461,
+          "reference_line": 482,
+          "author": "Street Pea",
+          "author_time": 1714533174,
+          "text": "\t\t\t\t\tmemcpy(&message, message.subMessage, sizeof(RudpMessage));"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 453,
+          "reference_line": 483,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\tfree(tmp);"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 485,
+          "reference_line": 484,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t}"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 486,
+          "reference_line": 485,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\telse"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 487,
+          "reference_line": 486,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t{"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 488,
+          "reference_line": 487,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\tchiaki_rudp_message_pointers_free(&message);"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 489,
+          "reference_line": 488,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t\tbreak;"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 490,
+          "reference_line": 489,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t\t}"
+        },
+        {
+          "commit": "6049084be243ad9af8fd857cfc08fdf2093e89ec",
+          "original_line": 491,
+          "reference_line": 490,
+          "author": "Street Pea",
+          "author_time": 1713586707,
+          "text": "\t\t\t}"
+        }
+      ]
+    }
+  ],
+  "introducing_commits": [
+    {
+      "commit": "6fc4b8f6e4aec5a93cc8761ce41f212c8c6813ca",
+      "author": "Street Pea",
+      "author_date": "2023-09-05T22:33:03-07:00",
+      "commit_date": "2023-10-12T14:21:34-07:00",
+      "subject": "Brings microphone support to chiaki4deck"
+    },
+    {
+      "commit": "143425f58c32be9772c37a463b24d3df98e5d36d",
+      "author": "Street Pea",
+      "author_date": "2024-05-19T10:18:09-07:00",
+      "commit_date": "2024-05-19T10:18:09-07:00",
+      "subject": "Pick 10 servers from hourly updated online STUN server list for better reliability in addition to the hardcoded STUN server list"
+    }
+  ]
+}

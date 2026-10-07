@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "binary_sha256": "da45e22fcd1ad4efd4060a76bff09d99baf7a053cb1c01017632075044aaaca4",
+      "verified_string_references": 22,
+      "complete_native_ranges": 24,
+      "native_instructions": 8288,
+      "method": "Check exported instruction coverage, input hashes and independently decoded string targets.",
+      "limit": "Coverage and address verification, not a copyright determination or semantic validation of Ghidra pseudocode.",
+      "version": "1.1.8"
+    },
+    {
+      "binary_sha256": "2db182ec906334bc371830758b51f725b7747d1500f0ef32aad90457f98a6b60",
+      "verified_string_references": 22,
+      "complete_native_ranges": 17,
+      "native_instructions": 6743,
+      "method": "Check exported instruction coverage, input hashes and independently decoded string targets.",
+      "limit": "Coverage and address verification, not a copyright determination or semantic validation of Ghidra pseudocode.",
+      "version": "1.1.9"
+    },
+    {
+      "binary_sha256": "401d41cbe773f315bef411216d7eb65d54407cf51ced63f0e0a5977c7860ddf0",
+      "verified_string_references": 21,
+      "complete_native_ranges": 21,
+      "native_instructions": 7021,
+      "method": "Check exported instruction coverage, input hashes and independently decoded string targets.",
+      "limit": "Coverage and address verification, not a copyright determination or semantic validation of Ghidra pseudocode.",
+      "version": "1.5"
+    }
+  ],
+  "limit": "Verification summaries only. Full native ranges and generated decompiler output are withheld in this curated edition; instruction-count checks are not semantic equivalence."
+}

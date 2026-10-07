@@ -1,0 +1,102 @@
+{
+  "version": "1.5",
+  "binary_sha256": "401d41cbe773f315bef411216d7eb65d54407cf51ced63f0e0a5977c7860ddf0",
+  "method": "B/BL instruction decoding in __TEXT,__text; owner boundaries from LC_FUNCTION_STARTS; pinned arithmetic bytes independently rechecked. Metadata association is from the existing audit. Stripped caller addresses do not identify UI methods. No live execution or complete source-function comparison. Arithmetic itself is not asserted as independently protectable expression.",
+  "results": [
+    {
+      "key_arithmetic_site": "0x10051cc48",
+      "function_start": "0x10051c748",
+      "function_end": "0x10051d6b4",
+      "verified_function_start": true,
+      "body_sha256": "8e540060727d37646cfefc3de5b07667e28689095bdb81c2949300b7ee5e1757",
+      "direct_callers": [],
+      "second_level_callers": []
+    },
+    {
+      "key_arithmetic_site": "0x1005318cc",
+      "function_start": "0x1005312e4",
+      "function_end": "0x100532800",
+      "verified_function_start": true,
+      "body_sha256": "368c97bb6a002bd40f7f16d05d41484e302cc70339a3c126ebcfde7761382d59",
+      "direct_callers": [
+        {
+          "site": "0x100532944",
+          "kind": "BL",
+          "target": "0x1005312e4",
+          "caller_start": "0x100532800"
+        },
+        {
+          "site": "0x100532964",
+          "kind": "BL",
+          "target": "0x1005312e4",
+          "caller_start": "0x100532800"
+        },
+        {
+          "site": "0x100532984",
+          "kind": "BL",
+          "target": "0x1005312e4",
+          "caller_start": "0x100532800"
+        },
+        {
+          "site": "0x1005329a4",
+          "kind": "BL",
+          "target": "0x1005312e4",
+          "caller_start": "0x100532800"
+        }
+      ],
+      "second_level_callers": [
+        {
+          "site": "0x100112100",
+          "kind": "BL",
+          "target": "0x100532800",
+          "caller_start": "0x1001120cc"
+        },
+        {
+          "site": "0x1003a75a8",
+          "kind": "BL",
+          "target": "0x100532800",
+          "caller_start": "0x1003a7374"
+        },
+        {
+          "site": "0x1003a7844",
+          "kind": "BL",
+          "target": "0x100532800",
+          "caller_start": "0x1003a7374"
+        },
+        {
+          "site": "0x1003a84b8",
+          "kind": "BL",
+          "target": "0x100532800",
+          "caller_start": "0x1003a8228"
+        },
+        {
+          "site": "0x1003a95bc",
+          "kind": "BL",
+          "target": "0x100532800",
+          "caller_start": "0x1003a93ac"
+        },
+        {
+          "site": "0x1003ca104",
+          "kind": "BL",
+          "target": "0x100532800",
+          "caller_start": "0x1003c9fc0"
+        },
+        {
+          "site": "0x1005c9e70",
+          "kind": "BL",
+          "target": "0x100532800",
+          "caller_start": "0x1005c9618"
+        }
+      ]
+    },
+    {
+      "key_arithmetic_site": "0x1005366a8",
+      "function_start": "0x100536360",
+      "function_end": "0x100536bd4",
+      "verified_function_start": true,
+      "body_sha256": "7836571cea9eba0589b46f6279b612be13ae222eb98625b9166b8ee2c844a8ee",
+      "direct_callers": [],
+      "second_level_callers": []
+    }
+  ]
+}

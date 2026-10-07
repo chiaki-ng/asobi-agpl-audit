@@ -1,0 +1,295 @@
+{
+  "method": "Selected identity/resource/region comparisons support association with original store packages. They do not independently authenticate every instruction or verify Apple signatures.",
+  "versions": [
+    {
+      "version": "1.0",
+      "build": "32",
+      "analysis_ipa_sha256": "d1ee57b1002ed6a41774c5a9810f99ac09e12d9f0cdb8a80d01e73ce8d2ba27a",
+      "store_ipa_sha256": "f733c741f5b1224b20834ff6982688ff00f0fa6a4b1fe747a0ba8624cdbf859a",
+      "main_executable_sha256": "bbcf3f8f331e98ecea2712b02bdc782ebe031742fafb7d47f58ce012484bdf04",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.0.3",
+      "build": "2",
+      "analysis_ipa_sha256": "43d5e4c3e9da713887209be56e4433148a9922c76322af82f3182aeb6e274779",
+      "store_ipa_sha256": "3d8dca3661f12948d0794483ded60ce019faf34d6c6c8d32dd238881cef860ae",
+      "main_executable_sha256": "aca83e382f25d70a68e3cc4c376acba78b04424bb7a89832ef3776eccaa83572",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.0.5",
+      "build": "4",
+      "analysis_ipa_sha256": "36218173aeb5895bb09a9df31203effc1865490772f638e677030499218f7730",
+      "store_ipa_sha256": "6b4d2e16df1a10e4ef861104d4970421241fdee928eb84faafa9c4d17df81713",
+      "main_executable_sha256": "c3151093e12116be171ef9eb673e3d5fd91df2f7fb393e71d7dbcb29a268d6e3",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.0.6",
+      "build": "6",
+      "analysis_ipa_sha256": "2f2315c4272408351c46cb5cc5be163f4fec29ad3e931ffdf487047ea2e1b13e",
+      "store_ipa_sha256": "7293d2d66742119ff1ebc12e103f6a6672d07e39f7b7c195d410db69a23ee669",
+      "main_executable_sha256": "19567bdeadd7343a14f70b19730a0cfd82e0ce0e2fab449b965768efb2743583",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.0.7",
+      "build": "10",
+      "analysis_ipa_sha256": "d41327895e403e72aad3dee648f7d218936e12ced4311adaa7122a7adfe741e0",
+      "store_ipa_sha256": "99f1edea3cda6114073fa445f34b52fb9eee8e8584ab8083635af84558f7118c",
+      "main_executable_sha256": "beb2fbbd27a21efe2efca7f2acfe7bca7baa01d4fd6680f4fd4da3b5c9b09c6e",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.0.8",
+      "build": "10",
+      "analysis_ipa_sha256": "87be3ba61409138256e445d183aa91e2fd6383b3acceb8400e066062b8b9b589",
+      "store_ipa_sha256": "c991fc3be606dcd4e8d0cb6645bf013d7f0724ac1a03c1e11edb93008ee0d0e2",
+      "main_executable_sha256": "81e81fde782e82005b7c2403bb05e6c6d9c2cf8d2291f6b6d284bf98b1110d50",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.0.9",
+      "build": "11",
+      "analysis_ipa_sha256": "4a86031c7224b3c71d908b6b644726b0ad68c986a0b52cce466551883905084d",
+      "store_ipa_sha256": "6a931e64d7d7543c6b98095d228c6b7d239440b1b7c7d42b8ad53a72cb7b50a7",
+      "main_executable_sha256": "72bd89f1aeea27be6db972e82de250471460e46333c93b3c8279ec3aef81d0f0",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.1",
+      "build": "25",
+      "analysis_ipa_sha256": "cf42306dd87ded91cff8a7f315bebc0bf5682c3c28c2e4fe161be862de008924",
+      "store_ipa_sha256": "14e0945f41fe1e9bcde293039eaf32efda0ca3ba31be25de16294c756f6fd659",
+      "main_executable_sha256": "433ad738c0d25102c8552935e2c7ccbb4df3eb50d36d5e03499471d4fd1f75bc",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.1.2",
+      "build": "25",
+      "analysis_ipa_sha256": "0242a9e16a8d971127c1e84b976a47502c51a81aed831e6221bac75900d5cf21",
+      "store_ipa_sha256": "8ba98ee2a05e750b40086f89298e64bd065903fd587c52357a3bc5410439fab6",
+      "main_executable_sha256": "652ec314948094fbd3e2fac3ae16f17987a9fdc3ae59dcb7bcf7795e4533691b",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.1.3",
+      "build": "28",
+      "analysis_ipa_sha256": "65122db9942b9bb951494521f51cabe18629b8c4c179e16c75242932c91156ed",
+      "store_ipa_sha256": "30b147343ce09d48bcecf30fe990629c93a09bc71f3bcae3acf38adc4850d0ef",
+      "main_executable_sha256": "fe1312489ee74e8c01ac153fbf8d9abfe5883aea1791a0147a5e973f6a360410",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.1.4",
+      "build": "29",
+      "analysis_ipa_sha256": "b294fea1f91ddc7f068bc0712e3a3f33d59e941e5abd5f7cd6f62d66a075ef12",
+      "store_ipa_sha256": "c5a3469065fa1c4e8b2e51b7d3b09d0f9d1e99a4a7d447cf4cc0fb8f40da8585",
+      "main_executable_sha256": "96d3bee18a8d27c81ea476a272a5456b7f465fb5233169728b40b8aa2a0ae318",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.1.5",
+      "build": "30",
+      "analysis_ipa_sha256": "737b8782bb30f0d703cc88fb9461163b85014502a699b1115366de6045a03b26",
+      "store_ipa_sha256": "467d929fa041987d73818f942e990746f7909981087ab55700ff3dfa6994a07b",
+      "main_executable_sha256": "c91b94a07d8f1f09643ed6082ae42c35753e04123797569fd0f948890c15b861",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.1.6",
+      "build": "32",
+      "analysis_ipa_sha256": "3556cd23ea1f63cfee79327818952e7b1528f304fa54779b7723292d1f8d86a5",
+      "store_ipa_sha256": "5b9bb645f20f91b16167b64e604693e824115c4f9c8953020814f41a75d69e61",
+      "main_executable_sha256": "a510c5f9370504608abe95b6871a8219b59bc3ba00342eed6182e86511b9158d",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.1.7",
+      "build": "32",
+      "analysis_ipa_sha256": "4a5be6aa266309f1dc018573cf7d5aab16e8f3b51e2e90791d2582582926e10b",
+      "store_ipa_sha256": "7544f39ac4252d21233b16817588f56b2001d6ea02eab2effe1dc24f525d3714",
+      "main_executable_sha256": "1a1de3a47cba10c9f37e0d2d252f93c98aa68f119647f70f593e14c0a7dd9c67",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.1.8",
+      "build": "33",
+      "analysis_ipa_sha256": "e55276988c7964f4973feed85f568ffa69836408556dbf36a5f2a7a6d12bcf68",
+      "store_ipa_sha256": "e72d01992c3ccfe0c34c5f9e23dcd6cece0ea85acc4ed7ccc71f87431217895c",
+      "main_executable_sha256": "da45e22fcd1ad4efd4060a76bff09d99baf7a053cb1c01017632075044aaaca4",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.1.9",
+      "build": "38",
+      "analysis_ipa_sha256": "c4e26ea624d358934cda93fbbba082d925428677c7a0cd5470336b58b4939001",
+      "store_ipa_sha256": "c1dea016ee4274e45d019c5d7e7106d9a47cbba09fb43e5d39696741a6978259",
+      "main_executable_sha256": "2db182ec906334bc371830758b51f725b7747d1500f0ef32aad90457f98a6b60",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.2",
+      "build": "40",
+      "analysis_ipa_sha256": "feab1f85b12b0c67c4715ffb99f3cc8d127591d73a3a017b677e810d5d27733c",
+      "store_ipa_sha256": "f9910427a772311cdbdae5f8755fda6106ab7e5e511da523d24e954f98f026c3",
+      "main_executable_sha256": "c744af8749caa4f636a419623309ff5ac302023bad02b133ab1e28544c45b7b4",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.2.1",
+      "build": "42",
+      "analysis_ipa_sha256": "ac4a22b7064a172a1ba49b6636fe9016c5bea29071f60c369e5226c98e4b8620",
+      "store_ipa_sha256": "25c642404dac905d8d13ac896b7dc6ad343a77a1ae1984aa8857f15a194146e7",
+      "main_executable_sha256": "19558bd46295023d6ccfabba474e259aa766fa58aa862d59225de47eced4aabf",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.3",
+      "build": "41",
+      "analysis_ipa_sha256": "88f4a3dfa01be2401a566723540f1c742d02369bf78a4ddf05705fd09d4a931c",
+      "store_ipa_sha256": "1ee51b62557b73624e7706911c5777961bb7e9328a61d0a42ad2d67182218567",
+      "main_executable_sha256": "6c0ffb90a6f590a9381c08b6e04f5c5c6e2c8d5f2bc08ece2ca50d007def45b9",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.3.1",
+      "build": "42",
+      "analysis_ipa_sha256": "e68c6cf102dee10fe58caa550025af5387a8b7387a2b25cdfb417541a9c29b26",
+      "store_ipa_sha256": "5450c426ddfb026565d2600b8e94dd90b7a962523c35f3c21a9db22bcbc25981",
+      "main_executable_sha256": "f6e85694fbb408ec077a14d0150de4a529968e4e925d06e070ee1248e5b8ff68",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.3.2",
+      "build": "43",
+      "analysis_ipa_sha256": "5df11c44c6437f4122b83dcf93bcdeb441348d6315c183c3649e97bf11822529",
+      "store_ipa_sha256": "ca8a0f6e90fe13d8324555669da669de500e55d1ea126c438255884f35b6f7db",
+      "main_executable_sha256": "4ce4182ec08ffee3ff6ca2d0c5613656c4c50368c3723a6e3e657c99dd6ae085",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.3.3",
+      "build": "44",
+      "analysis_ipa_sha256": "f53635ad98f462b53b12ec02facffcc84468c2e37be5c1b4105aeb54fb29447e",
+      "store_ipa_sha256": "b01da887904ec84db0e20d82e54ff5635bc75503920e562ad7fb598bee8ddde6",
+      "main_executable_sha256": "3a6e31e3788ef4183423c129df01b364595ce4eb738888da0aeb230086f2d85d",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.3.4",
+      "build": "47",
+      "analysis_ipa_sha256": "016110005c99951b5cf4f20ef03bdf39dcbbd3c3f9e2c52cb7ef19c32431f242",
+      "store_ipa_sha256": "d8f3a6b7e89aa7252b519589bee6c3f01ea47e3cd5d797e2b20455358f007b5b",
+      "main_executable_sha256": "a489158d73b58769df3a63033acedcf1ab26f40569662112c66ffa8ea86148e8",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.3.5",
+      "build": "50",
+      "analysis_ipa_sha256": "ab739f137bb493897f7d19fd5d05ec474214a0248ac08d3dadcc06d568dba026",
+      "store_ipa_sha256": "ddd01fe92079a9e4931030843798972a0e75525d9def5ee3bd5f3ba12aefbc45",
+      "main_executable_sha256": "ad92a8d81ddd673662da86365beb9e019bf11cb6434d678516b635deb9a28f9e",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.3.6",
+      "build": "52",
+      "analysis_ipa_sha256": "7fd5bfab22304970b9a9502e937a9019679c053406bf2c455ac853837556ef74",
+      "store_ipa_sha256": "586260f8f96dbab385dbdf529b50717f40d61937ab2da14796f84d8bc86b0a2c",
+      "main_executable_sha256": "d6c409524c1c21cc8ddc45fc8b307bb010be3551593a52d01b7a5e63fdc2f277",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.4",
+      "build": "54",
+      "analysis_ipa_sha256": "1fd25262ff71028925b05d1854b6e4b2716346f7fd0f5ceda61c9a2cbd07b6bd",
+      "store_ipa_sha256": "18df2efda979fedda579c38ecb435780bb3d1761255b3f5fd4cba3551219cacb",
+      "main_executable_sha256": "e1598f098185db16cde35996bae4e10397ebc7580e919338738fda43d725856b",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.4.1",
+      "build": "61",
+      "analysis_ipa_sha256": "c3fcdac98b73abb4a4dafee3ff84fe238b52e76c7db63e04a0c01479e868b628",
+      "store_ipa_sha256": "c0eb0ae15483642e9ad453078b3ea208e28adea2f5d4c7582db45ca306a867fa",
+      "main_executable_sha256": "a267eca6789af382d311c3ba12eeab0d708412cdff56a07e91b99d56a3c3a493",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.4.2",
+      "build": "64",
+      "analysis_ipa_sha256": "fa917c1ed60a56b2c1fd62e5aa84f0b7ab937bef7f8879d6834043c889b41262",
+      "store_ipa_sha256": "52d1481ad46e78d1b76c3c23c8427677a4dfa3c33091618f6cad77a6f52f1375",
+      "main_executable_sha256": "d18a5de32512b4ebb90ae4f30602ea48a629c179ad55523c6fb2092dfade9938",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    },
+    {
+      "version": "1.4.3",
+      "build": "66",
+      "analysis_ipa_sha256": "835c569188df7c1554879f8846d640571f2833a041afedc4f453eb094ce375be",
+      "store_ipa_sha256": "fd14ec8f1bf44a443eb79646900af4dbc0f4b1ac52e95a96e80a12e3c3107270",
+      "main_executable_sha256": "a60dc92a469991a53f1be5db6dc147d8ae399e4fc9d28784861e1ed4eaa46c03",
+      "comparison_passed": true,
+      "uuid_match": true,
+      "compared_regions_match": true
+    }
+  ]
+}
