@@ -1,0 +1,198 @@
+{
+ "sony": {
+  "version": "9.5.0",
+  "main_sha256": "35e0cecb6e11604669be99185c44a51e6e9ea2f9c27a57dc95281eae93ea93e4",
+  "scenp_sha256": "647f6c7c7d01aba1fd67c42437d7b127c8380b87a8f69bc6f15db8391a4280c1"
+ },
+ "chiaki_ng_ref": "4c2643f9b9b5c10907dbe82669f4d428ea86147d",
+ "asobi_current_sha256": "401d41cbe773f315bef411216d7eb65d54407cf51ced63f0e0a5977c7860ddf0",
+ "rows": [
+  {
+   "id": "stun_dynamic_list",
+   "choice": "Fetch public STUN hosts from the always-online-stun GitHub list",
+   "sony": {
+    "always-online-stun": 0,
+    "valid_hosts.txt": 0
+   },
+   "asobi_first_release": {
+    "always-online-stun": "1.1.5",
+    "valid_hosts.txt": "1.1.5"
+   },
+   "asobi_1.5": {
+    "always-online-stun": 1,
+    "valid_hosts.txt": 1
+   },
+   "chiaki_ng": {
+    "file": "lib/src/remote/holepunch.c",
+    "present": true,
+    "line_authors": {
+     "Street Pea": 7
+    }
+   }
+  },
+  {
+   "id": "stun_hardcoded_list",
+   "choice": "Hard-coded public STUN list beginning stun.moonlight-stream.org, then stun.l.google.com and stun1-4.l.google.com",
+   "sony": {
+    "stun.moonlight-stream.org": 0,
+    "stun4.l.google.com": 0
+   },
+   "asobi_first_release": {
+    "stun.moonlight-stream.org": "1.0",
+    "stun4.l.google.com": "1.0"
+   },
+   "asobi_1.5": {
+    "stun.moonlight-stream.org": 1,
+    "stun4.l.google.com": 1
+   },
+   "chiaki_ng": {
+    "file": "lib/src/remote/stun.h",
+    "present": true,
+    "line_authors": {
+     "Johannes Baiter": 11
+    }
+   }
+  },
+  {
+   "id": "port_allocation_cases",
+   "choice": "Port-increment derivation from three STUN responses by address pattern (A/A/B -> p2-p1, A/B/A -> (p3-p1)/2, A/B/B -> p3-p2, same address with unequal increments -> random)",
+   "sony": {
+    "3 results A/A/B, increment from indices 0,1": 0,
+    "3 results A/B/A, increment from indices 0,2": 0,
+    "3 results A/B/B, increment from indices 1,2": 0,
+    "3 results, same addr, inconsistent increments": 0
+   },
+   "asobi_first_release": {
+    "3 results A/A/B, increment from indices 0,1": "1.1.8",
+    "3 results A/B/A, increment from indices 0,2": "1.1.8",
+    "3 results A/B/B, increment from indices 1,2": "1.1.8",
+    "3 results, same addr, inconsistent increments": "1.1.8"
+   },
+   "asobi_1.5": {
+    "3 results A/A/B, increment from indices 0,1": 1,
+    "3 results A/B/A, increment from indices 0,2": 1,
+    "3 results A/B/B, increment from indices 1,2": 1,
+    "3 results, same addr, inconsistent increments": 1
+   },
+   "chiaki_ng": {
+    "file": "lib/src/remote/stun.h",
+    "present": true,
+    "line_authors": {
+     "Streetpea": 24,
+     "Street Pea": 33
+    }
+   }
+  },
+  {
+   "id": "random_allocation_guesses",
+   "choice": "75 candidate port guesses on random NAT allocation; 8 increment-predicted guesses otherwise",
+   "sony": {
+    "adding 75 port guesses": 0,
+    "Added 75 STUN port guesses": 0,
+    "Added 8 STUN port guesses": 0,
+    "STUN port guesses": 0
+   },
+   "asobi_first_release": {
+    "adding 75 port guesses": "1.1.3",
+    "Added 75 STUN port guesses": "1.1.3",
+    "Added 8 STUN port guesses": "1.1",
+    "STUN port guesses": "1.1"
+   },
+   "asobi_1.5": {
+    "adding 75 port guesses": 0,
+    "Added 75 STUN port guesses": 0,
+    "Added 8 STUN port guesses": 0,
+    "STUN port guesses": 2
+   },
+   "chiaki_ng": {
+    "file": "lib/src/remote/holepunch.c",
+    "present": true,
+    "line_authors": {
+     "Street Pea": 1,
+     "Streetpea": 1
+    }
+   }
+  },
+  {
+   "id": "sony_stun_server",
+   "choice": "Sony's own STUN host (control: Sony-specific)",
+   "sony": {
+    "stun.playstation.net": 1
+   },
+   "asobi_first_release": {
+    "stun.playstation.net": null
+   },
+   "asobi_1.5": {
+    "stun.playstation.net": 0
+   }
+  },
+  {
+   "id": "sony_signaling_library",
+   "choice": "Sony NP NAT-type check and remote-play session signaling library (control: Sony-specific)",
+   "sony": {
+    "sceNpNatTypeCheck": 3,
+    "sceNpRemotePlaySessionSignalingEstablishConnection": 3
+   },
+   "asobi_first_release": {
+    "sceNpNatTypeCheck": null,
+    "sceNpRemotePlaySessionSignalingEstablishConnection": null
+   },
+   "asobi_1.5": {
+    "sceNpNatTypeCheck": 0,
+    "sceNpRemotePlaySessionSignalingEstablishConnection": 0
+   }
+  },
+  {
+   "id": "protocol_session_messages",
+   "choice": "PSN session-message actions OFFER/ACCEPT/RESULT and localPeerAddr (control: protocol)",
+   "sony": {
+    "OFFER": 1,
+    "ACCEPT": 1,
+    "RESULT": 1,
+    "localPeerAddr": 1
+   },
+   "asobi_first_release": {
+    "OFFER": "1.0",
+    "ACCEPT": "1.0",
+    "RESULT": "1.0",
+    "localPeerAddr": "1.0"
+   },
+   "asobi_1.5": {
+    "OFFER": 51,
+    "ACCEPT": 52,
+    "RESULT": 28,
+    "localPeerAddr": 4
+   },
+   "chiaki_ng": {
+    "file": "lib/src/remote/holepunch.c",
+    "present": true,
+    "line_authors": {
+     "Johannes Baiter": 11,
+     "Street Pea": 6
+    }
+   }
+  }
+ ],
+ "key_position": {
+  "choice": "Advance key position by data_size + data_size % 16 (chiaki-ng commit 6fc4b8f6, Street Pea)",
+  "chiaki_ng_present": true,
+  "sony_size_plus_size_mod16_instruction_matches": 0,
+  "sony_instructions_scanned": 668013,
+  "sony_ring_buffer_design_strings": {
+   "Crypt::getKeyPos - mKeyPosRollover = %u, mKeyPosLast = %u": true,
+   "Crypt::getKeyPos - key pos is whole buffer behind": true,
+   "dataSize larger then mBufSize - mReservedBufSize - mBlockSize": true
+  },
+  "asobi": "See existing key-update-integration.json and the 2026-10-01 key-position evidence; not re-measured here."
+ },
+ "not_comparable": [
+  {
+   "id": "accept_wait_30s",
+   "reason": "Sony performs OFFER/ACCEPT/RESULT inside its scenp signaling library rather than app-level code; its timeout policy was not isolated. Not claimed."
+  },
+  {
+   "id": "senkusha_fallback_1454_1000",
+   "reason": "Original Chiaki values (Florian Märkl, 2019); Sony comparison not isolated. Not claimed as a chiaki-ng-specific choice."
+  }
+ ]
+}

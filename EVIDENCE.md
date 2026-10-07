@@ -21,6 +21,10 @@ Reference: [chiaki-ng v1.9.9 commit](https://github.com/chiaki-ng/chiaki-ng/tree
 
 The 1.1.9 comparison locates corresponding operation families after exact citation removal; it is not a claim of byte-identical full functions. The 1.5 prefix helper at 0x1004d3f48 builds a first-three-components string for four dotted components; it does not independently prove the entire subnet policy or a source-expression match.
 
+## Sony client comparison
+
+[Three-way comparison](evidence/sony-three-way.json) of Sony PS Remote Play 9.5.0, chiaki-ng (pinned `4c2643f9`) and Asobi. Sony uses NP signaling, `stun.playstation.net` and a ring-buffer key position; Asobi uses none of these. Asobi carries chiaki-ng choices that Sony lacks: the always-online-stun list, the three-response port-increment cases, 75/8 port guesses, `size + size % 16` and the moonlight-first STUN list. Session messages common to all three are treated as protocol. The ACCEPT wait and Senkusha fallback were not comparable. URLs and constants are evidence of copying, not standalone protected expression.
+
 ## Dated publisher evidence
 
 October 6 observations refer to [the publisher site](https://asobiapp.com/) and [its legal page](https://asobiapp.com/legal.html), plus supplied About/legal screenshots. The About view identifies 1.5 without a build number. Screenshots, bulk page captures and correspondence are withheld here; absence of visible notices is a bounded observer report, not a complete UI inspection. The developer's independent-implementation position and prior private-inspection offer are acknowledged in FINDINGS.md.
