@@ -1,6 +1,6 @@
 # Asobi provenance and AGPL compliance audit
 
-Public-review edition, October 7, 2026. This is a curated evidence package staged privately for review before any public release. No complaint or issue update has been submitted. [Findings and limits](FINDINGS.md) distinguish measured code provenance from unresolved licensing scope.
+Public-review edition, October 7, 2026; updated October 8 with PSStream's January 2026 Steam build. This is a curated evidence package staged privately for review before any public release. No complaint or issue update has been submitted. [Findings and limits](FINDINGS.md) distinguish measured code provenance from unresolved licensing scope.
 
 > This audit is maintained by the chiaki-ng project. Street Pea is its maintainer and a copyright holder, pursuing their own rights. xlanor has also authorized representation, but no xlanor-authored code was identified in Asobi, so xlanor is not named in the Asobi drafts (see RIGHTS-HOLDERS.md). Forward Technologies has also authorized Street Pea to pursue its PSStream/Pylux rights in the Asobi case. Other contributors are not represented without their authorization.
 
