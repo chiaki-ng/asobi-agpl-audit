@@ -151,5 +151,150 @@
   "ios_lines_missing_on_mac": [],
   "mac_only_note": "3 extra lines are inline string-constant fragments"
  },
- "limits": "Shows the PSStream step numbering, identifiers and three log lines predate Asobi 1.1. Does not by itself measure how much PSStream code was adapted. Sony protocol facts are excluded. Not a claim of copying from Pylux source."
+ "limits": "Shows the PSStream step numbering, identifiers and three log lines predate Asobi 1.1. Does not by itself measure how much PSStream code was adapted. Sony protocol facts are excluded. Not a claim of copying from Pylux source. All eight compared identifier names occur in Sony official PlayStation Plus PC client and are excluded from PSStream-specific inference.",
+ "extended_comparison_2026_10_08": {
+  "method": "Static ASCII string scan, trim leading/trailing whitespace; no binaries executed",
+  "versions_examined": 30,
+  "precloud_versions": [
+   "1.0",
+   "1.0.3",
+   "1.0.5",
+   "1.0.6",
+   "1.0.7",
+   "1.0.8",
+   "1.0.9"
+  ],
+  "selected_authored_log_lines": {
+   "=== Centralized Authorization Check ===": {
+    "first_asobi": "1.1",
+    "last_asobi": "1.5"
+   },
+   "=== Kamaji Step 0.5c Response ===": {
+    "first_asobi": "1.1",
+    "last_asobi": "1.5"
+   },
+   "Detected platform from Kamaji session:": {
+    "first_asobi": "1.1",
+    "last_asobi": "1.5"
+   },
+   "=== Kamaji Step 6 Response ===": {
+    "first_asobi": "1.1.2",
+    "last_asobi": "1.5"
+   },
+   "=== Kamaji Session Created Successfully ===": {
+    "first_asobi": "1.1.5",
+    "last_asobi": "1.5"
+   },
+   "Kamaji Step 0.5b complete - Got anonymous auth code:": {
+    "first_asobi": "1.1.5",
+    "last_asobi": "1.5"
+   },
+   "Kamaji Step 0.5b: GET /oauth/authorize (for anonymous session code)": {
+    "first_asobi": "1.1.5",
+    "last_asobi": "1.5"
+   },
+   "Kamaji Step 0.5c complete - Got JSESSIONID:": {
+    "first_asobi": "1.1.5",
+    "last_asobi": "1.5"
+   },
+   "Kamaji Step 0.5c: POST /user/session (anonymous) - with OAuth code body": {
+    "first_asobi": "1.1.5",
+    "last_asobi": "1.5"
+   },
+   "Kamaji Step 0.5e: Starting entitlement check/acquisition flow": {
+    "first_asobi": "1.1.5",
+    "last_asobi": "1.5"
+   },
+   "Kamaji Step 5 complete - Got authenticated auth code:": {
+    "first_asobi": "1.1.5",
+    "last_asobi": "1.5"
+   }
+  },
+  "related_near_match": [
+   {
+    "psstream": "Kamaji Step 0.5e.1: Getting OAuth token for Commerce API...",
+    "asobi": "Step 0.5e.1: Getting OAuth token for Commerce API...",
+    "first_asobi": "1.1",
+    "last_asobi": "1.1"
+   }
+  ],
+  "exclusions": "Sony URLs, protocol fields, OAuth scopes, user agents, library text, generic status messages, and chiaki-ng material are not counted.",
+  "limits": "Matches date shared wording and step organization. They do not establish how much PSStream source expression, if any, was translated into Asobi.",
+  "sony_remote_play_ios_control": {
+   "package_sha256": "54234967c4eb064e8174d17aa56e173fe74a1e8c61f7505259735474707dbeef",
+   "members_scanned": 165,
+   "selected_exact_line_hits": 0,
+   "limit": "Sony PS Remote Play 9.5.0 is a different product and may not implement PSStream's cloud flow. This exact-byte scan cannot exclude equivalent behavior or matching text in another Sony client/version."
+  },
+  "sony_cloud_client_control": {
+   "official_installer": {
+    "name": "PlayStationPlus-12.7.0.exe",
+    "bytes": 115672832,
+    "sha256": "93dabd7a537a0b67a6732dcaf0f868199eb0e426c92f6d929fb1c93d32dcf0c1"
+   },
+   "main_executable": {
+    "name": "pspluslauncher.exe",
+    "bytes": 6884104,
+    "sha256": "a4aa3982166b56296763ce6bcdcc804a7873958d4472e9fa7d65b8db958cfe27"
+   },
+   "client_file_count": 140,
+   "selected_authored_log_line_hits": {
+    "=== Centralized Authorization Check ===": 0,
+    "=== Kamaji Step 0.5c Response ===": 0,
+    "Detected platform from Kamaji session:": 0,
+    "=== Kamaji Step 6 Response ===": 0,
+    "=== Kamaji Session Created Successfully ===": 0,
+    "Kamaji Step 0.5b complete - Got anonymous auth code:": 0,
+    "Kamaji Step 0.5b: GET /oauth/authorize (for anonymous session code)": 0,
+    "Kamaji Step 0.5c complete - Got JSESSIONID:": 0,
+    "Kamaji Step 0.5c: POST /user/session (anonymous) - with OAuth code body": 0,
+    "Kamaji Step 0.5e: Starting entitlement check/acquisition flow": 0,
+    "Kamaji Step 5 complete - Got authenticated auth code:": 0
+   },
+   "step_marker_hits": {
+    "Kamaji Step": 0,
+    "Gaikai Step": 0,
+    "Step 0.5b": 0,
+    "Step 8a": 0
+   },
+   "shared_sony_identifier_hits": {
+    "gkCloudAuthCode": [
+     "pspluslauncher.exe"
+    ],
+    "streamServerAuthCode": [
+     "pspluslauncher.exe"
+    ],
+    "ps3GkClientId": [
+     "pspluslauncher.exe"
+    ],
+    "gkClientId": [
+     "pspluslauncher.exe"
+    ],
+    "streamServerClientId": [
+     "pspluslauncher.exe"
+    ],
+    "requestGameSpecification": [
+     "pspluslauncher.exe"
+    ],
+    "pollFrequency": [
+     "pspluslauncher.exe"
+    ],
+    "lockAcquired": [
+     "pspluslauncher.exe"
+    ]
+   },
+   "limit": "Exact stored ASCII only; cannot exclude transformed strings or equivalent behavior. This PC app streams PS4/classic titles, not the PS5 Portal cloud product used by PSStream/Asobi.",
+   "method": "Advanced Installer footer; XOR first 512 bytes of two 7z payloads; 7zz extract; exact ASCII scan of all client files; no code executed",
+   "archives": {
+    "FILES.7z": {
+     "bytes": 85245314,
+     "sha256": "8773f3007e82365f2c5eee4ed006037ca794ab8c653d5c005ae26350b0f34aae"
+    },
+    "PlayStationPlus.7z": {
+     "bytes": 1281845,
+     "sha256": "d7f5f28158a2bad3c4a9f54b5c200ce1bdc6516f8af55e26cf3832ad1faede18"
+    }
+   }
+  }
+ }
 }
