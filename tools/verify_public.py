@@ -11,9 +11,12 @@ if set(files)!=(set(expected)|{'SHA256SUMS'}):raise SystemExit('Manifest file se
 for name,digest in expected.items():
  p=files[name]
  if p.is_symlink():raise SystemExit('Symlink: '+name)
- if p.suffix not in {'.md','.json','.py','.asm','.txt',''} and name!='.gitignore':raise SystemExit('Unexpected file type: '+name)
  b=p.read_bytes()
+ if p.suffix=='.png':
+  if not name.startswith(('evidence/ipa-exhibits/','evidence/github-screenshots/')) or b[:8]!=b'\x89PNG\r\n\x1a\n':raise SystemExit('Unexpected image: '+name)
+ elif p.suffix not in {'.md','.json','.py','.asm','.txt',''} and name!='.gitignore':raise SystemExit('Unexpected file type: '+name)
  if hashlib.sha256(b).hexdigest()!=digest:raise SystemExit('Hash mismatch: '+name)
+ if p.suffix=='.png':continue
  s=b.decode('utf-8')
  # Checker source contains its own patterns; evidence/docs must not contain their matches.
  if not name.startswith('tools/'):

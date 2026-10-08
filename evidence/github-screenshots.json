@@ -1,0 +1,29 @@
+{
+  "captured_local_date": "2026-10-08",
+  "source": "User-supplied macOS screenshots of public GitHub issue #725",
+  "method": "PNG re-encoded to remove ICC/XMP metadata; RGBA pixels verified identical to originals",
+  "screenshots": [
+    {
+      "published_file": "evidence/github-screenshots/march-25-denial.png",
+      "original_sha256": "ecc3f349103e49c1d1772a38d5ef63341e45dfdb593526c4d6edc008b5f41b41",
+      "published_sha256": "dbe4616694e4f319df093ffee175a91ade2e826bcbd9a3b7f1aeaa17a59dc960",
+      "dimensions": [
+        2874,
+        1964
+      ],
+      "pixel_identical": true,
+      "metadata_removed": true
+    },
+    {
+      "published_file": "evidence/github-screenshots/march-26-swift-statement.png",
+      "original_sha256": "5876a2e5d7bf6fa760b1f623185509f5d81d9160cedb7d75dd3193b5ac31e68d",
+      "published_sha256": "a7aa1a5d250d5cffd6aab07a223c7e5b949c81d1707fdb4efdd7d74a1893b87c",
+      "dimensions": [
+        2874,
+        1964
+      ],
+      "pixel_identical": true,
+      "metadata_removed": true
+    }
+  ]
+}

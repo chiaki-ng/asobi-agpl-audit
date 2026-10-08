@@ -6,7 +6,7 @@ This audit is maintained by the chiaki-ng project. Street Pea is its maintainer 
 
 ## Measured evidence
 
-**The developer's statements.** On chiaki-ng issue #725 (March 25–26, 2026) the developer wrote: “I'm not using any Chiaki code”; “All these steps can be found just as fine via the Windows remote play client where I got most of my info from”; and “My implementation is written entirely in Swift, no Chiaki or PSStream code is compiled, linked, or included.”
+**The developer's statements.** On [chiaki-ng issue #725](https://github.com/chiaki-ng/chiaki-ng/issues/725) (March 25–26, 2026), the developer wrote ([dated comment snapshot](evidence/developer-statements-issue-725.json)): “I'm not using any Chiaki code”; “All these steps can be found just as fine via the Windows remote play client where I got most of my info from”; and “My implementation is written entirely in Swift, no Chiaki or PSStream code is compiled, linked, or included.”
 
 His own shipped code contradicts these statements:
 
