@@ -8,6 +8,10 @@ Native analysis used Apple's otool, ARM64 branch/address decoding and LC_FUNCTIO
 
 Run `python3 tools/verify_public.py`. SHA256SUMS hashes the transformed public files, not the omitted private originals. The manifest itself is protected by the fresh Git commit. These checks establish snapshot consistency, not truth of every interpretation or guaranteed removal of every conceivable identifier.
 
+## Check the developer-notes seal
+
+With any App Store IPA of Asobi 1.0–1.3, run `python3 tools/verify_notes_seal.py STORE.ipa`. It reads the code signature's CodeDirectory, confirms that special slot −3 equals the SHA-256 of `_CodeSignature/CodeResources`, and that each bundled Markdown note matches its sealed hash. It reads no purchaser metadata and executes nothing. The executable's encryption does not cover these files or the signature.
+
 ## Recheck a supplied executable range
 
 Obtain a matching executable independently and verify its hash against evidence/releases.json or the integration record. Do not put inputs inside the public repository. Use:

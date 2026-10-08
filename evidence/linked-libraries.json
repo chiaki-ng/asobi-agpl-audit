@@ -1,0 +1,185 @@
+{
+ "measured": "2026-10-06",
+ "versions": [
+  {
+   "version": "1.0.9",
+   "build": "11",
+   "main_sha256": "72bd89f1aeea27be6db972e82de250471460e46333c93b3c8279ec3aef81d0f0",
+   "bundled_dynamic_dependencies": []
+  },
+  {
+   "version": "1.1",
+   "build": "25",
+   "main_sha256": "433ad738c0d25102c8552935e2c7ccbb4df3eb50d36d5e03499471d4fd1f75bc",
+   "bundled_dynamic_dependencies": []
+  },
+  {
+   "version": "1.1.2",
+   "build": "25",
+   "main_sha256": "652ec314948094fbd3e2fac3ae16f17987a9fdc3ae59dcb7bcf7795e4533691b",
+   "bundled_dynamic_dependencies": []
+  },
+  {
+   "version": "1.1.3",
+   "build": "28",
+   "main_sha256": "fe1312489ee74e8c01ac153fbf8d9abfe5883aea1791a0147a5e973f6a360410",
+   "bundled_dynamic_dependencies": []
+  },
+  {
+   "version": "1.1.4",
+   "build": "29",
+   "main_sha256": "96d3bee18a8d27c81ea476a272a5456b7f465fb5233169728b40b8aa2a0ae318",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.1.5",
+   "build": "30",
+   "main_sha256": "c91b94a07d8f1f09643ed6082ae42c35753e04123797569fd0f948890c15b861",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.1.6",
+   "build": "32",
+   "main_sha256": "a510c5f9370504608abe95b6871a8219b59bc3ba00342eed6182e86511b9158d",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.1.7",
+   "build": "32",
+   "main_sha256": "1a1de3a47cba10c9f37e0d2d252f93c98aa68f119647f70f593e14c0a7dd9c67",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.1.8",
+   "build": "33",
+   "main_sha256": "da45e22fcd1ad4efd4060a76bff09d99baf7a053cb1c01017632075044aaaca4",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.1.9",
+   "build": "38",
+   "main_sha256": "2db182ec906334bc371830758b51f725b7747d1500f0ef32aad90457f98a6b60",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.2",
+   "build": "40",
+   "main_sha256": "c744af8749caa4f636a419623309ff5ac302023bad02b133ab1e28544c45b7b4",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.2.1",
+   "build": "42",
+   "main_sha256": "19558bd46295023d6ccfabba474e259aa766fa58aa862d59225de47eced4aabf",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.3",
+   "build": "41",
+   "main_sha256": "6c0ffb90a6f590a9381c08b6e04f5c5c6e2c8d5f2bc08ece2ca50d007def45b9",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.3.1",
+   "build": "42",
+   "main_sha256": "f6e85694fbb408ec077a14d0150de4a529968e4e925d06e070ee1248e5b8ff68",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.3.2",
+   "build": "43",
+   "main_sha256": "4ce4182ec08ffee3ff6ca2d0c5613656c4c50368c3723a6e3e657c99dd6ae085",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.3.3",
+   "build": "44",
+   "main_sha256": "3a6e31e3788ef4183423c129df01b364595ce4eb738888da0aeb230086f2d85d",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.3.4",
+   "build": "47",
+   "main_sha256": "a489158d73b58769df3a63033acedcf1ab26f40569662112c66ffa8ea86148e8",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.3.5",
+   "build": "50",
+   "main_sha256": "ad92a8d81ddd673662da86365beb9e019bf11cb6434d678516b635deb9a28f9e",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.3.6",
+   "build": "52",
+   "main_sha256": "d6c409524c1c21cc8ddc45fc8b307bb010be3551593a52d01b7a5e63fdc2f277",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.4",
+   "build": "54",
+   "main_sha256": "e1598f098185db16cde35996bae4e10397ebc7580e919338738fda43d725856b",
+   "bundled_dynamic_dependencies": [
+    "@rpath/libswiftCompatibilitySpan.dylib"
+   ]
+  },
+  {
+   "version": "1.4.1",
+   "build": "61",
+   "main_sha256": "a267eca6789af382d311c3ba12eeab0d708412cdff56a07e91b99d56a3c3a493",
+   "bundled_dynamic_dependencies": []
+  },
+  {
+   "version": "1.4.2",
+   "build": "64",
+   "main_sha256": "d18a5de32512b4ebb90ae4f30602ea48a629c179ad55523c6fb2092dfade9938",
+   "bundled_dynamic_dependencies": [
+    "@rpath/LiveKitWebRTC.framework/LiveKitWebRTC"
+   ]
+  },
+  {
+   "version": "1.4.3",
+   "build": "66",
+   "main_sha256": "a60dc92a469991a53f1be5db6dc147d8ae399e4fc9d28784861e1ed4eaa46c03",
+   "bundled_dynamic_dependencies": [
+    "@rpath/LiveKitWebRTC.framework/LiveKitWebRTC"
+   ]
+  }
+ ],
+ "markers": {
+  "Jerasure": "All 23 main executables contain jerasure.c, jerasure_matrix_dotprod and its w-check error text (compiled-in FEC, as in Chiaki).",
+  "SwiftNIO BoringSSL": "1.1.4-1.4",
+  "LiveKitWebRTC": "loaded from 1.4.2"
+ },
+ "limits": "No dependency name identifies Chiaki. Jerasure is an independent library; its presence alone does not establish copying."
+}

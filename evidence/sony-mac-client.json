@@ -1,0 +1,24 @@
+{
+ "measured": "2026-10-02",
+ "source": "https://remoteplay.dl.playstation.net/remoteplay/module/mac/RemotePlayInstaller.pkg",
+ "app_bundle_identifier": "com.playstation.RemotePlay",
+ "version": "9.5.0",
+ "package_sha256": "a82a7f645ff009a0c70d4b989f34249a51d800ca7aa8b4bf81772ad7d59a6a82",
+ "file_count": 103,
+ "marker_matches": {
+  "Audio AV packet is empty": 0,
+  "EXPECT_PONG_TIMEOUT_MS": 0,
+  "TAKION_A_RWND": 0,
+  "TAKION_COOKIE_SIZE": 0,
+  "adaptiveStreamMode_fragment": 0,
+  "asobi_advance_key_pos_symbol": 0,
+  "chiaki_name": 0,
+  "key_0_off": 0,
+  "normalized_takion_descriptor_full": 0,
+  "positive_control_RemotePlay": 930,
+  "streetpea_STUN_list_URL": 0,
+  "tkproto_qualification": 0,
+  "wurzelbert": 0
+ },
+ "limitations": "Exact byte scans only; a negative result does not prove absence of similar behavior or markers in other Sony versions/platforms."
+}

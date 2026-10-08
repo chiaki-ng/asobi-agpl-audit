@@ -1,0 +1,294 @@
+{
+ "measured": "2026-10-06",
+ "scope": "Readable strings of iOS executables 1.0.9-1.4.3 (1.1.1 unavailable)",
+ "per_version_counts": {
+  "1.0.9": {
+   "chiaki_strings": 18,
+   "psstream_strings": 0,
+   "stun_list_url": false
+  },
+  "1.1": {
+   "chiaki_strings": 32,
+   "psstream_strings": 9,
+   "stun_list_url": false
+  },
+  "1.1.2": {
+   "chiaki_strings": 34,
+   "psstream_strings": 7,
+   "stun_list_url": false
+  },
+  "1.1.3": {
+   "chiaki_strings": 35,
+   "psstream_strings": 7,
+   "stun_list_url": false
+  },
+  "1.1.4": {
+   "chiaki_strings": 35,
+   "psstream_strings": 6,
+   "stun_list_url": false
+  },
+  "1.1.5": {
+   "chiaki_strings": 36,
+   "psstream_strings": 5,
+   "stun_list_url": true
+  },
+  "1.1.6": {
+   "chiaki_strings": 36,
+   "psstream_strings": 4,
+   "stun_list_url": true
+  },
+  "1.1.7": {
+   "chiaki_strings": 36,
+   "psstream_strings": 4,
+   "stun_list_url": true
+  },
+  "1.1.8": {
+   "chiaki_strings": 37,
+   "psstream_strings": 4,
+   "stun_list_url": true
+  },
+  "1.1.9": {
+   "chiaki_strings": 3,
+   "psstream_strings": 2,
+   "stun_list_url": true
+  },
+  "1.2": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.2.1": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.3": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.3.1": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.3.2": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.3.3": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.3.4": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.3.5": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.3.6": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.4": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.4.1": {
+   "chiaki_strings": 3,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.4.2": {
+   "chiaki_strings": 0,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  },
+  "1.4.3": {
+   "chiaki_strings": 0,
+   "psstream_strings": 0,
+   "stun_list_url": true
+  }
+ },
+ "removed_strings": {
+  "1.1.8->1.1.9": [
+   {
+    "removed": "ACCEPT candidate format (Chiaki-style):",
+    "replacement": "ACCEPT candidate format :"
+   },
+   {
+    "removed": "CORRECT (Chiaki remote play scope)",
+    "replacement": "CORRECT (remote play scope)"
+   },
+   {
+    "removed": "Chiaki Encoded ID: %s",
+    "replacement": "Encoded Account ID: %s"
+   },
+   {
+    "removed": "Chiaki ID:",
+    "replacement": null
+   },
+   {
+    "removed": "Chiaki behavior: Abort if holepunch verification fails",
+    "replacement": "Abort: holepunch verification failed"
+   },
+   {
+    "removed": "Converted account ID to Chiaki format:",
+    "replacement": "Converted account ID to base64 format:"
+   },
+   {
+    "removed": "Creating and binding socket (Chiaki style: INADDR_ANY, port 0)...",
+    "replacement": "Creating and binding socket (INADDR_ANY, port 0)..."
+   },
+   {
+    "removed": "Creating socket before OFFER (Chiaki requirement)...",
+    "replacement": "Creating socket before OFFER..."
+   },
+   {
+    "removed": "Found Chiaki ID for account:",
+    "replacement": "Found encoded account ID for:"
+   },
+   {
+    "removed": "Generated Aeropause (Chiaki algorithm):",
+    "replacement": "Generated Aeropause:"
+   },
+   {
+    "removed": "Generating auth data using Chiaki algorithm...",
+    "replacement": "Generating auth data..."
+   },
+   {
+    "removed": "Haptics rumble synthesis started (matching Chiaki fallback mode)",
+    "replacement": "Haptics rumble synthesis started (fallback mode)"
+   },
+   {
+    "removed": "No Chiaki ID found in iCloud for account:",
+    "replacement": "No encoded account ID found in iCloud for:"
+   },
+   {
+    "removed": "No controller connected - feedback disabled (matching Chiaki)",
+    "replacement": "No controller connected - feedback disabled"
+   },
+   {
+    "removed": "Post-signaling keep-alive (Chiaki: 1s sync delay before RUDP)...",
+    "replacement": "Post-signaling keep-alive (1s sync delay before RUDP)..."
+   },
+   {
+    "removed": "Post-signaling keep-alive failed - holepunch error (Chiaki: CHIAKI_ERR_UNKNOWN)",
+    "replacement": "Post-signaling keep-alive failed - holepunch error"
+   },
+   {
+    "removed": "Processing OFFER from console (CORRECTED CHIAKI FLOW)...",
+    "replacement": "Processing OFFER from console (CORRECTED FLOW)..."
+   },
+   {
+    "removed": "STEP 9: DATA ACCEPT exchange (Chiaki holepunch.c:1507-1556)",
+    "replacement": "STEP 9: DATA ACCEPT exchange"
+   },
+   {
+    "removed": "Sending feature enable messages (Chiaki ctrl_enable_features)...",
+    "replacement": "Sending feature enable messages..."
+   },
+   {
+    "removed": "Set DATA socket TTL=2 for holepunch probing (Chiaki two-phase)",
+    "replacement": "Set DATA socket TTL=64 for holepunch (mobile-compatible)"
+   },
+   {
+    "removed": "Set socket TTL=2 for holepunch probing (Chiaki two-phase)",
+    "replacement": "Set socket TTL=64 for holepunch (mobile-compatible)"
+   },
+   {
+    "removed": "Starting CTRL receive loop (Chiaki ctrl.c:307-490)...",
+    "replacement": "Starting CTRL receive loop..."
+   },
+   {
+    "removed": "Step 4.5: SENKUSHA on DATA socket (Chiaki session.c:611-639)",
+    "replacement": "Step 4.5: SENKUSHA on DATA socket"
+   },
+   {
+    "removed": "Step 4: DATA holepunch (Chiaki session.c:561-582)",
+    "replacement": "Step 4: DATA holepunch"
+   },
+   {
+    "removed": "Touch UP (finger 1): Chiaki ID=",
+    "replacement": "Touch UP (finger 1): touchId="
+   },
+   {
+    "removed": "Touch UP (finger 2): Chiaki ID=",
+    "replacement": "Touch UP (finger 2): touchId="
+   },
+   {
+    "removed": "Waiting for customData1 (30s, Chiaki: single 30s window)...",
+    "replacement": "Waiting for customData1 (30s window)..."
+   },
+   {
+    "removed": "but got sessionId - continuing (PSStream behavior)",
+    "replacement": "but got sessionId - continuing"
+   },
+   {
+    "removed": "candidates (Chiaki style: STUN + LOCAL)",
+    "replacement": "candidates (STUN + STATIC + LOCAL)"
+   },
+   {
+    "removed": "prepareDataSocket: Creating DATA socket (Chiaki holepunch_session_create_offer)...",
+    "replacement": "prepareDataSocket: Creating DATA socket..."
+   },
+   {
+    "removed": "' with fallback values (per PSStream binary)",
+    "replacement": null
+   },
+   {
+    "removed": "Chiaki ID not found. Please sign out and sign in again.",
+    "replacement": "Account ID not found. Please sign out and sign in again."
+   },
+   {
+    "removed": "[AddAccountFlowViewModel]    Chiaki ID (base64):",
+    "replacement": "[AddAccountFlowViewModel]    Encoded ID (base64):"
+   },
+   {
+    "removed": "[AsobiAPI] Reverse lookup for chiakiId:",
+    "replacement": "[AsobiAPI] Reverse lookup for encodedAccountId:"
+   },
+   {
+    "removed": "[InternetPlayRegistration]    RP-StartBitrate: zeros (Chiaki parity)",
+    "replacement": "[InternetPlayRegistration]    RP-StartBitrate: zeros"
+   },
+   {
+    "removed": "[RemotePlayManager]    Chiaki ID value:",
+    "replacement": "[RemotePlayManager]    Encoded account ID:"
+   }
+  ],
+  "1.1.9->1.2": [
+   {
+    "removed": "Per PSStream: BANG with ECDH keys is required for encryption",
+    "replacement": "BANG with ECDH keys is required for encryption"
+   },
+   {
+    "removed": "Starting holepunch protocol (BSD sockets like PSStream)...",
+    "replacement": "Starting holepunch protocol (BSD sockets)..."
+   }
+  ],
+  "1.4.1->1.4.2": [
+   {
+    "removed": "/reverse?chiakiId=",
+    "replacement": "/reverse?encodedId="
+   },
+   {
+    "removed": "CHIAKI",
+    "replacement": null
+   },
+   {
+    "removed": "chiakiEncodedId",
+    "replacement": null
+   }
+  ]
+ },
+ "note": "1.1.9 was packaged about a day after the developer's 2026-03-25 public denial. Most removals delete only the word Chiaki or PSStream; the surrounding message is kept. In 1.4.2 the developer's own server API parameter chiakiId became encodedId."
+}

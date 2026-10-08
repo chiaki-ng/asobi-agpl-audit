@@ -1,0 +1,516 @@
+{
+ "measured": "2026-10-08",
+ "what": "Five developer Markdown notes bundled as app resources in Asobi iOS store releases 1.0 to 1.3, removed in 1.3.1 (packaged about 2026-04-30).",
+ "seal_chain": "Apple code signature (Apple iPhone OS Application Signing, team TR4QL25YTD) -> CodeDirectory special slot -3 = SHA-256 of _CodeSignature/CodeResources -> files2 SHA-256 of each note. Checked for every release with tools/verify_notes_seal.py; FairPlay encryption covers executable code, not these resources or the signature.",
+ "releases": [
+  {
+   "version": "1.0",
+   "build": "32",
+   "code_resources_sha256": "805fa367c4e55ad06bce0cab89f6d12c59b56d70167ea0d7f20209761de4cf5a",
+   "signature_slot_minus3": "805fa367c4e55ad06bce0cab89f6d12c59b56d70167ea0d7f20209761de4cf5a",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.0.3",
+   "build": "2",
+   "code_resources_sha256": "82dcd49b3264643d7872c0709583b63bb25f2207f5b346a0f5f833cd5a450760",
+   "signature_slot_minus3": "82dcd49b3264643d7872c0709583b63bb25f2207f5b346a0f5f833cd5a450760",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.0.5",
+   "build": "4",
+   "code_resources_sha256": "36dda1588a8a67b6e47cb7c307f5410297c771892a3938a394d88d918c9eb9ac",
+   "signature_slot_minus3": "36dda1588a8a67b6e47cb7c307f5410297c771892a3938a394d88d918c9eb9ac",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.0.6",
+   "build": "6",
+   "code_resources_sha256": "360ca0823d1c5ad1b58bef3457fb9420f791cb987e59ef41163585131945f9ac",
+   "signature_slot_minus3": "360ca0823d1c5ad1b58bef3457fb9420f791cb987e59ef41163585131945f9ac",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.0.7",
+   "build": "10",
+   "code_resources_sha256": "ae11c0fb183fb88f9cc230f443c81e63c5734e32504104b216b54f54cdd0baae",
+   "signature_slot_minus3": "ae11c0fb183fb88f9cc230f443c81e63c5734e32504104b216b54f54cdd0baae",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.0.8",
+   "build": "10",
+   "code_resources_sha256": "1f0f3d9c5dd95c72e7c142f8eedeff448e7223fdefc910e2a771cfdf19b3a1d5",
+   "signature_slot_minus3": "1f0f3d9c5dd95c72e7c142f8eedeff448e7223fdefc910e2a771cfdf19b3a1d5",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.0.9",
+   "build": "11",
+   "code_resources_sha256": "cb5e87ec2319184c3e3d89b2f8ffa7aa3d82914e81e0d336274c393a57035ab0",
+   "signature_slot_minus3": "cb5e87ec2319184c3e3d89b2f8ffa7aa3d82914e81e0d336274c393a57035ab0",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1",
+   "build": "25",
+   "code_resources_sha256": "cac2fc2faab52b40d13c2b3bb8a3ab96aa9a39fe6ae49ee6044ccbfd1355963a",
+   "signature_slot_minus3": "cac2fc2faab52b40d13c2b3bb8a3ab96aa9a39fe6ae49ee6044ccbfd1355963a",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1.1",
+   "build": "21",
+   "code_resources_sha256": "7fe2ed55399f6b86e895efd7533ec3ac6ccffe8b148acaf67961d8cc1c7bb73d",
+   "signature_slot_minus3": "7fe2ed55399f6b86e895efd7533ec3ac6ccffe8b148acaf67961d8cc1c7bb73d",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1.2",
+   "build": "25",
+   "code_resources_sha256": "24d16a90975062103db7bb6ee0ea8c789afe27da61d5fad1b5febba598a7e2f7",
+   "signature_slot_minus3": "24d16a90975062103db7bb6ee0ea8c789afe27da61d5fad1b5febba598a7e2f7",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1.3",
+   "build": "28",
+   "code_resources_sha256": "5f6fac7a8c7e05b89492ac321c96a0c344c808e317b1b693147ffdaf617fb170",
+   "signature_slot_minus3": "5f6fac7a8c7e05b89492ac321c96a0c344c808e317b1b693147ffdaf617fb170",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1.4",
+   "build": "29",
+   "code_resources_sha256": "698aea4352243bc585d6e0808b79e8d6d354b82822a7cfbcd23f40aac3771b52",
+   "signature_slot_minus3": "698aea4352243bc585d6e0808b79e8d6d354b82822a7cfbcd23f40aac3771b52",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1.5",
+   "build": "30",
+   "code_resources_sha256": "88f1db9a19c3e2d8efb3eae3fb2e4570dc9aa6e4aaec1237b14913d3d828c833",
+   "signature_slot_minus3": "88f1db9a19c3e2d8efb3eae3fb2e4570dc9aa6e4aaec1237b14913d3d828c833",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1.6",
+   "build": "32",
+   "code_resources_sha256": "8c4196e28229e96041ad723a335b040e9d8c16dc53b4c0fbd6495affb5afeb58",
+   "signature_slot_minus3": "8c4196e28229e96041ad723a335b040e9d8c16dc53b4c0fbd6495affb5afeb58",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1.7",
+   "build": "32",
+   "code_resources_sha256": "9ce83be6ed534a98caacc0c5572db333b5f4353338086810e84ff145694a4615",
+   "signature_slot_minus3": "9ce83be6ed534a98caacc0c5572db333b5f4353338086810e84ff145694a4615",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1.8",
+   "build": "33",
+   "code_resources_sha256": "374f5b26cd2bef14fc789566d35f1969afbadab8934342868941f29f23845a29",
+   "signature_slot_minus3": "374f5b26cd2bef14fc789566d35f1969afbadab8934342868941f29f23845a29",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.1.9",
+   "build": "38",
+   "code_resources_sha256": "64d6ada3376eb126ec5c163c11318abc882b904d7cdcea2eaa403523ec7011f0",
+   "signature_slot_minus3": "64d6ada3376eb126ec5c163c11318abc882b904d7cdcea2eaa403523ec7011f0",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.2",
+   "build": "40",
+   "code_resources_sha256": "b6fe3ae61165a90773dac8b999311167f796509879a99f4737b689a521263071",
+   "signature_slot_minus3": "b6fe3ae61165a90773dac8b999311167f796509879a99f4737b689a521263071",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.2.1",
+   "build": "42",
+   "code_resources_sha256": "949dd7157caebc8133d4894401350abe0d8a0ec07e723c6b76057d7e958cb05b",
+   "signature_slot_minus3": "949dd7157caebc8133d4894401350abe0d8a0ec07e723c6b76057d7e958cb05b",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.3",
+   "build": "41",
+   "code_resources_sha256": "9e0128c77b82deec664bc1cb10308ae00dc7b5454ab9f5f6a41f5d10e253e70e",
+   "signature_slot_minus3": "9e0128c77b82deec664bc1cb10308ae00dc7b5454ab9f5f6a41f5d10e253e70e",
+   "notes_sealed": {
+    "ADD_TO_XCODE.md": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+    "IMPLEMENTATION_SUMMARY.md": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+    "README.md": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+    "TAKION_FIXES.md": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+    "UI_INTEGRATION.md": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96"
+   }
+  },
+  {
+   "version": "1.3.1",
+   "build": "42",
+   "code_resources_sha256": "db98c64ff707e7285d9f7a8f9b1fa2d0089b6fb780c0d949d3722ba2cda6683d",
+   "signature_slot_minus3": "db98c64ff707e7285d9f7a8f9b1fa2d0089b6fb780c0d949d3722ba2cda6683d",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.3.2",
+   "build": "43",
+   "code_resources_sha256": "381a26d5fb2fa1b54ed3cbcea6e5ff99c1f134d3f5001b9d72f7aa10d0aa8517",
+   "signature_slot_minus3": "381a26d5fb2fa1b54ed3cbcea6e5ff99c1f134d3f5001b9d72f7aa10d0aa8517",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.3.3",
+   "build": "44",
+   "code_resources_sha256": "192ac04b90e486607bfb724818bd0c3eeb6531e69252bb676e69430c1e711d83",
+   "signature_slot_minus3": "192ac04b90e486607bfb724818bd0c3eeb6531e69252bb676e69430c1e711d83",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.3.4",
+   "build": "47",
+   "code_resources_sha256": "009f7cf0ed5e527630f2808ff3d22a24b2462129831359a076f9c7be6832d1af",
+   "signature_slot_minus3": "009f7cf0ed5e527630f2808ff3d22a24b2462129831359a076f9c7be6832d1af",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.3.5",
+   "build": "50",
+   "code_resources_sha256": "f07789d0355debba0971ca201ce0184c91373845f27b8c1e23ea3784d90182f2",
+   "signature_slot_minus3": "f07789d0355debba0971ca201ce0184c91373845f27b8c1e23ea3784d90182f2",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.3.6",
+   "build": "52",
+   "code_resources_sha256": "eb2ca7876e3f3b744f5405c930ee7699900d25dcf58a64e633bdc95bd7c6cd48",
+   "signature_slot_minus3": "eb2ca7876e3f3b744f5405c930ee7699900d25dcf58a64e633bdc95bd7c6cd48",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.4",
+   "build": "54",
+   "code_resources_sha256": "44cc8b380f9bb290c9427f855d758c1f409768bc26bdeb7caa59390c1d9bcb1a",
+   "signature_slot_minus3": "44cc8b380f9bb290c9427f855d758c1f409768bc26bdeb7caa59390c1d9bcb1a",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.4.1",
+   "build": "61",
+   "code_resources_sha256": "2eedc7c51371b5b71ef54b0df28268c304b545e8d07af71f4b575f6601f2e5a9",
+   "signature_slot_minus3": "2eedc7c51371b5b71ef54b0df28268c304b545e8d07af71f4b575f6601f2e5a9",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.4.2",
+   "build": "64",
+   "code_resources_sha256": "d01e0b30556cc5cda8566ab48f37f23fef21c4dc97e89ef442b6b8cf253513a0",
+   "signature_slot_minus3": "d01e0b30556cc5cda8566ab48f37f23fef21c4dc97e89ef442b6b8cf253513a0",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.4.3",
+   "build": "66",
+   "code_resources_sha256": "4b567e75c5527574e9f580ef35311319b2e08719cdc65db6c81c51b73b9de6bf",
+   "signature_slot_minus3": "4b567e75c5527574e9f580ef35311319b2e08719cdc65db6c81c51b73b9de6bf",
+   "notes_sealed": null
+  },
+  {
+   "version": "1.5",
+   "build": "150",
+   "code_resources_sha256": "a5aa8cb22cc81e512298deb5026978f0a3352574f23aecc82f6955bb1d2f8130",
+   "signature_slot_minus3": "a5aa8cb22cc81e512298deb5026978f0a3352574f23aecc82f6955bb1d2f8130",
+   "notes_sealed": null
+  }
+ ],
+ "notes": {
+  "UI_INTEGRATION.md": {
+   "sha256": "7cebbcfeebcd0c3eaedab4f74d8f66e46561550cb95c19e71f27d0907fe6dc96",
+   "lines": 355,
+   "chiaki_lines": [
+    {
+     "line": 288,
+     "text": "5. Compare packets with Chiaki"
+    }
+   ]
+  },
+  "TAKION_FIXES.md": {
+   "sha256": "9e874aebe473395efa50d514f206185f57acd9fbc1c7ea672ecbc76e8217e335",
+   "lines": 166,
+   "chiaki_lines": [
+    {
+     "line": 1,
+     "text": "# Takion Protocol Implementation - Fixes Based on Chiaki Source"
+    },
+    {
+     "line": 5,
+     "text": "The initial Takion.swift was completely invented rather than based on the actual Chiaki implementation:"
+    },
+    {
+     "line": 13,
+     "text": "**After (Correct - from Chiaki):**"
+    },
+    {
+     "line": 123,
+     "text": "- See Chiaki's `av_packet_parse()` functions"
+    },
+    {
+     "line": 142,
+     "text": "### Chiaki Source Files"
+    },
+    {
+     "line": 143,
+     "text": "- `/chiaki-complete/lib/include/chiaki/takion.h` - Protocol definitions"
+    },
+    {
+     "line": 144,
+     "text": "- `/chiaki-complete/lib/src/takion.c` - Main implementation"
+    },
+    {
+     "line": 151,
+     "text": "### Key Constants from Chiaki"
+    },
+    {
+     "line": 163,
+     "text": "2. **Add logging** - Dump packet hex for Wireshark comparison with Chiaki"
+    }
+   ]
+  },
+  "README.md": {
+   "sha256": "b0083329acd583b3c2dfcfa88b85bdaf261ffc8ecfe1893ff2fcf3d2af0d0d9f",
+   "lines": 84,
+   "chiaki_lines": []
+  },
+  "ADD_TO_XCODE.md": {
+   "sha256": "b193c907895917cc6ff57d12eda0eb0dc1b3ec226499f52a08906e5169f150b5",
+   "lines": 238,
+   "chiaki_lines": []
+  },
+  "IMPLEMENTATION_SUMMARY.md": {
+   "sha256": "d70cdd1f61c5aacd1e604cbbc62cd4625369ff666a6809a9292771534edb2274",
+   "lines": 405,
+   "chiaki_lines": [
+    {
+     "line": 3,
+     "text": "## ✅ Completed Implementation (Based on Chiaki)"
+    },
+    {
+     "line": 5,
+     "text": "This implementation is a **pure Swift** version of Chiaki's PlayStation Remote Play streaming protocol, ready for testing."
+    },
+    {
+     "line": 44,
+     "text": "- **Status:** Implemented from Chiaki"
+    },
+    {
+     "line": 57,
+     "text": "Based on Chiaki `takion.c` (lines 175-660)"
+    },
+    {
+     "line": 72,
+     "text": "#### ✅ Packet Types (from Chiaki `takion.c:51-62`)"
+    },
+    {
+     "line": 79,
+     "text": "#### ✅ Chunk Types (from Chiaki `takion.c:102-109`)"
+    },
+    {
+     "line": 92,
+     "text": "**Reference:** Chiaki describes this as \"VERY similar to SCTP, see RFC 4960\""
+    },
+    {
+     "line": 99,
+     "text": "Based on Chiaki `takion.c` (lines 1233-1440)"
+    },
+    {
+     "line": 102,
+     "text": "- **v7** - PS4 (from Chiaki `chiaki_takion_v7_av_packet_parse`)"
+    },
+    {
+     "line": 103,
+     "text": "- **v9** - PS5 (from Chiaki `chiaki_takion_v9_av_packet_parse`)"
+    },
+    {
+     "line": 104,
+     "text": "- **v12** - PS5 newer (from Chiaki `chiaki_takion_v12_av_packet_parse`)"
+    },
+    {
+     "line": 135,
+     "text": "#### ✅ Key Position Tracking (ChiakiKeyState)"
+    },
+    {
+     "line": 137,
+     "text": "- Based on Chiaki's `chiaki_key_state_request_pos`"
+    },
+    {
+     "line": 170,
+     "text": "Based on Chiaki's GKCrypt implementation"
+    },
+    {
+     "line": 191,
+     "text": "**Note:** Simplified GMAC using HMAC-SHA256. Chiaki uses full AES-GMAC."
+    },
+    {
+     "line": 253,
+     "text": "├── Takion.swift              ✅ SCTP-like protocol (based on Chiaki takion.c)"
+    },
+    {
+     "line": 254,
+     "text": "├── AVPacketParser.swift      ✅ v7/v9/v12 parsers (based on Chiaki parsers)"
+    },
+    {
+     "line": 325,
+     "text": "### ⚠️ Differences from Chiaki"
+    },
+    {
+     "line": 326,
+     "text": "1. **Pure Swift** vs Chiaki's C"
+    },
+    {
+     "line": 357,
+     "text": "- Compare with Chiaki's packet structure"
+    },
+    {
+     "line": 383,
+     "text": "### Chiaki Source References"
+    },
+    {
+     "line": 384,
+     "text": "- **Takion Protocol:** `/chiaki-complete/lib/src/takion.c`"
+    },
+    {
+     "line": 385,
+     "text": "- **GKCrypt:** `/chiaki-complete/lib/src/gkcrypt.c`"
+    },
+    {
+     "line": 386,
+     "text": "- **Registration:** `/chiaki-complete/lib/src/regist.c`"
+    },
+    {
+     "line": 404,
+     "text": "**Based on:** Chiaki (commit 8a31c58)"
+    }
+   ]
+  }
+ },
+ "publication": "Only lines mentioning Chiaki are quoted, for identification and commentary; the full notes are the developer's text and are available for controlled review. Anyone with a store IPA of 1.0-1.3 can reproduce the hashes.",
+ "limits": "The notes show what the developer wrote about the implementation. They do not by themselves show which code was copied."
+}

@@ -1,0 +1,88 @@
+{
+ "measured": "2026-10-06",
+ "bundle_id": "com.insideinternet.Asobi",
+ "version": "1.5",
+ "build": "150",
+ "store_ipa_sha256": "c72e8048e4eb9ce1f522f8329809e08b5ec36d8b721573a57e4bec3c8a503f40",
+ "main_executable_sha256": "401d41cbe773f315bef411216d7eb65d54407cf51ced63f0e0a5977c7860ddf0",
+ "members_scanned": 43,
+ "legal_marker_hits": [
+  {
+   "member": "AsobiMobile",
+   "sha256": "401d41cbe773f315bef411216d7eb65d54407cf51ced63f0e0a5977c7860ddf0",
+   "strings": [
+    "cloudDisclaimerAcknowledgedAt",
+    " dropped, not acknowledged",
+    " kind-3 segment with an acknowledgement flag (0x",
+    " acknowledged, state unchanged",
+    "Re-acknowledging duplicate",
+    " DATA OFFER already acknowledged on ingest ",
+    "_cloudDisclaimerAcknowledgedAt",
+    "acknowledgement"
+   ],
+   "source_or_license_urls": []
+  },
+  {
+   "member": "de.lproj/Localizable.strings",
+   "sha256": "23a0813c6740aa0e5398dc2ca48d333ba07faabc07ceee838c2b8027086f0021",
+   "strings": [
+    "Copyright © %@ Inside Internet. = Copyright © %@ Inside Internet.",
+    "Your PS5 did not acknowledge the switch to streaming. This is often harmless and the stream may still start. = Deine PS5 hat den Wechsel zum Streaming nicht bestätigt. Das ist oft harmlos, und der Stream startet möglicherweise trotzdem."
+   ],
+   "source_or_license_urls": []
+  },
+  {
+   "member": "zh-Hans.lproj/Localizable.strings",
+   "sha256": "4c756ecb9ab349c369615031a5407c0b801a7a9ab70118e51637b0bc200b04e1",
+   "strings": [
+    "Copyright © %@ Inside Internet. = Copyright © %@ Inside Internet."
+   ],
+   "source_or_license_urls": []
+  },
+  {
+   "member": "ja.lproj/Localizable.strings",
+   "sha256": "465c9e1de47225899c05b15e1a289b5af401113d7fdeb1d2eb496657a17af044",
+   "strings": [
+    "Copyright © %@ Inside Internet. = Copyright © %@ Inside Internet.",
+    "Your PS5 did not acknowledge the switch to streaming. This is often harmless and the stream may still start. = PS5がストリーミングへの切り替えを確認しませんでした。多くの場合問題はなく、ストリームが開始されることがあります。"
+   ],
+   "source_or_license_urls": []
+  },
+  {
+   "member": "en.lproj/Localizable.strings",
+   "sha256": "1ea92a5193ef40666acaaebad77012995b3a98257053756cb30008c6256777f3",
+   "strings": [
+    "Your PS5 did not acknowledge the switch to streaming. This is often harmless and the stream may still start. = Your PS5 did not acknowledge the switch to streaming. This is often harmless and the stream may still start."
+   ],
+   "source_or_license_urls": []
+  },
+  {
+   "member": "es.lproj/Localizable.strings",
+   "sha256": "40d29e236d72bd137ece97285d6a9f20da6f6df3605f8ce8b0b884ebb2622678",
+   "strings": [
+    "Copyright © %@ Inside Internet. = Copyright © %@ Inside Internet.",
+    "Your PS5 did not acknowledge the switch to streaming. This is often harmless and the stream may still start. = Tu PS5 no confirmó el cambio a transmisión. Suele ser inofensivo y la transmisión puede iniciarse igualmente."
+   ],
+   "source_or_license_urls": []
+  },
+  {
+   "member": "fr.lproj/Localizable.strings",
+   "sha256": "ae9e4ee891f512363b28ec7e45c77faa03a0394842ba78acd9762f2b528ed110",
+   "strings": [
+    "Copyright © %@ Inside Internet. = Copyright © %@ Inside Internet.",
+    "Your PS5 did not acknowledge the switch to streaming. This is often harmless and the stream may still start. = Votre PS5 n'a pas accusé réception du passage au streaming. C'est souvent sans conséquence et le flux peut démarrer malgré tout."
+   ],
+   "source_or_license_urls": []
+  },
+  {
+   "member": "AsobiDepth.mlmodelc/metadata.json",
+   "sha256": "a0cc9291ccf3b3adabca27e7c2b252086f77a371f1df9a2e549f87af4a8417d9",
+   "strings": [
+    "    \"license\" : \"Proprietary\","
+   ],
+   "source_or_license_urls": []
+  }
+ ],
+ "result": "No AGPL, Affero, GPL, Chiaki or chiaki-ng notice and no source-code URL. Legal text found: Inside Internet copyright lines and a Proprietary license in an ML model metadata file.",
+ "limits": "ASCII string scan of the main executable and non-framework resources; runtime-fetched or encoded text could evade it."
+}

@@ -1,0 +1,148 @@
+{
+ "measured": "2026-10-05",
+ "reference": "https://github.com/chiaki-ng/chiaki-ng (full history)",
+ "markers": [
+  {
+   "marker": "bright_ambassador",
+   "chiaki_ng_file": "lib/src/rpcrypt.c",
+   "first_commit": "1162b267",
+   "date": "2018-11-17",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "aeropause",
+   "chiaki_ng_file": "lib/src/rpcrypt.c",
+   "first_commit": "42cca461",
+   "date": "2019-08-14",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "wurzelbert",
+   "chiaki_ng_file": "lib/src/rpcrypt.c",
+   "first_commit": "20a7e9d1",
+   "date": "2020-12-11",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "morning",
+   "chiaki_ng_file": "lib/src/rpcrypt.c",
+   "first_commit": "1162b267",
+   "date": "2018-11-17",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "gkcrypt GMAC refresh constant 44910",
+   "chiaki_ng_file": "lib/include/chiaki/gkcrypt.h",
+   "first_commit": "d689f9e0",
+   "date": "2019-03-26",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "counter_add",
+   "chiaki_ng_file": "lib/src/gkcrypt.c",
+   "first_commit": "9fc743d8",
+   "date": "2018-11-28",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "TAKION_A_RWND",
+   "chiaki_ng_file": "lib/src/takion.c",
+   "first_commit": "cb77b035",
+   "date": "2019-07-05",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "key_pos advance quirk",
+   "chiaki_ng_file": "lib/src/takion.c",
+   "first_commit": "6fc4b8f6",
+   "date": "2023-09-05",
+   "author": "Street Pea"
+  },
+  {
+   "marker": "postponed packets",
+   "chiaki_ng_file": "lib/src/takion.c",
+   "first_commit": "a29560eb",
+   "date": "2019-06-27",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "launchspec template",
+   "chiaki_ng_file": "lib/src/launchspec.c",
+   "first_commit": "f86ecd93",
+   "date": "2018-11-24",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "adaptiveStreamMode space",
+   "chiaki_ng_file": "lib/src/launchspec.c",
+   "first_commit": "e2d1c110",
+   "date": "2020-12-22",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "RP-Version mismatch",
+   "chiaki_ng_file": "lib/src/session.c",
+   "first_commit": "cf682928",
+   "date": "2019-10-11",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "Client Disconnecting",
+   "chiaki_ng_file": "lib/src/senkusha.c",
+   "first_commit": "8f42cff0",
+   "date": "2018-11-24",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "client_type hash",
+   "chiaki_ng_file": "lib/src/regist.c",
+   "first_commit": "4dac2253",
+   "date": "2020-10-16",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "key_0_off",
+   "chiaki_ng_file": "lib/src/regist.c",
+   "first_commit": "4dac2253",
+   "date": "2020-10-16",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "DUID_PREFIX",
+   "chiaki_ng_file": "lib/include/chiaki/remote/holepunch.h",
+   "first_commit": "95d2cc1e",
+   "date": "2024-02-03",
+   "author": "Johannes Baiter"
+  },
+  {
+   "marker": "always-online-stun URL",
+   "chiaki_ng_file": "lib/src/remote/holepunch.c",
+   "first_commit": "143425f5",
+   "date": "2024-05-19",
+   "author": "Street Pea"
+  },
+  {
+   "marker": "stun4.l.google.com",
+   "chiaki_ng_file": "lib/src/remote/stun.h",
+   "first_commit": "95d2cc1e",
+   "date": "2024-02-03",
+   "author": "Johannes Baiter"
+  },
+  {
+   "marker": "jerasure FEC",
+   "chiaki_ng_file": "lib/src/fec.c",
+   "first_commit": "6bd7c117",
+   "date": "2019-07-28",
+   "author": "Florian Märkl"
+  },
+  {
+   "marker": "MTU bounds 576/1454",
+   "chiaki_ng_file": "lib/src/senkusha.c",
+   "first_commit": "ab740fbe",
+   "date": "2019-08-10",
+   "author": "Florian Märkl"
+  }
+ ],
+ "excluded": "takion.proto schema items are protocol material reconstructed from Sony software (per Chiaki's author) and are not counted. Key tables and protocol constants are likewise not claimed as expression.",
+ "note": "Dates show when each marker entered Chiaki/chiaki-ng, long before Asobi 1.0 (packaged about 2025-11). Authorship is recorded for attribution only; only Street Pea and authorized rights holders pursue claims."
+}

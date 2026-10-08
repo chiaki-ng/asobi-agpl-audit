@@ -6,6 +6,13 @@
 - [Current key-update integration](evidence/key-update-integration.json): all three measured functions, including zero-direct-reference results. Four direct sites share one containing caller.
 - [Swift verification summaries](evidence/swift-comparison-verification.json): input pins and native coverage measurements. Bulk ranges/decompilations are withheld; these summaries alone do not independently prove semantic matches.
 - [PSStream January 2026 build](evidence/psstream-steam-build.json): hashes (SHA-256 and Steam-manifest SHA-1), step labels, identifiers and the three authored log lines shared with Asobi 1.1–1.5, plus the Mac App Store 1.1.5 strings comparison. The binaries are withheld at the rights holder's request.
+- [Developer notes](evidence/developer-notes.json): the five Markdown notes in store releases 1.0–1.3, each sealed by Apple's code signature (signature → `CodeResources` → note SHA-256), with the 35 lines that mention Chiaki quoted. Check with `tools/verify_notes_seal.py`.
+- [Removals](evidence/removals.json): every Chiaki/PSStream string removed in 1.1.9, 1.2 and 1.4.2 with its replacement, and per-release counts.
+- [Android](evidence/android.json): 1.0.3, 1.0.7 and 1.1.1 package, native-library and signing-certificate hashes; key-position functions, launch-spec template, `CHIAKI` string, licence scan. The `takion.proto` descriptor is excluded as protocol material.
+- [Lineage markers](evidence/lineage-markers.json): when each Chiaki/chiaki-ng marker entered upstream, and its author.
+- [Linked libraries](evidence/linked-libraries.json): per-release bundled dependencies; Jerasure FEC in every examined executable.
+- [1.5 notices scan](evidence/notices-1.5.json): no AGPL, Chiaki or source notice; only the publisher's copyright and a “Proprietary” model licence.
+- [Pylux check](evidence/pylux-check.json): negative; no copying from Pylux's public source is claimed.
 - [Current CTRL bound excerpt](evidence/ctrl-bound-excerpt.asm): the 1 MiB comparison and rejection label. It is a short analytical excerpt, not the complete framing implementation.
 
 ## Source anchors and comparison outcomes
@@ -25,6 +32,8 @@ The 1.1.9 comparison locates corresponding operation families after exact citati
 ## Sony client comparison
 
 [Windows client check](evidence/sony-windows-client.json): Sony PS Remote Play for Windows 9.5.0.08040, the client the developer named as his main source, from Sony's public installer. It has Sony's NP signaling and stun.playstation.net, and none of the chiaki-ng choices below. A heuristic x64 key-position search found no match.
+
+[macOS client check](evidence/sony-mac-client.json): Sony PS Remote Play for Mac 9.5.0; none of the Chiaki markers.
 
 [Three-way comparison](evidence/sony-three-way.json) of Sony PS Remote Play 9.5.0, chiaki-ng (pinned `4c2643f9`) and Asobi. Sony uses NP signaling, `stun.playstation.net` and a ring-buffer key position; Asobi uses none of these. Asobi carries chiaki-ng choices that Sony lacks: the always-online-stun list, the three-response port-increment cases, 75/8 port guesses, `size + size % 16` and the moonlight-first STUN list. Session messages common to all three are treated as protocol. The ACCEPT wait and Senkusha fallback were not comparable. URLs and constants are evidence of copying, not standalone protected expression.
 

@@ -1,0 +1,96 @@
+{
+ "measured": "2026-10-01 to 2026-10-05",
+ "package": "com.asobi.droid",
+ "method": "Static scan of every APK member and the arm64 native library; disassembly of named exported functions. Apps not executed.",
+ "signing_certificate_sha256": "5bfc5bd7fdb57a02637608f702697e6f43d19849f0ba172da539c440201da531",
+ "signing_certificate_note": "Same certificate in all three builds (CN=Android, OU=Android, O=Google Inc.; valid from 2026-03-13). Read from v2/v3 signing blocks; signatures not cryptographically verified.",
+ "builds": [
+  {
+   "version": "1.0.3",
+   "version_code": 39,
+   "split_archive_sha256": "00b4b8554697d848158b05ea34c41a113a140d93aac20e9637fa7b8269fc0dc6",
+   "base_apk_sha256": "64deeb42303aa9b555d697966ce47c24791d3dbe8364740352b5bb2c6a8501ea",
+   "arm64_split_sha256": "33f4987c9fc02064e272d24dbc4fd60be92d691eaeadf6f7b6b535b5b8187c1e",
+   "libasobidroid_so": {
+    "bytes": 14094768,
+    "sha256": "52c4a69322b9c3e61d91107fdb7b69289123450dc916b3e635486ecdbfea0e39"
+   },
+   "apk_count": 20,
+   "launch_spec_template": {
+    "offset": "0x22552d",
+    "differs_from_chiaki_in": "\"mtu\":%u -> \"mtu\":1454 and \"rtt\":%u -> \"rtt\":1"
+   },
+   "key_position": {
+    "advance_key_pos_va": "0x9aff68",
+    "send_data_ack_adds_42_at": "0x9b0134",
+    "expression": "old_key_pos + size + (size & 15)",
+    "chiaki_ng_commit": "6fc4b8f6 (Street Pea, 2023-09-05)"
+   },
+   "CHIAKI_string_before_client_disconnect_message": "0x2924e8"
+  },
+  {
+   "version": "1.0.7",
+   "version_code": 45,
+   "split_archive_sha256": "6c16737e6855cf5e63cf5f074407ec9ecbf1a32a0e91f741d4aa0e33020f1cae",
+   "base_apk_sha256": "9dcb97d7e085233d83782bb835e0967f30f76dff4791172cf30fc6dc1b1d100f",
+   "arm64_split_sha256": "5571c23418dcd891d22c081a49057f856d5f8baae1208ca6980293a7edcf10f3",
+   "libasobidroid_so": {
+    "bytes": 14527216,
+    "sha256": "ea04c7a5eee6f7c10833c989be14d937696490234f7ecd5d6411de2a500f4cd7"
+   },
+   "apk_count": 4,
+   "launch_spec_template": {
+    "offset": "0x289449",
+    "differs_from_chiaki_in": "exactly two substituted values (MTU and RTT)"
+   },
+   "key_position": {
+    "advance_key_pos_va": "0xa0ffa8",
+    "expression": "old_key_pos + size + (size & 15)",
+    "chiaki_ng_commit": "6fc4b8f6 (Street Pea, 2023-09-05)"
+   },
+   "CHIAKI_string_before_client_disconnect_message": "0x2a97ac"
+  },
+  {
+   "version": "1.1.1",
+   "version_code": 53,
+   "split_archive_sha256": "e97f90c97559d71140320d72c156e4b465905cb7c922c47efd5b3a8c31fadb3c",
+   "base_apk_sha256": "4a001a924790e1c9907a93d49f4c5eb3365346000ded2ea5488e9816363e688c",
+   "arm64_split_sha256": "733a47f59b273d956a39fa9d39813d5be11c09bd9407c6eeed259b025160bb03",
+   "libasobidroid_so": {
+    "bytes": 15572592,
+    "sha256": "64e6a825266cc5bdebd59ec4050ce2bedc4c3fa24dbececdb9f92ff27dff3a57"
+   },
+   "apk_count": 4,
+   "launch_spec_template": {
+    "offset": "0x2b977b",
+    "differs_from_chiaki_in": "exactly two substituted values (MTU and RTT)"
+   },
+   "key_position": {
+    "advance_key_pos_va": "0xa94688",
+    "send_data_ack_adds_42_at": "0xa9485c",
+    "expression": "old_key_pos + size + (size & 15)",
+    "chiaki_ng_commit": "6fc4b8f6 (Street Pea, 2023-09-05)"
+   },
+   "CHIAKI_string_before_client_disconnect_message": null
+  }
+ ],
+ "shared_findings": {
+  "streaming_core": "C++ native library libasobidroid.so exporting asobi::TakionConnection, asobi::RPCrypt (bright_ambassador_ps4/ps5, aeropause_local/psn) and asobi::GKCrypt (counter_add, generate_gmac_key) functions",
+  "chiaki_vocabulary_counts_1_0_3": {
+   "aeropause": 3,
+   "bright_ambassador": 2,
+   "RP-Version mismatch": 2,
+   "key_0_off": 1,
+   "custom_data1": 6,
+   "sessionId4321": 1
+  },
+  "license_scan": "No AGPL/Affero text, Chiaki attribution or source link in any APK member of any examined build.",
+  "absent_on_android": [
+   "wurzelbert",
+   "TAKION_A_RWND",
+   "2024 STUN-list URL"
+  ]
+ },
+ "excluded": "The compiled takion.proto descriptor (byte-identical to chiaki-ng) and the rpcrypt key tables are protocol material reconstructed from Sony software and are not counted as evidence of copying.",
+ "limits": "Package origin is not independently authenticated; release dates are inferred. Whether the Android library is a legal adaptation is not determined here."
+}
