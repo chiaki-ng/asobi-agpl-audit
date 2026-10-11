@@ -19,12 +19,12 @@ His own shipped code contradicts these statements:
 **His statements on Reddit** ([archived with permalinks](evidence/developer-statements-reddit.md)) repeat the denial and add claims the evidence contradicts:
 
 - February 14, a day after 1.1 shipped the chiaki-ng line citations: “No code has been used from Chiaki in Asobi. Asobi is build in swift from the ground up.”
-- March 29, after I closed #725 relying on his assurance: “my highlight of last week? Being validated by streetpea (of chiaki, the open source remote play client) for not using their code”. On August 12 he again described the issue as “settled and closed”.
+- March 29, after I closed #725 relying on his assurance: “my highlight of last week? Being validated by streetpea (of chiaki, the open source remote play client) for not using their code”, adding that he had “offered him to look through my code”. The archived first version called this “a conversation of an official third-party”; the live post now says “a confirmation from an official third-party”. On August 12 he again described the issue as “settled and closed”.
 - April 13: “I don’t use Chiaki (so no AGPL to deal with)”; July 19: he built his own client “instead of just baking in Chiaki … to not having to worry about my app being taken down because of licensing issues”.
 - January 27: “I heard about psstream about a week ago (didn't know it existed …)”. About two weeks later, Asobi 1.1 logged “per PSStream binary” and “FULL URL for comparison with PSStream”. In August he said he “had Cloud streaming around the same time as PSStream” and “missed the whole launch of PSStream”.
 - January 25: the app “is completely written in swift”, so other platforms would need a complete rewrite. The Android app he later shipped is a C++ library with Chiaki-named functions and my chiaki-ng code (point 5).
 - July 1, on the Steam release: “Steam's review flagged a notification that Asobi may incorporate third-party intellectual property.”
-- September 26, replying to the developer of Horizon Stream, a Quest app based on Android Chiaki who called Asobi's Quest version derivative: “This is an original implementation.”
+- September 26, replying to the developer of Horizon Stream, a Quest app based on Android Chiaki who called Asobi's Quest version derivative: “This is an original implementation.” He later edited the reply to add “chiaki isn't used here (which has been validated by StreetPea himself)” ([screenshot](evidence/reddit-screenshots/2026-09-26-original-implementation-edited-pc7ddg6.png)).
 
 These are documented contradictions between the developer's statements and his shipped code. No claim about motive is made.
 

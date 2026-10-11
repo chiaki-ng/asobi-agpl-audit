@@ -1,0 +1,83 @@
+{
+ "captured_local_date": "2026-10-11",
+ "source": "Screenshots of the live Reddit pages taken by Street Pea in an ordinary browser",
+ "method": "Cropped to the comment column only (no browser tabs, account sidebar or ads); pixels unchanged within each crop box and verified identical; all PNG metadata, including the colour profile, removed. Originals are retained privately.",
+ "screenshots": [
+  {
+   "comment_id": "o5dexul",
+   "published_file": "evidence/reddit-screenshots/2026-02-14-no-chiaki-code-o5dexul.png",
+   "captured_local": "2026-10-11 2:33:25 PM PDT",
+   "source_screenshot_sha256": "f14626787e79ce760abc4029099a434a06784557b05341684e134acedf7409ab",
+   "source_size": [
+    2874,
+    1966
+   ],
+   "crop_box_px": [
+    691,
+    432,
+    2045,
+    965
+   ],
+   "published_sha256": "c784873aee4b27b450b0f39d19746c106e4f27d63eedb1f9dcb3b36e1f5e52fe",
+   "pixels_identical_to_source_region": true,
+   "metadata_keys": []
+  },
+  {
+   "comment_id": "1s6uzta",
+   "published_file": "evidence/reddit-screenshots/2026-03-29-validated-by-streetpea-1s6uzta.png",
+   "captured_local": "2026-10-11 2:33:20 PM PDT",
+   "source_screenshot_sha256": "fdb8ecc7bae168ca92ed0b1f0d33bd3d4030a3ce9be273f01e0a116415898dc2",
+   "source_size": [
+    2874,
+    1966
+   ],
+   "crop_box_px": [
+    691,
+    806,
+    2045,
+    1303
+   ],
+   "published_sha256": "ac3ddb2c5a7ba839a5967a002eb4af0b7ef3048814b4dbc5330eda9e14530674",
+   "pixels_identical_to_source_region": true,
+   "metadata_keys": []
+  },
+  {
+   "comment_id": "ofwe9am",
+   "published_file": "evidence/reddit-screenshots/2026-04-13-no-agpl-to-deal-with-ofwe9am.png",
+   "captured_local": "2026-10-11 2:33:02 PM PDT",
+   "source_screenshot_sha256": "b78003ceaef46a84c48e81b22c00c1ff42b263e2029bd46d8cc206790f2c5301",
+   "source_size": [
+    2874,
+    1966
+   ],
+   "crop_box_px": [
+    691,
+    612,
+    2045,
+    1811
+   ],
+   "published_sha256": "b3375164dd6fefd049c2be00b74df14f22bd5edb6a657ba662aac163f73b2d45",
+   "pixels_identical_to_source_region": true,
+   "metadata_keys": []
+  },
+  {
+   "comment_id": "pc7ddg6",
+   "published_file": "evidence/reddit-screenshots/2026-09-26-original-implementation-edited-pc7ddg6.png",
+   "captured_local": "2026-10-11 2:32:54 PM PDT",
+   "source_screenshot_sha256": "19ae85f9e99b4c62c56054f16faa37fa5a34177ca9f7f373bd060a3f5cb3c0a5",
+   "source_size": [
+    2874,
+    1966
+   ],
+   "crop_box_px": [
+    691,
+    605,
+    2045,
+    1490
+   ],
+   "published_sha256": "c5948cee0466896dbd429f2765ef01d3b23ea10e3d27088e68b9462525883bf0",
+   "pixels_identical_to_source_region": true,
+   "metadata_keys": []
+  }
+ ]
+}

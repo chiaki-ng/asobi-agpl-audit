@@ -13,7 +13,7 @@ for name,digest in expected.items():
  if p.is_symlink():raise SystemExit('Symlink: '+name)
  b=p.read_bytes()
  if p.suffix=='.png':
-  if not name.startswith(('evidence/ipa-exhibits/','evidence/github-screenshots/')) or b[:8]!=b'\x89PNG\r\n\x1a\n':raise SystemExit('Unexpected image: '+name)
+  if not name.startswith(('evidence/ipa-exhibits/','evidence/github-screenshots/','evidence/reddit-screenshots/')) or b[:8]!=b'\x89PNG\r\n\x1a\n':raise SystemExit('Unexpected image: '+name)
  elif p.suffix not in {'.md','.json','.py','.asm','.txt',''} and name!='.gitignore':raise SystemExit('Unexpected file type: '+name)
  if hashlib.sha256(b).hexdigest()!=digest:raise SystemExit('Hash mismatch: '+name)
  if p.suffix=='.png':continue

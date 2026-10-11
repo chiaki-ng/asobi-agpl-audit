@@ -1,8 +1,8 @@
 # The Asobi developer's statements on Reddit
 
-Statements by u/inchenzo, the Asobi developer, about Asobi's implementation, Chiaki, the AGPL, PSStream and the #725 closure. Text is from the PullPush archive of public Reddit as archived at ingest (Reddit blocked automated access, so live versions were not fetched); each permalink lets anyone compare the live text. His statements accusing other developers are omitted, and cuts are marked […]. Record: [developer-statements-reddit.json](developer-statements-reddit.json).
+Statements by u/inchenzo, the Asobi developer, about Asobi's implementation, Chiaki, the AGPL, PSStream and the #725 closure. Text is from the PullPush archive of public Reddit as archived at ingest; each permalink lets anyone compare the live text. His statements accusing other developers are omitted, and cuts are marked […]. Record: [developer-statements-reddit.json](developer-statements-reddit.json).
 
-**Live check, October 11, 2026:** Street Pea compared four key statements with the live Reddit pages in a browser: February 14 (o5dexul), March 29 (1s6uzta), April 13 (ofwe9am) and September 26 (pc7ddg6). All four match the archived text. The others were not compared live.
+**Live check, October 11, 2026:** Street Pea compared four statements with the live Reddit pages and took screenshots ([handling and hashes](reddit-screenshots.json)). February 14 and April 13 match the archive. **March 29 differs in one phrase:** the archive, copied 23 seconds after posting, ends “since that's a conversation of an official third-party!”; the live post ends “since that's a confirmation from an official third-party!”. **September 26 has been edited:** the live comment is marked “Edited 15d ago” and adds “chiaki isn't used here (which has been validated by StreetPea himself)” and two links; the archive holds the earlier wording. The comment it replied to has since been deleted by its author. The other statements were not compared live.
 
 ## 2025-12-01 · r/VisionPro · comment
 
@@ -67,13 +67,15 @@ Peace out.
 
 ## 2026-02-14 · r/remoteplay · comment
 
-[permalink](https://www.reddit.com/r/remoteplay/comments/1r4p0n1/observations_from_a_technical_analysis_of_asobi/o5dexul/) · archived text SHA-256 `47558a393be643fbb85449b485c57719bd700f069d6f150af865bc905634f7e8`
+[permalink](https://www.reddit.com/r/remoteplay/comments/1r4p0n1/observations_from_a_technical_analysis_of_asobi/o5dexul/) · archived text SHA-256 `47558a393be643fbb85449b485c57719bd700f069d6f150af865bc905634f7e8` · live check: 2026-10-11, matches archive
 
 ````text
 No code has been used from Chiaki in Asobi. Asobi is build in swift from the ground up. 
 
 I’ll see about what’s possible with Apple irt proxy usage.
 ````
+
+![Live Reddit screenshot of o5dexul](reddit-screenshots/2026-02-14-no-chiaki-code-o5dexul.png)
 
 ## 2026-02-15 · r/VisionPro · comment
 
@@ -106,7 +108,7 @@ Also, nice of you to send a message here so I can respond; I saw your message ea
 
 ## 2026-03-29 · r/Asobi · post: [Sunday Report] Week 14
 
-[permalink](https://www.reddit.com/r/Asobi/comments/1s6uzta/sunday_report_week_14/) · archived text SHA-256 `e696fc1e5b71c95468f4a4014cc97bb96fdfa4fa235100528893108789eaf816`
+[permalink](https://www.reddit.com/r/Asobi/comments/1s6uzta/sunday_report_week_14/) · archived text SHA-256 `e696fc1e5b71c95468f4a4014cc97bb96fdfa4fa235100528893108789eaf816` · live check: 2026-10-11, matches archive
 
 ````text
 Hi!
@@ -121,6 +123,8 @@ Why is that? It's been a thing for some people to make statements that hey can't
 
 *Excerpt around the relevant passage; full post at the permalink.*
 
+![Live Reddit screenshot of 1s6uzta](reddit-screenshots/2026-03-29-validated-by-streetpea-1s6uzta.png)
+
 ## 2026-03-29 · r/remoteplay · comment
 
 [permalink](https://www.reddit.com/r/remoteplay/comments/1s71bwd/asobi_remote_play_is_coming_to_android_steam_meta/od6dqfv/) · archived text SHA-256 `440d1bb5a66011dec795a8f6c7b811e87354a5f540c50e3ce4769588e8e3d446`
@@ -131,7 +135,7 @@ Well Chiaki is the OG 🐐 of course. That said, it's a new built from the groun
 
 ## 2026-04-13 · r/Asobi · comment
 
-[permalink](https://www.reddit.com/r/Asobi/comments/1sjlept/sunday_report_week_16/ofwe9am/) · archived text SHA-256 `f6ee1ea1f22605e4e7d70cc52d80d216029a687721cbbc760fc162d1c4afd6e0`
+[permalink](https://www.reddit.com/r/Asobi/comments/1sjlept/sunday_report_week_16/ofwe9am/) · archived text SHA-256 `f6ee1ea1f22605e4e7d70cc52d80d216029a687721cbbc760fc162d1c4afd6e0` · live check: 2026-10-11, matches archive
 
 ````text
 Thanks for the kind words!
@@ -140,6 +144,8 @@ If everything goes according to plan then the first version for Steam, Android a
 
 Irt your PSStream question; I have no plans to remove the app like the developer of that app did. But then again, I don’t use Chiaki (so no AGPL to deal with) and I would de-activate/remove the cloud streaming part of the app if Sony requests it.
 ````
+
+![Live Reddit screenshot of ofwe9am](reddit-screenshots/2026-04-13-no-agpl-to-deal-with-ofwe9am.png)
 
 ## 2026-04-20 · r/Asobi · comment
 
@@ -312,10 +318,28 @@ Which is the difference between an actual new remote play implementation vs some
 
 ## 2026-09-26 · r/Asobi · comment
 
-[permalink](https://www.reddit.com/r/Asobi/comments/1vhelam/playtest_the_asobi_for_meta_quest_playtest_has/pc7ddg6/) · archived text SHA-256 `061b3f20ace907bc493192e94790a5bac76446bf6fe08aab340485080ab469e6`
+[permalink](https://www.reddit.com/r/Asobi/comments/1vhelam/playtest_the_asobi_for_meta_quest_playtest_has/pc7ddg6/) · archived text SHA-256 `061b3f20ace907bc493192e94790a5bac76446bf6fe08aab340485080ab469e6` · live check: 2026-10-11, edited: live text differs from archive
 
 *Context:* Reply to u/0TheRain0 (Horizon Stream for PlayStation, a Quest app based on Android Chiaki), who had written that Asobi's Quest version was highly derivative of it.
+
+**Archived text:**
 
 ````text
 This is an original implementation. Never seen your app before tbh. Good luck with it.
 ````
+
+**Live text on October 11, 2026 (edited; transcribed from the screenshot):**
+
+````text
+This is an original implementation, chiaki isn't used here (which has been validated by StreetPea himself). Never seen your app before tbh. Good luck with it. Also Asobi has existed way longer ago than your app, same for the Meta PlayTest
+
+See links for reference
+
+https://www.reddit.com/r/Asobi/comments/1vhelam/playtest_the_asobi_for_meta_quest_playtest_has/
+
+Or even 6 months ago:
+
+https://www.youtube.com/watch?v=ga7UzbJ-Rwc
+````
+
+![Live Reddit screenshot of pc7ddg6](reddit-screenshots/2026-09-26-original-implementation-edited-pc7ddg6.png)

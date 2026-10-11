@@ -49,7 +49,8 @@
    "permalink": "https://www.reddit.com/r/remoteplay/comments/1r4p0n1/observations_from_a_technical_analysis_of_asobi/o5dexul/",
    "archived_body_sha256": "47558a393be643fbb85449b485c57719bd700f069d6f150af865bc905634f7e8",
    "body": "No code has been used from Chiaki in Asobi. Asobi is build in swift from the ground up. \n\nI’ll see about what’s possible with Apple irt proxy usage.",
-   "live_checked": "2026-10-11, matches archive"
+   "live_checked": "2026-10-11, matches archive",
+   "screenshot": "evidence/reddit-screenshots/2026-02-14-no-chiaki-code-o5dexul.png"
   },
   {
    "kind": "comment",
@@ -79,7 +80,12 @@
    "title": "[Sunday Report] Week 14",
    "excerpt": "Hi!\n\nTime for a new Sunday Report!\n\nI don't know how but every week seems to be quite a rollercoaster ride. But I did manage to finally get some rest! Haha.\n\nSo my highlight of last week? Being validated by streetpea (of chiaki, the open source remote play client) for not using their code and wishing me good luck with my app.   \nWhy is that? It's been a thing for some people to make statements that hey can't back up with nothing else but some debug comments they found in my app. So streetpea and I got in touch and I offered him to look through my code and we discussed it. Which resulted in being validated. Something to celebrate for sure, since that's a conversation of an official third-part …",
    "excerpt_note": "Excerpt around the relevant passage; full post at the permalink.",
-   "live_checked": "2026-10-11, matches archive"
+   "live_checked": "2026-10-11, one phrase differs from archive",
+   "screenshot": "evidence/reddit-screenshots/2026-03-29-validated-by-streetpea-1s6uzta.png",
+   "live_difference": {
+    "archived": "since that's a conversation of an official third-party!",
+    "live": "since that's a confirmation from an official third-party!"
+   }
   },
   {
    "kind": "comment",
@@ -98,7 +104,8 @@
    "permalink": "https://www.reddit.com/r/Asobi/comments/1sjlept/sunday_report_week_16/ofwe9am/",
    "archived_body_sha256": "f6ee1ea1f22605e4e7d70cc52d80d216029a687721cbbc760fc162d1c4afd6e0",
    "body": "Thanks for the kind words!\n\nIf everything goes according to plan then the first version for Steam, Android and Meta Quest should be available by the end of this month.\n\nIrt your PSStream question; I have no plans to remove the app like the developer of that app did. But then again, I don’t use Chiaki (so no AGPL to deal with) and I would de-activate/remove the cloud streaming part of the app if Sony requests it.",
-   "live_checked": "2026-10-11, matches archive"
+   "live_checked": "2026-10-11, matches archive",
+   "screenshot": "evidence/reddit-screenshots/2026-04-13-no-agpl-to-deal-with-ofwe9am.png"
   },
   {
    "kind": "comment",
@@ -224,20 +231,22 @@
    "archived_body_sha256": "061b3f20ace907bc493192e94790a5bac76446bf6fe08aab340485080ab469e6",
    "body": "This is an original implementation. Never seen your app before tbh. Good luck with it.",
    "context": "Reply to u/0TheRain0 (Horizon Stream for PlayStation, a Quest app based on Android Chiaki), who had written that Asobi's Quest version was highly derivative of it.",
-   "live_checked": "2026-10-11, matches archive"
+   "live_checked": "2026-10-11, edited: live text differs from archive",
+   "live_text_transcribed_from_screenshot": "This is an original implementation, chiaki isn't used here (which has been validated by StreetPea himself). Never seen your app before tbh. Good luck with it. Also Asobi has existed way longer ago than your app, same for the Meta PlayTest\n\nSee links for reference\n\nhttps://www.reddit.com/r/Asobi/comments/1vhelam/playtest_the_asobi_for_meta_quest_playtest_has/\n\nOr even 6 months ago:\n\nhttps://www.youtube.com/watch?v=ga7UzbJ-Rwc",
+   "screenshot": "evidence/reddit-screenshots/2026-09-26-original-implementation-edited-pc7ddg6.png"
   }
  ],
  "live_check": {
   "date": "2026-10-11",
   "by": "Street Pea",
-  "method": "Manual comparison of the live Reddit pages with the archived text, in an ordinary browser (automated access to Reddit was blocked)",
+  "method": "Comparison of the live Reddit pages with the archived text in an ordinary browser, with screenshots (see reddit-screenshots.json)",
   "checked_ids": [
    "o5dexul",
    "1s6uzta",
    "ofwe9am",
    "pc7ddg6"
   ],
-  "result": "All four match the archived text.",
+  "result": "o5dexul and ofwe9am match the archived text. 1s6uzta differs in one phrase: the archive (copied 23 seconds after posting) reads “since that's a conversation of an official third-party!”, the live post reads “since that's a confirmation from an official third-party!”. pc7ddg6 has been edited: the live comment is marked “Edited 15d ago” (about 2026-09-26, the day it was posted) and adds “chiaki isn't used here (which has been validated by StreetPea himself)” and links. The parent comment by u/0TheRain0 now shows “[deleted] Comment deleted by user”.",
   "not_checked": "The other statements were not compared live; their permalinks allow anyone to do so."
  }
 }

@@ -1,6 +1,6 @@
 # Evidence index — Asobi
 
-- [Read the case in six images](EXHIBITS.md): two user-supplied GitHub screenshots and four rendered IPA excerpts. The screenshots retain identical pixels with metadata removed; no original app files are included.
+- [Read the case in ten images](EXHIBITS.md): two user-supplied GitHub screenshots, four rendered IPA excerpts and four cropped Reddit screenshots. The screenshots retain identical pixels with metadata removed; no original app files are included.
 - [Dated developer statements](evidence/developer-statements-issue-725.json): public issue #725 comment IDs, full text, edit times, permalinks and hashes, captured on October 8, 2026, plus every revision of the developer's comments, captured on October 11. [Screenshot handling and hashes](evidence/github-screenshots.json).
 - [Developer statements on Reddit](evidence/developer-statements-reddit.md) ([JSON](evidence/developer-statements-reddit.json)): 23 statements by u/inchenzo from December 2025 to September 2026 on Asobi's implementation, Chiaki, the AGPL, PSStream and the #725 closure, from the PullPush archive with permalinks.
 - [Issue #725 thread](evidence/issue-725-thread.json) ([readable copy](evidence/issue-725-thread.md)): the full public thread (issue text, all five comments, close event) captured before any update, with SHA-256 per body. The developer's comments, including all seven revisions of his March 25 comment, are also in [developer statements](evidence/developer-statements-issue-725.json).
