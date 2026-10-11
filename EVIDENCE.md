@@ -1,9 +1,8 @@
 # Evidence index — Asobi
 
 - [Read the case in six images](EXHIBITS.md): two user-supplied GitHub screenshots and four rendered IPA excerpts. The screenshots retain identical pixels with metadata removed; no original app files are included.
-- [Dated developer statements](evidence/developer-statements-issue-725.json): public issue #725 comment IDs, full text, edit times, permalinks and hashes, captured on October 8, 2026. [Screenshot handling and hashes](evidence/github-screenshots.json).
-
-- [Issue #725 thread](evidence/issue-725-thread.json): the full public thread (issue text, all five comments, close event) captured before any update, with SHA-256 per body. The developer's comments, including all seven revisions of his March 25 comment, are also in [developer statements](evidence/developer-statements-issue-725.json).
+- [Dated developer statements](evidence/developer-statements-issue-725.json): public issue #725 comment IDs, full text, edit times, permalinks and hashes, captured on October 8, 2026, plus every revision of the developer's comments, captured on October 11. [Screenshot handling and hashes](evidence/github-screenshots.json).
+- [Issue #725 thread](evidence/issue-725-thread.json) ([readable copy](evidence/issue-725-thread.md)): the full public thread (issue text, all five comments, close event) captured before any update, with SHA-256 per body. The developer's comments, including all seven revisions of his March 25 comment, are also in [developer statements](evidence/developer-statements-issue-725.json).
 - [Release hashes](evidence/releases.json): 29 historical examined release samples. Version gaps remain; 1.5 has its own pin in the integration record.
 - [Earlier findings](evidence/earlier-findings.json): the six newly added analysis samples, missing later markers and unchanged bundled-note hashes.
 - [Per-line attribution](evidence/attribution.json): pinned v1.9.9 history for the four cited source ranges; retained source lines remain subject to upstream terms. This is authorship history, not proof every line was copied.
@@ -13,7 +12,7 @@
 - [Developer notes](evidence/developer-notes.json): the five Markdown notes in store releases 1.0–1.3, each sealed by Apple's code signature (signature → `CodeResources` → note SHA-256), with the 35 lines that mention Chiaki quoted. Check with `tools/verify_notes_seal.py`.
 - [Removals](evidence/removals.json): every Chiaki/PSStream string removed in 1.1.9, 1.2 and 1.4.2 with its replacement, and per-release counts.
 - [Android](evidence/android.json): 1.0.3, 1.0.7 and 1.1.1 package, native-library and signing-certificate hashes; key-position functions, launch-spec template, `CHIAKI` string, licence scan. Street Pea's Internet-play code in the same builds is in the RUDP and holepunch comparison. The `takion.proto` descriptor is excluded as protocol material.
-- [RUDP and holepunch comparison](evidence/rudp-holepunch-comparison.json): Street Pea's RUDP counter/header seed and 250 random-allocation sockets in Android 1.0.3–1.1.1 and iOS 1.1.8/1.5, the 20 × 500 ms candidate rounds in Android, with Sony iOS and Windows controls (seed absent) and the items that did not match.
+- [RUDP and holepunch comparison](evidence/rudp-holepunch-comparison.json): Street Pea's RUDP counter/header seed and 250 random-allocation sockets in Android 1.0.3–1.1.1 and iOS 1.1.8/1.5, the 20 × 500 ms candidate rounds in Android, and the items that did not match. Sony's current iOS and Windows clients were also checked; they no longer use this RUDP format, so the seed is a lineage match only.
 - [Lineage markers](evidence/lineage-markers.json): when each Chiaki/chiaki-ng marker entered upstream, and its author.
 - [Linked libraries](evidence/linked-libraries.json): per-release bundled dependencies; Jerasure FEC in every examined executable.
 - [1.5 notices scan](evidence/notices-1.5.json): no AGPL, Chiaki or source notice; only the publisher's copyright and a “Proprietary” model licence.
