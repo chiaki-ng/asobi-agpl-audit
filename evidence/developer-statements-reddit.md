@@ -2,6 +2,8 @@
 
 Statements by u/inchenzo, the Asobi developer, about Asobi's implementation, Chiaki, the AGPL, PSStream and the #725 closure. Text is from the PullPush archive of public Reddit as archived at ingest (Reddit blocked automated access, so live versions were not fetched); each permalink lets anyone compare the live text. His statements accusing other developers are omitted, and cuts are marked […]. Record: [developer-statements-reddit.json](developer-statements-reddit.json).
 
+**Live check, October 11, 2026:** Street Pea compared four key statements with the live Reddit pages in a browser: February 14 (o5dexul), March 29 (1s6uzta), April 13 (ofwe9am) and September 26 (pc7ddg6). All four match the archived text. The others were not compared live.
+
 ## 2025-12-01 · r/VisionPro · comment
 
 [permalink](https://www.reddit.com/r/VisionPro/comments/1p8u7nc/asobi_remote_play_for_playstation_launch_black/nrr3v18/) · archived text SHA-256 `e248ea8ecb614a2991fd09ad12a7d38dcfc185cabb47ef278ad3181bdf26ad5a`

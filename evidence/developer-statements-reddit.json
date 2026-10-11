@@ -48,7 +48,8 @@
    "created_utc": "2026-02-14T17:40:43Z",
    "permalink": "https://www.reddit.com/r/remoteplay/comments/1r4p0n1/observations_from_a_technical_analysis_of_asobi/o5dexul/",
    "archived_body_sha256": "47558a393be643fbb85449b485c57719bd700f069d6f150af865bc905634f7e8",
-   "body": "No code has been used from Chiaki in Asobi. Asobi is build in swift from the ground up. \n\nI’ll see about what’s possible with Apple irt proxy usage."
+   "body": "No code has been used from Chiaki in Asobi. Asobi is build in swift from the ground up. \n\nI’ll see about what’s possible with Apple irt proxy usage.",
+   "live_checked": "2026-10-11, matches archive"
   },
   {
    "kind": "comment",
@@ -77,7 +78,8 @@
    "archived_body_sha256": "e696fc1e5b71c95468f4a4014cc97bb96fdfa4fa235100528893108789eaf816",
    "title": "[Sunday Report] Week 14",
    "excerpt": "Hi!\n\nTime for a new Sunday Report!\n\nI don't know how but every week seems to be quite a rollercoaster ride. But I did manage to finally get some rest! Haha.\n\nSo my highlight of last week? Being validated by streetpea (of chiaki, the open source remote play client) for not using their code and wishing me good luck with my app.   \nWhy is that? It's been a thing for some people to make statements that hey can't back up with nothing else but some debug comments they found in my app. So streetpea and I got in touch and I offered him to look through my code and we discussed it. Which resulted in being validated. Something to celebrate for sure, since that's a conversation of an official third-part …",
-   "excerpt_note": "Excerpt around the relevant passage; full post at the permalink."
+   "excerpt_note": "Excerpt around the relevant passage; full post at the permalink.",
+   "live_checked": "2026-10-11, matches archive"
   },
   {
    "kind": "comment",
@@ -95,7 +97,8 @@
    "created_utc": "2026-04-13T07:51:53Z",
    "permalink": "https://www.reddit.com/r/Asobi/comments/1sjlept/sunday_report_week_16/ofwe9am/",
    "archived_body_sha256": "f6ee1ea1f22605e4e7d70cc52d80d216029a687721cbbc760fc162d1c4afd6e0",
-   "body": "Thanks for the kind words!\n\nIf everything goes according to plan then the first version for Steam, Android and Meta Quest should be available by the end of this month.\n\nIrt your PSStream question; I have no plans to remove the app like the developer of that app did. But then again, I don’t use Chiaki (so no AGPL to deal with) and I would de-activate/remove the cloud streaming part of the app if Sony requests it."
+   "body": "Thanks for the kind words!\n\nIf everything goes according to plan then the first version for Steam, Android and Meta Quest should be available by the end of this month.\n\nIrt your PSStream question; I have no plans to remove the app like the developer of that app did. But then again, I don’t use Chiaki (so no AGPL to deal with) and I would de-activate/remove the cloud streaming part of the app if Sony requests it.",
+   "live_checked": "2026-10-11, matches archive"
   },
   {
    "kind": "comment",
@@ -220,7 +223,21 @@
    "permalink": "https://www.reddit.com/r/Asobi/comments/1vhelam/playtest_the_asobi_for_meta_quest_playtest_has/pc7ddg6/",
    "archived_body_sha256": "061b3f20ace907bc493192e94790a5bac76446bf6fe08aab340485080ab469e6",
    "body": "This is an original implementation. Never seen your app before tbh. Good luck with it.",
-   "context": "Reply to u/0TheRain0 (Horizon Stream for PlayStation, a Quest app based on Android Chiaki), who had written that Asobi's Quest version was highly derivative of it."
+   "context": "Reply to u/0TheRain0 (Horizon Stream for PlayStation, a Quest app based on Android Chiaki), who had written that Asobi's Quest version was highly derivative of it.",
+   "live_checked": "2026-10-11, matches archive"
   }
- ]
+ ],
+ "live_check": {
+  "date": "2026-10-11",
+  "by": "Street Pea",
+  "method": "Manual comparison of the live Reddit pages with the archived text, in an ordinary browser (automated access to Reddit was blocked)",
+  "checked_ids": [
+   "o5dexul",
+   "1s6uzta",
+   "ofwe9am",
+   "pc7ddg6"
+  ],
+  "result": "All four match the archived text.",
+  "not_checked": "The other statements were not compared live; their permalinks allow anyone to do so."
+ }
 }
