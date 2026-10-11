@@ -12,6 +12,7 @@
 - [Developer notes](evidence/developer-notes.json): the five Markdown notes in store releases 1.0–1.3, each sealed by Apple's code signature (signature → `CodeResources` → note SHA-256), with the 35 lines that mention Chiaki quoted. Check with `tools/verify_notes_seal.py`.
 - [Removals](evidence/removals.json): every Chiaki/PSStream string removed in 1.1.9, 1.2 and 1.4.2 with its replacement, and per-release counts.
 - [Android](evidence/android.json): 1.0.3, 1.0.7 and 1.1.1 package, native-library and signing-certificate hashes; key-position functions, launch-spec template, `CHIAKI` string, licence scan. The `takion.proto` descriptor is excluded as protocol material.
+- [RUDP and holepunch comparison](evidence/rudp-holepunch-comparison.json): Street Pea's RUDP counter/header seed and 250 random-allocation sockets in Android 1.0.3–1.1.1 and iOS 1.1.8/1.5, the 20 × 500 ms candidate rounds in Android, with Sony iOS and Windows controls (seed absent) and the items that did not match.
 - [Lineage markers](evidence/lineage-markers.json): when each Chiaki/chiaki-ng marker entered upstream, and its author.
 - [Linked libraries](evidence/linked-libraries.json): per-release bundled dependencies; Jerasure FEC in every examined executable.
 - [1.5 notices scan](evidence/notices-1.5.json): no AGPL, Chiaki or source notice; only the publisher's copyright and a “Proprietary” model licence.

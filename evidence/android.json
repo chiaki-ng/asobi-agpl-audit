@@ -92,5 +92,12 @@
   ]
  },
  "excluded": "The compiled takion.proto descriptor (byte-identical to chiaki-ng) and the rpcrypt key tables are protocol material reconstructed from Sony software and are not counted as evidence of copying.",
- "limits": "Package origin is not independently authenticated; release dates are inferred. Whether the Android library is a legal adaptation is not determined here."
+ "limits": "Package origin is not independently authenticated; release dates are inferred. Whether the Android library is a legal adaptation is not determined here.",
+ "internet_play_code": "See rudp-holepunch-comparison.json: RUDP seed, SELECT_CANDIDATE_TRIES = 20 with 500 ms rounds, RANDOM_ALLOCATION_SOCKETS = 250 in all three builds.",
+ "absent_on_android": [
+  "wurzelbert",
+  "TAKION_A_RWND",
+  "2024 STUN-list URL",
+  "75-guess list"
+ ]
 }

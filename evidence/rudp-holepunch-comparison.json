@@ -1,0 +1,108 @@
+{
+ "measured": "2026-10-11",
+ "method": "Static disassembly (Apple LLVM objdump) and exported-symbol reads; nothing executed. Android libasobidroid.so read from the split archives; iOS executables from the analysis copies matched in releases.json.",
+ "chiaki_ng_reference": {
+  "commit": "4c2643f9b9b5c10907dbe82669f4d428ea86147d (v1.9.9)",
+  "rudp_seed": {
+   "file": "lib/src/remote/rudp.c",
+   "code": "rudp->counter = chiaki_random_32()%0x5E00 + 0x1FF; rudp->header = chiaki_random_32() + 0x8000;",
+   "author": "Street Pea",
+   "introduced": "6049084b 2024-04-19"
+  },
+  "select_candidate": {
+   "file": "lib/src/remote/holepunch.c",
+   "code": "#define SELECT_CANDIDATE_TIMEOUT_SEC 0.5F / #define SELECT_CANDIDATE_TRIES 20 (resend to all candidates until first response)",
+   "author": "Street Pea",
+   "introduced": "fc682b43 2024-05-15"
+  },
+  "random_allocation_sockets": {
+   "file": "lib/src/remote/holepunch.c",
+   "code": "#define RANDOM_ALLOCATION_SOCKS_NUMBER 250 (socket, SO_REUSEPORT, bind INADDR_ANY:0)",
+   "author": "Street Pea",
+   "introduced": "668c2df9 2024-05-29; value 0f5e8904 2024-09-26"
+  }
+ },
+ "asobi_android": {
+  "builds": {
+   "1.0.3": "52c4a69322b9c3e61d91107fdb7b69289123450dc916b3e635486ecdbfea0e39",
+   "1.0.7": "ea04c7a5eee6f7c10833c989be14d937696490234f7ecd5d6411de2a500f4cd7",
+   "1.1.1": "64e6a825266cc5bdebd59ec4050ce2bedc4c3fa24dbececdb9f92ff27dff3a57"
+  },
+  "rudp_seed": {
+   "present": [
+    "1.0.3",
+    "1.0.7",
+    "1.1.1"
+   ],
+   "where": "asobi::RUDPConnection::RUDPConnection (1.0.3 at 0x9e7288)",
+   "code": "counter = random16 % 0x5C01 + 0x1FF (range 0x1FF..0x5DFF); header = random32 + 0x8000"
+  },
+  "select_candidate": {
+   "present": [
+    "1.0.3",
+    "1.0.7",
+    "1.1.1"
+   ],
+   "where": "exported asobi::Holepuncher::SELECT_CANDIDATE_TRIES = 20; Holepuncher::try_candidates (1.0.3 at 0x9fca1c)",
+   "code": "up to 20 rounds, each sending to all candidates then poll 500 ms; 1.1.1 rewrite keeps 20 rounds x 500 ms"
+  },
+  "random_allocation_sockets": {
+   "present": [
+    "1.0.3",
+    "1.0.7",
+    "1.1.1"
+   ],
+   "where": "exported asobi::Holepuncher::RANDOM_ALLOCATION_SOCKETS = 250; Holepuncher::perform_birthday_attack (1.0.3 at 0x9fe2c8)",
+   "code": "loop of 250: socket(AF_INET, SOCK_DGRAM, 0); setsockopt(SOL_SOCKET, SO_REUSEPORT); bind; O_NONBLOCK"
+  }
+ },
+ "asobi_ios": {
+  "builds": {
+   "1.1.8": "da45e22fcd1ad4efd4060a76bff09d99baf7a053cb1c01017632075044aaaca4",
+   "1.5": "401d41cbe773f315bef411216d7eb65d54407cf51ced63f0e0a5977c7860ddf0"
+  },
+  "rudp_seed": {
+   "present": [
+    "1.1.8",
+    "1.5"
+   ],
+   "where": "Swift AsobiMobile.RUDPConnection initialiser (1.5 at 0x100322000; 1.1.8 at 0x1002d2500)",
+   "code": "counter = random(upperBound: 0x5E00) + 0x1FF (16-bit, overflow-checked); header = random + 0x8000"
+  },
+  "random_allocation_sockets": {
+   "present": [
+    "1.1.8",
+    "1.5"
+   ],
+   "where": "before the 'additional sockets for random allocation' log, three code paths each",
+   "code": "1.1.8 sets 250; 1.5 caps the count at min(n, 250)"
+  },
+  "select_candidate": {
+   "present": [],
+   "note": "No 20-round / 500 ms loop found with the encodings searched; not established on iOS (not shown absent)."
+  }
+ },
+ "sony_controls": {
+  "ios_ps_remote_play_9_5_0": {
+   "ipa_sha256": "54234967c4eb064e8174d17aa56e173fe74a1e8c61f7505259735474707dbeef",
+   "main_sha256": "35e0cecb6e11604669be99185c44a51e6e9ea2f9c27a57dc95281eae93ea93e4",
+   "rudp_seed": "absent: no 0x5E00/0x5C01 operand; its rand() calls in sce::rudp feed a hash, not a counter",
+   "rudp_0x244F244F_framing": "absent"
+  },
+  "windows_ps_remote_play_9_5_0_08040": {
+   "msi_sha256": "a67d36c6fb14e67ec78858b831153fe372a0af5f7c41649ef710e3e8fc30bc25",
+   "remoteplay_exe_sha256": "d4e355c18bab988bdc3dc69ef4746d5064983cc7cac699ccda8d46b834291616",
+   "rudp_seed": "absent: the 8 0x5E00/0x5C01 hits are data misdecoded as code (enter/retf/out); no +0x1FF or +0x8000 add",
+   "rudp_0x244F244F_framing": "absent"
+  },
+  "ps_app_26_9_2": {
+   "rudp_0x244F244F_framing": "absent (sce::rudp used for party chat only)"
+  },
+  "limit": "None of these Sony clients uses the RUDP framing chiaki-ng implements (0x244F244F), so they show Sony's clients do not use these values but cannot exclude that the values were observed from another Sony device's traffic (for example PS Portal). Street Pea does not recall."
+ },
+ "not_matched": [
+  "Android analyze_nat uses a generic equal-differences test and clamps to 1024..65535 (not chiaki-ng's case analysis or wrap rule)",
+  "Android has no 75-guess list; RUDP retries 5 vs chiaki-ng 3; birthday sockets use protocol 0 and no TTL-2 step",
+  "0x5e00 in Android 1.0.3/1.1.1 InternetPlaySession code is part of 0xb2d05e00 (3 s in ns), not the RUDP seed"
+ ]
+}
