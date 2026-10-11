@@ -35,7 +35,6 @@ To separate protocol requirements from chiaki-ng’s own implementation choices,
 | 75 port guesses on random NAT allocation; 8 predicted guesses otherwise (my code) | Yes | No | From 1.1 / 1.1.3 |
 | Key position advanced by size + size % 16 (my 2023 change) | Yes | No (iOS: ring-buffer design, pattern absent; Windows: no match by heuristic) | Yes, including 1.5 |
 | Hard-coded public STUN list led by stun.moonlight-stream.org, then Google stun–stun4 (chiaki-ng, another author) | Yes | No | From 1.0 |
-| RUDP counter seeded `random % 0x5E00 + 0x1FF`, header `random + 0x8000` (my 2024 code) | Yes | No (neither client uses these values) | iOS 1.1.8 and 1.5; Android 1.0.3–1.1.1 |
 
 The PSN session messages (OFFER/ACCEPT/RESULT) appear in all three and are treated as protocol, not claimed. The matched choices are not required to interoperate, since Sony’s client works without them. They therefore indicate derivation from chiaki-ng rather than from the protocol or Sony’s app. Individual constants and URLs are offered as evidence of copying, not as independently protected expression. The port-allocation decision structure is offered as both.
 

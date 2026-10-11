@@ -98,7 +98,7 @@
   "ps_app_26_9_2": {
    "rudp_0x244F244F_framing": "absent (sce::rudp used for party chat only)"
   },
-  "limit": "None of these Sony clients uses the RUDP framing chiaki-ng implements (0x244F244F), so they show Sony's clients do not use these values but cannot exclude that the values were observed from another Sony device's traffic (for example PS Portal)."
+  "limit": "Street Pea reverse-engineered the RUDP protocol from Sony's Windows Remote Play client in 2024. The current Sony clients checked here (iOS 9.5.0, Windows 9.5.0.08040, PlayStation App 26.9.2) no longer contain that RUDP framing (0x244F244F), and the 2024 Windows client could not be retrieved, so whether Sony's client used the same start values cannot be checked. The seed is therefore offered as a chiaki-ng lineage match, not as a choice Sony's clients lack."
  },
  "not_matched": [
   "Android analyze_nat uses a generic equal-differences test and clamps to 1024..65535 (not chiaki-ng's case analysis or wrap rule)",
