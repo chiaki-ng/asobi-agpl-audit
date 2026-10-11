@@ -1,6 +1,6 @@
 # Local publication review
 
-Prepared October 7, 2026. The project maintainer authorized private GitHub staging under chiaki-ng/asobi-agpl-audit for review. Public visibility is not authorized by this staging step. No complaint or issue update has been posted.
+Prepared October 7, 2026, and staged privately under chiaki-ng/asobi-agpl-audit for review. Published October 11, 2026, when the project maintainer made the repository public after sending Apple a request to reopen its review and before posting the issue #725 update.
 
 This repository starts from a fresh snapshot, followed by review updates. It has no private audit ancestry, reflogs or copied .git directory. Commits are authored as Street Pea using the GitHub noreply address, so no private contact address is exposed. Commits made with AI assistance carry a Co-Authored-By line. Review signing settings before any public release.
 

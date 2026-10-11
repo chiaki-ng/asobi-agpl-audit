@@ -23,4 +23,4 @@ The [statements are on chiaki-ng issue #725](https://github.com/chiaki-ng/chiaki
 
 [View all four IPA images](EXHIBITS.md) · [Full findings and limits](FINDINGS.md) · [Evidence index](EVIDENCE.md) · [Rights-holder scope](RIGHTS-HOLDERS.md)
 
-This curated review package is currently staged privately. It includes selected IPA excerpts, not app archives or private correspondence. No complaint or issue update has been sent from this audit. `python3 tools/verify_public.py` checks the package.
+This curated evidence package was published on October 11, 2026. It includes selected IPA excerpts, not app archives or private correspondence. The same day, Street Pea asked Apple to reopen its review of Asobi and posted an update on [issue #725](https://github.com/chiaki-ng/chiaki-ng/issues/725). `python3 tools/verify_public.py` checks the package.
