@@ -151,7 +151,7 @@
   "ios_lines_missing_on_mac": [],
   "mac_only_note": "3 extra lines are inline string-constant fragments"
  },
- "limits": "Shows the PSStream step numbering, identifiers and three log lines predate Asobi 1.1. Does not by itself measure how much PSStream code was adapted. Sony protocol facts are excluded. Not a claim of copying from Pylux source. All eight compared identifier names occur in Sony official PlayStation Plus PC client and are excluded from PSStream-specific inference.",
+ "limits": "Shows that PSStream's step numbering, identifiers and the eleven selected authored log lines (three in Asobi 1.1, eight more by 1.1.5) were in PSStream before Asobi 1.1. Does not by itself measure how much PSStream code was adapted. Sony protocol facts are excluded. Not a claim of copying from Pylux source.",
  "extended_comparison_2026_10_08": {
   "method": "Static ASCII string scan, trim leading/trailing whitespace; no binaries executed",
   "versions_examined": 30,

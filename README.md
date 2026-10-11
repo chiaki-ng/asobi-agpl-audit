@@ -19,7 +19,7 @@ The [statements are on chiaki-ng issue #725](https://github.com/chiaki-ng/chiaki
 | March 26, about | Version 1.1.9 removed the source references from log messages. [Comparison](evidence/removals.json). |
 | April 30, about | Version 1.3.1 no longer contained the five developer notes. [IPA images](EXHIBITS.md#4-the-notes-disappear). |
 
-**Where the case stands:** The developer's own notes and executable messages are strong evidence that Chiaki informed Asobi's development. The [separate PSStream comparison](evidence/psstream-steam-build.json) adds dated cloud-streaming wording, with important limits. These findings do not by themselves establish how much protected source code was adapted, the exact licensing scope, or whether separate permission or release-matched source exists. The audit seeks the release-matched source and licensing basis for review.
+**Where the case stands:** The developer's own notes and executable messages are strong evidence that Chiaki informed Asobi's development. The [separate PSStream comparison](evidence/psstream-steam-build.json) adds dated cloud-streaming wording, with important limits. The [Android app](evidence/android.json) ships the same Chiaki-named design as a C++ library, with the same 2023 key-position change and no AGPL notice. These findings do not by themselves establish how much protected source code was adapted, the exact licensing scope, or whether separate permission or release-matched source exists. The audit seeks the release-matched source and licensing basis for review.
 
 [View all four IPA images](EXHIBITS.md) · [Full findings and limits](FINDINGS.md) · [Evidence index](EVIDENCE.md) · [Rights-holder scope](RIGHTS-HOLDERS.md)
 
