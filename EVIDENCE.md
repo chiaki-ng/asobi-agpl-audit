@@ -3,6 +3,7 @@
 - [Read the case in six images](EXHIBITS.md): two user-supplied GitHub screenshots and four rendered IPA excerpts. The screenshots retain identical pixels with metadata removed; no original app files are included.
 - [Dated developer statements](evidence/developer-statements-issue-725.json): public issue #725 comment IDs, full text, edit times, permalinks and hashes, captured on October 8, 2026. [Screenshot handling and hashes](evidence/github-screenshots.json).
 
+- [Issue #725 thread](evidence/issue-725-thread.json): the full public thread (issue text, all five comments, close event) captured before any update, with SHA-256 per body. The developer's comments, including all seven revisions of his March 25 comment, are also in [developer statements](evidence/developer-statements-issue-725.json).
 - [Release hashes](evidence/releases.json): 29 historical examined release samples. Version gaps remain; 1.5 has its own pin in the integration record.
 - [Earlier findings](evidence/earlier-findings.json): the six newly added analysis samples, missing later markers and unchanged bundled-note hashes.
 - [Per-line attribution](evidence/attribution.json): pinned v1.9.9 history for the four cited source ranges; retained source lines remain subject to upstream terms. This is authorship history, not proof every line was copied.

@@ -1,0 +1,100 @@
+{
+ "captured_at_utc": "2026-10-11T20:32:45Z",
+ "source_api": [
+  "https://api.github.com/repos/chiaki-ng/chiaki-ng/issues/725",
+  ".../issues/725/comments",
+  ".../issues/725/timeline"
+ ],
+ "note": "Public thread of chiaki-ng issue #725 as returned on capture, before any update is posted. Git history of this repository fixes this copy even if the live thread changes. Full revision history of the developer's comments is in developer-statements-issue-725.json; other participants' revision histories are not reproduced.",
+ "issue": {
+  "number": 725,
+  "url": "https://github.com/chiaki-ng/chiaki-ng/issues/725",
+  "title": "Asobi (Mac App Store) is using Chiaki — no attribution, paid & closed source",
+  "author": "GrumpyGenesis",
+  "created_at_utc": "2026-03-16T00:53:17Z",
+  "closed_at_utc": "2026-03-25T15:46:40Z",
+  "state": "closed",
+  "locked": false,
+  "body_sha256": "4f2a6736988deb8e0145b210e898fc9bf00865c2f495a0857feab59bfc9ccfc3",
+  "body": "# Asobi (Mac App Store) is using Chiaki — no attribution, paid & closed source\n\nHey Chiaki devs — are you aware of **Asobi**? It’s a **paid**, **closed-source** Remote and Cloud Play client on the Mac App Store (and other Apple platforms). They’re **clearly using your code**. I ran `strings` on the binary and it’s full of your source file names, line numbers, and protocol strings. There’s no LICENSE or attribution to Chiaki anywhere. They also reference **PSStream** all over the place, so they’ve likely reverse‑engineered that for cloud play too.\n\n**Why this is stealing:** Chiaki is AGPL. They’re selling a closed-source app with your code (or a direct derivative), no source offer, no credit. That’s a license violation and passing off your work as their product.\n\nI was considering paying for Asobi. At first I thought it looked cool, but now I'm realizing it's stealing and I don't want to support it. Maybe you should send them a DMCA and report them to Apple? I thought Apple was pretty responsive to that, what are your thoughts? Am I missing something here? If you could at least reach out and get them to open source it, that would be cool since the overall layout of the app seems nice"
+ },
+ "comments": [
+  {
+   "id": 4071386738,
+   "author": "streetpea",
+   "created_at_utc": "2026-03-16T23:55:28Z",
+   "updated_at_utc": "2026-03-16T23:55:28Z",
+   "permalink": "https://github.com/chiaki-ng/chiaki-ng/issues/725#issuecomment-4071386738",
+   "body_sha256": "6f76b569dcd9fe1b66b399d432c188678cc43d6e026a1a3ff67fb9b12535948c",
+   "body": "I created a dmca request with apple. I'll see what they say"
+  },
+  {
+   "id": 4127373247,
+   "author": "rijnbeek",
+   "created_at_utc": "2026-03-25T15:09:36Z",
+   "updated_at_utc": "2026-03-25T15:43:23Z",
+   "permalink": "https://github.com/chiaki-ng/chiaki-ng/issues/725#issuecomment-4127373247",
+   "body_sha256": "8df2dd41a73961987da2c8ea36df462c50e22107fc565af600eb8c1c3483252f",
+   "body": "Hi!\n\nAsobi dev here, I just stumbled upon this.\n\nI'm not using any Chiaki code. That said, what I am using is the Windows Playstation Remote play client ID, which Chiaki uses as well. And all the other references are from the psn-api library I use for obtaining the little-endian/base64 encoded ID which incidentally has named that id chiaki-id.\n\n(see link https://www.npmjs.com/package/psn-api)\n\nThe whole codebase is written in swift. \n\nThe PSStream info also has no merit here either, I'm using the same info that that developer used and more. I'm also not sure what this has to do with Chiaki since that has no relation with it.\n\nAll these steps can be found just as fine via the Windows remote play client where I got most of my info from.\n\n/v\n\nP.S. If there are any questions feel free to ask. \n\nP.P.S If it were the case in relation to using Chiaki -> I wouldn't have so many issues with timeouts/internet remote play.\n\n.. I also don't appreciate my backend strings floating around like this."
+  },
+  {
+   "id": 4127685258,
+   "author": "streetpea",
+   "created_at_utc": "2026-03-25T15:47:38Z",
+   "updated_at_utc": "2026-03-25T15:47:38Z",
+   "permalink": "https://github.com/chiaki-ng/chiaki-ng/issues/725#issuecomment-4127685258",
+   "body_sha256": "bebf8259ff06ca0ad7c05e095e296f32adb09ac88c63c0d7d215545f2204c0dd",
+   "body": "Since it doesn't seem Asobi is using chiaki-ng after discussing with @rijnbeek , I'll close this."
+  },
+  {
+   "id": 4132649734,
+   "author": "GrumpyGenesis",
+   "created_at_utc": "2026-03-26T08:29:36Z",
+   "updated_at_utc": "2026-03-26T08:47:22Z",
+   "permalink": "https://github.com/chiaki-ng/chiaki-ng/issues/725#issuecomment-4132649734",
+   "body_sha256": "6aff57dbeafcb2fe55ca3843c89c8cf8d9882f7aaa5d3d99fa113abd22e7c5ff",
+   "body": "> P.S. If there are any questions, feel free to ask.\n\nHey @rijnbeek / @streetpea, thanks, I would be happy to go through it.\n\n> I'm not using any Chiaki code [...] other references are from the psn-api library I use for obtaining the little-endian/base64 encoded ID which incidentally has named that id chiaki-id.\n\nSo let’s look at these in Asobi:\n\n```\n- Starting CTRL receive loop (Chiaki ctrl.c:307-490)...\n- Step 4: DATA holepunch (Chiaki session.c:561-582)\n- Step 4.5: SENKUSHA on DATA socket (Chiaki session.c:611-639)\n- STEP 9: DATA ACCEPT exchange (Chiaki holepunch.c:1507-1556)\n```\n\nThese are direct references to specific Chiaki source files and exact line ranges. This is not coming from psn-api. These are Chiaki file names and corresponding line numbers.\n\nThat strongly indicates the implementation is derived from Chiaki rather than independently developed, which would trigger GPL obligations.\n\n> The PSStream info also has no merit here either, I'm using the same info that that developer used and more. I'm also not sure what this has to do with Chiaki since that has no relation with it.\n\nPSStream itself is based on Chiaki and uses the same licensing. I too looked into it when it was briefly released before being taken down.\n\n> All these steps can be found just as fine via the Windows remote play client where I got most of my info from.\n\nThis is not accurate. PS5 cloud streaming is not available in the Windows client. The fact that you do not seem to know that is strong evidence this was not reverse engineered from it.\n\nAdditionally, the behavior here clearly comes from PSStream, as shown by:\n\n```\n- with fallback values (per PSStream binary)\n- but got sessionId - continuing (PSStream behavior)\n- Per PSStream: BANG with ECDH keys is required for encryption\n```\n\nReferencing PSStream specific behavior and fallback logic suggests the binary was used as an implementation source. If the implementation was derived from that rather than independently developed, that would also raise GPL concerns.\n\nAt this point, the overlap with both Chiaki and PSStream is significant enough that this does not look like an independent implementation.\n\nI am honestly surprised this was closed @streetpea considering how directly this maps back to Chiaki.\n\nTo be clear, I think Asobi looks pretty cool. This is not meant to be unfair or overly aggressive. It is just frustrating to see GPL licensed projects reused in a way that appears proprietary. I wish that effort was given back to the community rather than taken from it.\n\n> I also don't appreciate my backend strings floating around like this.\n\nThe concern is that those strings directly demonstrate the linkage to Chiaki and PSStream as implementation sources."
+  },
+  {
+   "id": 4132929950,
+   "author": "rijnbeek",
+   "created_at_utc": "2026-03-26T09:13:09Z",
+   "updated_at_utc": "2026-03-26T09:13:09Z",
+   "permalink": "https://github.com/chiaki-ng/chiaki-ng/issues/725#issuecomment-4132929950",
+   "body_sha256": "6243ac90a647af6404be37add817e198bdf1fc8ce8fc6adf9c2de297697a79a5",
+   "body": "My implementation is written entirely in Swift, no Chiaki or PSStream code is compiled, linked, or included. @streetpea and I discussed this, and he was satisfied. I respect his judgment as the maintainer and copyright holder."
+  }
+ ],
+ "events": [
+  {
+   "event": "commented",
+   "actor": "streetpea",
+   "created_at_utc": "2026-03-16T23:55:28Z"
+  },
+  {
+   "event": "commented",
+   "actor": "rijnbeek",
+   "created_at_utc": "2026-03-25T15:09:36Z"
+  },
+  {
+   "event": "closed",
+   "actor": "streetpea",
+   "created_at_utc": "2026-03-25T15:46:40Z"
+  },
+  {
+   "event": "commented",
+   "actor": "streetpea",
+   "created_at_utc": "2026-03-25T15:47:38Z"
+  },
+  {
+   "event": "commented",
+   "actor": "GrumpyGenesis",
+   "created_at_utc": "2026-03-26T08:29:36Z"
+  },
+  {
+   "event": "commented",
+   "actor": "rijnbeek",
+   "created_at_utc": "2026-03-26T09:13:09Z"
+  }
+ ]
+}
