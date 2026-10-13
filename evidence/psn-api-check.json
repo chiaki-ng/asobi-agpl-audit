@@ -37,5 +37,7 @@
  "see_also": [
   "removals.json",
   "developer-statements-issue-725.json"
- ]
+ ],
+ "npm_to_github_link": "Every one of the 37 npm releases names https://github.com/achievements-app/psn-api as its repository, and the gitHead commit npm recorded for each release exists in that repository (37 of 37). Each release also has a matching git tag. The package the developer linked on #725 (https://www.npmjs.com/package/psn-api) is therefore built from the repository searched here.",
+ "npm_readme_mentions_chiaki": false
 }
