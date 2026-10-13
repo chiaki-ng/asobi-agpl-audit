@@ -194,5 +194,6 @@
    "id": "senkusha_fallback_1454_1000",
    "reason": "Original Chiaki values (Florian Märkl, 2019); Sony comparison not isolated. Not claimed as a chiaki-ng-specific choice."
   }
- ]
+ ],
+ "_reference_note": "chiaki-ng v1.9.9: annotated tag object 4c2643f9b9b5c10907dbe82669f4d428ea86147d points to commit 3f8fd712cbc0becd3a5ea588340d72bf451c12b5; both identify the same tree."
 }

@@ -23,7 +23,7 @@
 
 ## Source anchors and comparison outcomes
 
-Reference: [chiaki-ng v1.9.9 commit](https://github.com/chiaki-ng/chiaki-ng/tree/4c2643f9b9b5c10907dbe82669f4d428ea86147d). Relevant ranges: holepunch.c 1507–1556; session.c 561–582 and 611–639; ctrl.c 307–490. [2023 microphone/key-position commit](https://github.com/chiaki-ng/chiaki-ng/commit/6fc4b8f6e4aec5a93cc8761ce41f212c8c6813ca), [2024 STUN-list commit](https://github.com/chiaki-ng/chiaki-ng/commit/143425f58c32be9772c37a463b24d3df98e5d36d).
+Reference: [chiaki-ng v1.9.9](https://github.com/chiaki-ng/chiaki-ng/tree/3f8fd712cbc0becd3a5ea588340d72bf451c12b5). Relevant ranges: holepunch.c 1507–1556; session.c 561–582 and 611–639; ctrl.c 307–490. [2023 microphone/key-position commit](https://github.com/chiaki-ng/chiaki-ng/commit/6fc4b8f6e4aec5a93cc8761ce41f212c8c6813ca), [2024 STUN-list commit](https://github.com/chiaki-ng/chiaki-ng/commit/143425f58c32be9772c37a463b24d3df98e5d36d).
 
 | Family | 1.1.8 | 1.5 | Finding and limit |
 | --- | --- | --- | --- |
@@ -41,7 +41,7 @@ The 1.1.9 comparison locates corresponding operation families after exact citati
 
 [macOS client check](evidence/sony-mac-client.json): Sony PS Remote Play for Mac 9.5.0; none of the Chiaki markers.
 
-[Three-way comparison](evidence/sony-three-way.json) of Sony PS Remote Play 9.5.0, chiaki-ng (pinned `4c2643f9`) and Asobi. Sony uses NP signaling, `stun.playstation.net` and a ring-buffer key position; Asobi uses none of these. Asobi carries chiaki-ng choices that Sony lacks: the always-online-stun list, the three-response port-increment cases, 75/8 port guesses, `size + size % 16` and the moonlight-first STUN list. Session messages common to all three are treated as protocol. The ACCEPT wait and Senkusha fallback were not comparable. URLs and constants are evidence of copying, not standalone protected expression.
+[Three-way comparison](evidence/sony-three-way.json) of Sony PS Remote Play 9.5.0, chiaki-ng (pinned v1.9.9 (commit `3f8fd712`; tag object `4c2643f9`)) and Asobi. Sony uses NP signaling, `stun.playstation.net` and a ring-buffer key position; Asobi uses none of these. Asobi carries chiaki-ng choices that Sony lacks: the always-online-stun list, the three-response port-increment cases, 75/8 port guesses, `size + size % 16` and the moonlight-first STUN list. Session messages common to all three are treated as protocol. The ACCEPT wait and Senkusha fallback were not comparable. URLs and constants are evidence of copying, not standalone protected expression.
 
 ## Dated publisher evidence
 

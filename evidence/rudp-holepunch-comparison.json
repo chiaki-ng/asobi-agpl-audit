@@ -104,5 +104,6 @@
   "Android analyze_nat uses a generic equal-differences test and clamps to 1024..65535 (not chiaki-ng's case analysis or wrap rule)",
   "Android has no 75-guess list; RUDP retries 5 vs chiaki-ng 3; birthday sockets use protocol 0 and no TTL-2 step",
   "0x5e00 in Android 1.0.3/1.1.1 InternetPlaySession code is part of 0xb2d05e00 (3 s in ns), not the RUDP seed"
- ]
+ ],
+ "_reference_note": "chiaki-ng v1.9.9: annotated tag object 4c2643f9b9b5c10907dbe82669f4d428ea86147d points to commit 3f8fd712cbc0becd3a5ea588340d72bf451c12b5; both identify the same tree."
 }
