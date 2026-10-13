@@ -18,6 +18,7 @@
 - [Lineage markers](evidence/lineage-markers.json): when each Chiaki/chiaki-ng marker entered upstream, and its author.
 - [Linked libraries](evidence/linked-libraries.json): per-release bundled dependencies; Jerasure FEC in every examined executable.
 - [1.5 notices scan](evidence/notices-1.5.json): no AGPL, Chiaki or source notice; only the publisher's copyright and a “Proprietary” model licence.
+- [psn-api check](evidence/psn-api-check.json): negative. The word “chiaki” in any spelling appears in none of psn-api's 249 commits and none of its 37 npm releases (2021–2026), so the `chiakiEncodedId` name and the other Chiaki references did not come from that package, as the developer said on #725.
 - [Pylux check](evidence/pylux-check.json): negative; no copying from Pylux's public source is claimed.
 - [Current CTRL bound excerpt](evidence/ctrl-bound-excerpt.asm): the 1 MiB comparison and rejection label. It is a short analytical excerpt, not the complete framing implementation.
 

@@ -1,0 +1,41 @@
+{
+ "checked_at": "2026-10-13",
+ "question": "Do the Chiaki references in Asobi come from the psn-api npm package, as the developer said?",
+ "developer_claims": [
+  {
+   "where": "chiaki-ng issue #725, March 25, 2026",
+   "text": "all the other references are from the psn-api library I use for obtaining the little-endian/base64 encoded ID which incidentally has named that id chiaki-id. (see link https://www.npmjs.com/package/psn-api)"
+  }
+ ],
+ "source_repository": {
+  "url": "https://github.com/achievements-app/psn-api",
+  "head": "1e9d9a806fcd884a4ddee8086bfe92594611da9f",
+  "commits_searched": 249,
+  "tags": 39,
+  "first_commit": "2021-10-10T14:34:29-04:00",
+  "last_commit": "2026-08-15T17:52:33-04:00",
+  "method": "git grep -i 'chiaki' in the tree of every commit on every branch and tag; git log -G'chiaki' --regexp-ignore-case over all history",
+  "matches": 0
+ },
+ "npm_package": {
+  "url": "https://www.npmjs.com/package/psn-api",
+  "versions_searched": 37,
+  "first_version": "1.0.0",
+  "first_published": "2021-10-11T19:04:38.192Z",
+  "last_version": "2.18.1",
+  "last_published": "2026-08-15T21:54:46.863Z",
+  "method": "downloaded every published tarball from registry.npmjs.org and searched all files case-insensitively for 'chiaki'",
+  "matches": 0
+ },
+ "asobi_strings_he_attributed": [
+  "chiakiEncodedId (1.0.9-1.4.1)",
+  "/reverse?chiakiId= (Asobi's own server API, renamed /reverse?encodedId= in 1.4.2)",
+  "\"Converted account ID to Chiaki format:\" (1.0.9)",
+  "\"Chiaki ID not found. Please sign out and sign in again.\" (1.0.9)"
+ ],
+ "result": "The word 'chiaki' in any spelling (chiaki-id, chiakiId, chiakiEncodedId) has never appeared in psn-api's source history or in any of its published npm packages. The name did not come from psn-api. The base64 little-endian account-ID format he describes is the format Chiaki asks users to enter when registering a console.",
+ "see_also": [
+  "removals.json",
+  "developer-statements-issue-725.json"
+ ]
+}
