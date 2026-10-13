@@ -1,0 +1,55 @@
+{
+ "captured_at_utc": "2026-10-13T02:51:40Z",
+ "source": "Live pages of the developer's blog at asobiapp.com, fetched and hashed on capture; the Wayback Machine holds no copies of the individual posts (checked on capture), so this record is the dated copy. Full captured HTML is held privately.",
+ "selection": "Passages about Asobi's implementation, Chiaki, the AGPL and the #725 closure; excerpts only.",
+ "posts": [
+  {
+   "date": "2026-03-29",
+   "url": "https://asobiapp.com/blog/2026-03-29-week-14/",
+   "captured_html_sha256": "6921083e0f247fb4c9417af3fc59b20159b3e6e087f247b455636b317361aee8",
+   "captured_bytes": 19943,
+   "excerpts": [
+    "So my highlight of last week? Being validated by streetpea (of chiaki, the open source remote play client) for not using their code and wishing me good luck with my app.",
+    "Why is that? It's been a thing for some people to make statements that hey can't back up with nothing else but some debug comments they found in my app. So streetpea and I got in touch and I offered him to look through my code and we discussed it. Which resulted in being validated. Something to celebrate for sure, since that's a confirmation from an official third-party! 🥳"
+   ]
+  },
+  {
+   "date": "2026-06-28",
+   "url": "https://asobiapp.com/blog/2026-06-28-edition-17-week-27-updates-ports-asobi-2-0/",
+   "captured_html_sha256": "1dc3a09ad2d786d830c90c2056f64643cbd4a5435b2443d8aa142d5197fa410c",
+   "captured_bytes": 19713,
+   "excerpts": [
+    "It should come out this week, but I still have some issues to resolve. Pretty much the consequence of building a next-level remote play client from scratch 😅"
+   ]
+  },
+  {
+   "date": "2026-07-05",
+   "url": "https://asobiapp.com/blog/2026-07-05-edition-18-week-28-summer-time/",
+   "captured_html_sha256": "344d89116327fe5e56ea5a389ba26f2abc2f630fffce86118ae399d56e1d1a04",
+   "captured_bytes": 19308,
+   "excerpts": [
+    "As you might know , currently there's a bit of a slowdown to get approval for the Steam version of Asobi, I'm in contact with a IP lawyer to see what we can do about this. In the meantime I've made some changes to the store page and see if that alleviates the situation. I'll probably know more by Tuesday. Also, I'll keep on developing and expect to add PS3 and PS4 cloud streaming support by the end of next week. If in any case I fail to bring Asobi to Steam I'll work on distributing it myself."
+   ]
+  },
+  {
+   "date": "2026-07-12",
+   "url": "https://asobiapp.com/blog/2026-07-12-edition-19-week-29-feeling-hot-hot-hot/",
+   "captured_html_sha256": "d446d14cabca544a6e2ca4d7e18d5b205252a63586e5d60c31486c7e8d4dd249",
+   "captured_bytes": 19953,
+   "excerpts": [
+    "No progress as of yet, just that there's a delay from Valve themselves stating \"Your build/store page requires further review and will take some additional time beyond the normal 3-5 business days:\". I just hope I get some news in the next few days. Either way, I've got an IP lawyer's letter ready to send whenever they get back to me, so this should get approved. Just a matter of time."
+   ]
+  },
+  {
+   "date": "2026-07-19",
+   "url": "https://asobiapp.com/blog/2026-07-19-edition-20-week-30-the-411/",
+   "captured_html_sha256": "af82d0f0cd26aeffd9867f595de7dd40bb567153a1362b6ef55cbe90d14ed3e9",
+   "captured_bytes": 22329,
+   "excerpts": [
+    "The only thing I do have to ask is to have patience with me while I keep building and pushing out updates. The choice to make my own remote play client instead of just baking in Chiaki (the open source remote player) like most competitors do was for a reason.",
+    "And that reason was control, to not having to worry about my app being taken down because of licensing issues (Chiaki AGPL) or having to abide by opinionated code.",
+    "The downside is that everyone else (except for PXPlay) using Chiaki has a five-year head start on me, since I don't have the luxury they have by using it as a foundation."
+   ]
+  }
+ ]
+}
